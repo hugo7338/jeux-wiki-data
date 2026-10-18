@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T15:19:12.014Z",
+  "generatedAt": "2026-10-18T15:26:30.768Z",
   "snapshot": "2026-09-30",
   "window": {
     "kind": "month",
@@ -332,7 +332,7 @@
       "size": 5762,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P106 wd:Q1028181 ; wdt:P27 wd:Q142 ; wdt:P569 ?naissance .\\nFILTER(YEAR(?naissance) >= 1800 && YEAR(?naissance) <= 1899)\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P106 wd:Q1028181 ; wdt:P27 wd:Q142 ; wdt:P569 ?naissance .\\nFILTER(?naissance >= \\\"1800-01-01T00:00:00Z\\\"^^xsd:dateTime && ?naissance < \\\"1900-01-01T00:00:00Z\\\"^^xsd:dateTime)\"},[],[]]",
       "recovered": false
     },
     {
@@ -341,10 +341,10 @@
       "emoji": "🎬",
       "type": "ouverte",
       "theme": null,
-      "size": 489,
-      "eligible": false,
+      "size": 1700,
+      "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q11424 ; wdt:P495 wd:Q142 ; wdt:P577 ?sortie .\\nFILTER(YEAR(?sortie) >= 1990 && YEAR(?sortie) <= 1999)\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Intervalle de dates plutôt que YEAR() : QLever préfiltre l'index et répond entier. Avec\\n# YEAR(), il rendait une liste tronquée dans l'ordre des dates (784, puis 490 films, jusqu'à 1993).\\n?item wdt:P31 wd:Q11424 ; wdt:P495 wd:Q142 ; wdt:P577 ?sortie .\\nFILTER(?sortie >= \\\"1990-01-01T00:00:00Z\\\"^^xsd:dateTime && ?sortie < \\\"2000-01-01T00:00:00Z\\\"^^xsd:dateTime)\"},[],[]]",
       "recovered": false
     },
     {
@@ -356,7 +356,7 @@
       "size": 2246,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q11424 ; wdt:P495 wd:Q30 ; wdt:P577 ?sortie .\\nFILTER(YEAR(?sortie) >= 1980 && YEAR(?sortie) <= 1989)\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q11424 ; wdt:P495 wd:Q30 ; wdt:P577 ?sortie .\\nFILTER(?sortie >= \\\"1980-01-01T00:00:00Z\\\"^^xsd:dateTime && ?sortie < \\\"1990-01-01T00:00:00Z\\\"^^xsd:dateTime)\"},[],[]]",
       "recovered": false
     },
     {
@@ -509,10 +509,10 @@
       "emoji": "🦖",
       "type": "ouverte",
       "theme": null,
-      "size": 10,
-      "eligible": false,
+      "size": 1195,
+      "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Genres de dinosaures non aviens : les oiseaux (Aves, Q5113) sont des dinosaures pour la\\n# cladistique, pas pour le joueur.\\n?item wdt:P31 wd:Q16521 ; wdt:P105 wd:Q34740 ; wdt:P171+ wd:Q430 .\\nFILTER NOT EXISTS { ?item wdt:P171+ wd:Q5113 }\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Genres fossiles (Q23038290) descendant des dinosaures : « taxon » (Q16521) ne désigne\\n# presque que les oiseaux actuels, dinosaures pour la cladistique mais pas pour le joueur ;\\n# les genres éteints sont des « taxons fossiles ». Oiseaux fossiles (Archaeopteryx) compris.\\n?item wdt:P31 wd:Q23038290 ; wdt:P105 wd:Q34740 ; wdt:P171+ wd:Q430 .\"},[],[]]",
       "recovered": false
     },
     {

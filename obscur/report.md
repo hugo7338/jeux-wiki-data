@@ -1,14 +1,14 @@
 # Obscur — rapport du pipeline
 
-Généré le 2026-10-18T15:19:12.014Z. Fenêtre de vues : mois de 2026-09 (dump pageview_complete).
+Généré le 2026-10-18T15:26:30.768Z. Fenêtre de vues : mois de 2026-09 (dump pageview_complete).
 
 ## Synthèse
 
 - Catégories traitées : 58 / 58
-- Éligibles au calendrier : 56
-- Membres au total : 65705
+- Éligibles au calendrier : 58
+- Membres au total : 68101
 - Jours de calendrier produits : 365
-- Avertissements calendrier : 1731 (voir bas de page)
+- Avertissements calendrier : 1729 (voir bas de page)
 
 ## Catégories
 
@@ -20,7 +20,7 @@ Généré le 2026-10-18T15:19:12.014Z. Fenêtre de vues : mois de 2026-09 (dump 
 | pates-alimentaires | ouverte | 177 | 40 | 3 | 0 | 8 / 181 / 5726 | 8 | 101 | 68 | 0 | ✅ | 0 s |
 | cepages | ouverte | 539 | 150 | 3 | 0 | 3 / 41 / 6311 | 134 | 309 | 96 | 0 | ✅ | 0 s |
 | vins-aoc-france | ouverte | 472 | 150 | 1 | 0 | 6 / 187 / 4098 | 11 | 275 | 186 | 0 | ✅ | 0 s |
-| gares-de-france | ouverte | 4637 | 500 | 0 | 2 | 1 / 26 / 3957 | 1338 | 3156 | 143 | 0 | ✅ | 12 s |
+| gares-de-france | ouverte | 4637 | 500 | 0 | 2 | 1 / 26 / 3957 | 1338 | 3156 | 143 | 0 | ✅ | 0 s |
 | stations-metro-paris | ouverte | 377 | 250 | 3 | 0 | 34 / 286 / 1834 | 0 | 176 | 201 | 0 | ✅ | 0 s |
 | stations-de-ski-france | ouverte | 216 | 100 | 0 | 1 | 5 / 177 / 4636 | 7 | 126 | 83 | 0 | ✅ | 0 s |
 | cols-de-france | ouverte | 669 | 200 | 0 | 1 | 2 / 43 / 2950 | 133 | 464 | 72 | 0 | ✅ | 0 s |
@@ -40,9 +40,9 @@ Généré le 2026-10-18T15:19:12.014Z. Fenêtre de vues : mois de 2026-09 (dump 
 | communes-ile-de-france | ouverte (locale) | 1266 | 500 | 0 | 0 | 55 / 332 / 81043 | 0 | 576 | 684 | 6 | ✅ | 0 s |
 | communes-centre-val-de-loire | ouverte (locale) | 1754 | 500 | 0 | 0 | 24 / 129 / 21724 | 0 | 1379 | 370 | 5 | ✅ | 0 s |
 | communes-bourgogne-franche-comte | ouverte (locale) | 3685 | 1000 | 0 | 0 | 20 / 91 / 18815 | 0 | 3270 | 411 | 4 | ✅ | 0 s |
-| peintres-francais-xixe | ouverte | 5762 | 1000 | 0 | 9 | 1 / 31 / 30443 | 1311 | 4138 | 301 | 12 | ✅ | 0 s |
-| films-francais-annees-1990 | ouverte | 489 | 500 | 0 | 1 | 5 / 100 / 32899 | 26 | 335 | 125 | 3 | ❌ | 0 s |
-| films-americains-annees-1980 | ouverte | 2246 | 500 | 1 | 4 | 2 / 107 / 28039 | 179 | 1435 | 627 | 5 | ✅ | 0 s |
+| peintres-francais-xixe | ouverte | 5762 | 1000 | 0 | 9 | 1 / 31 / 30443 | 1311 | 4138 | 301 | 12 | ✅ | 31 s |
+| films-francais-annees-1990 | ouverte | 1700 | 500 | 1 | 3 | 1 / 97 / 32899 | 146 | 1105 | 442 | 7 | ✅ | 14 s |
+| films-americains-annees-1980 | ouverte | 2246 | 500 | 1 | 4 | 2 / 107 / 28039 | 179 | 1435 | 627 | 5 | ✅ | 19 s |
 | series-francaises | ouverte | 2056 | 300 | 0 | 5 | 5 / 300 / 223832 | 18 | 978 | 1012 | 48 | ✅ | 0 s |
 | jeux-video-1998 | ouverte | 520 | 200 | 0 | 1 | 1 / 19 / 16752 | 234 | 259 | 26 | 1 | ✅ | 0 s |
 | albums-rap-francais | ouverte | 585 | 200 | 0 | 1 | 1 / 110 / 3211 | 41 | 406 | 138 | 0 | ✅ | 0 s |
@@ -55,7 +55,7 @@ Généré le 2026-10-18T15:19:12.014Z. Fenêtre de vues : mois de 2026-09 (dump 
 | mythologie-grecque | ouverte | 1081 | 300 | 3 | 1 | 1 / 94 / 36019 | 141 | 589 | 335 | 16 | ✅ | 0 s |
 | oiseaux | ouverte | 1097 | 300 | 0 | 2 | 1 / 24 / 15274 | 447 | 457 | 191 | 2 | ✅ | 0 s |
 | races-de-chiens | ouverte | 454 | 200 | 0 | 2 | 2 / 504 / 11958 | 3 | 128 | 321 | 2 | ✅ | 0 s |
-| dinosaures | ouverte | 10 | 300 | 0 | 0 | 6 / 15 / 37 | 6 | 4 | 0 | 0 | ❌ | 2 s |
+| dinosaures | ouverte | 1195 | 300 | 0 | 0 | 1 / 22 / 6704 | 449 | 698 | 48 | 0 | ✅ | 8 s |
 | lunes-systeme-solaire | ouverte | 288 | 60 | 0 | 0 | 1 / 21 / 11885 | 106 | 162 | 19 | 1 | ✅ | 0 s |
 | rois-de-france | fermee | 30 | 25 | 1 | 0 | 3083 / 16794 / 65226 | 0 | 0 | 9 | 21 | ✅ | 0 s |
 | rois-des-francs | fermee | 59 | 50 | 23 | 0 | 126 / 1609 / 43571 | 0 | 3 | 52 | 4 | ✅ | 0 s |
@@ -75,8 +75,6 @@ Généré le 2026-10-18T15:19:12.014Z. Fenêtre de vues : mois de 2026-09 (dump 
 
 ## Avertissements par catégorie
 
-- **films-francais-annees-1990** : taille 490 < min_size 500
-- **dinosaures** : taille 10 < min_size 300
 - **rois-de-france** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **presidents-republique-francaise** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **elements-chimiques** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
@@ -221,9 +219,10 @@ Généré le 2026-10-18T15:19:12.014Z. Fenêtre de vues : mois de 2026-09 (dump 
 
 ### 🎬 Un film français des années 1990 (`films-francais-annees-1990`)
 
-- Les plus consultés : Le Sauvage (film) (32899), Cyrano de Bergerac (film, 1990) (24259), La Gloire de mon père (film) (16592), Le Château de ma mère (film) (10461), Nikita (film) (10410)
-- Fantômes (≤ 10 vues) : André Baston (9), Arsène né terrien (9), Aux guerriers du silence (10), Équinoxe (film, 1991) (9), L'Ami Giono: Le déserteur (8)
-- Absents du dump, retirés (échantillon) : Au bonheur des autres
+- Les plus consultés : Le Sauvage (film) (32899), Léon (film) (25677), Cyrano de Bergerac (film, 1990) (24259), Le Hussard sur le toit (film) (21488), La Gloire de mon père (film) (16592)
+- Fantômes (≤ 10 vues) : Africolor (5), André Baston (9), Arsène né terrien (9), Aux guerriers du silence (10), Blanche Colombe (7)
+- Retirés (échantillon) : Une liaison pornographique [bloque]
+- Absents du dump, retirés (échantillon) : Cinquième Saison, Au bonheur des autres, No Smoking (film, 1993)
 
 ### 🎥 Un film américain des années 1980 (`films-americains-annees-1980`)
 
@@ -306,8 +305,8 @@ Généré le 2026-10-18T15:19:12.014Z. Fenêtre de vues : mois de 2026-09 (dump 
 
 ### 🦖 Un genre de dinosaure (`dinosaures`)
 
-- Les plus consultés : Ledumahadi (37), Tratayenia (27), Jianianhualong (21), Xiyunykus (17), Laiyangosaurus (16)
-- Fantômes (≤ 10 vues) : Cardiodon (10), Gobihadros (6), Lingyuanosaurus (10)
+- Les plus consultés : Tyrannosaurus (6704), Velociraptor (3426), Spinosaurus (3144), Diplodocus (3029), Triceratops (2441)
+- Fantômes (≤ 10 vues) : Aetonyx (7), Allgoviachen (6), Amphipelargus (7), Andrewsornis (7), Aratasaurus (7)
 
 ### 🌙 Une lune du Système solaire (`lunes-systeme-solaire`)
 
@@ -384,26 +383,24 @@ Généré le 2026-10-18T15:19:12.014Z. Fenêtre de vues : mois de 2026-09 (dump 
 ## Calendrier (14 premiers jours)
 
 - 2026-10-18 (j2) : papes, stations-de-ski-france, langages-de-programmation, lunes-systeme-solaire, races-de-chiens · moins-consulte
-- 2026-10-19 (j3) : planetes-et-planetes-naines, stations-metro-paris, mythologie-grecque, cours-d-eau-france, jeux-de-societe
-- 2026-10-20 (j4) : prix-nobel-litterature, peintres-francais-xixe, marques-automobiles, oiseaux, plats-francais
-- 2026-10-21 (j5) : pays-membres-onu, pates-alimentaires, films-americains-annees-1980, fromages-francais, oeuvres-victor-hugo
-- 2026-10-22 (j6) : prix-nobel-physique, vins-aoc-france, instruments-de-musique, albums-rap-francais, patisseries-et-desserts
-- 2026-10-23 (j7) : signes-du-zodiaque, cepages, romans-jules-verne, sommets-2000-france, series-francaises
-- 2026-10-24 (j8) : rois-des-francs, communes-nouvelle-aquitaine, jeux-video-1998, cols-de-france, gares-de-france · locale
-- 2026-10-25 (j9) : elements-chimiques, jeux-de-societe, marques-automobiles, romans-jules-verne, fromages-francais · moins-consulte
+- 2026-10-19 (j3) : planetes-et-planetes-naines, cols-de-france, oiseaux, peintres-francais-xixe, instruments-de-musique
+- 2026-10-20 (j4) : prix-nobel-litterature, films-francais-annees-1990, marques-automobiles, mythologie-grecque, plats-francais
+- 2026-10-21 (j5) : pays-membres-onu, pates-alimentaires, films-americains-annees-1980, fromages-francais, romans-jules-verne
+- 2026-10-22 (j6) : prix-nobel-physique, vins-aoc-france, oeuvres-victor-hugo, albums-rap-francais, patisseries-et-desserts
+- 2026-10-23 (j7) : signes-du-zodiaque, cepages, jeux-de-societe, cours-d-eau-france, series-francaises
+- 2026-10-24 (j8) : rois-des-francs, communes-nouvelle-aquitaine, dinosaures, jeux-video-1998, stations-metro-paris · locale
+- 2026-10-25 (j9) : elements-chimiques, sommets-2000-france, gares-de-france, romans-jules-verne, fromages-francais · moins-consulte
 - 2026-10-26 (j10) : rois-de-france, races-de-chiens, stations-de-ski-france, langages-de-programmation, lunes-systeme-solaire
-- 2026-10-27 (j11) : departements-francais, cours-d-eau-france, stations-metro-paris, mythologie-grecque, instruments-de-musique
-- 2026-10-28 (j12) : constellations, plats-francais, oiseaux, peintres-francais-xixe, fromages-francais
-- 2026-10-29 (j13) : capitales, oeuvres-victor-hugo, films-americains-annees-1980, pates-alimentaires, albums-rap-francais
-- 2026-10-30 (j14) : presidents-republique-francaise, vins-aoc-france, patisseries-et-desserts, stations-metro-paris, films-americains-annees-1980
-- 2026-10-31 (j15) : vainqueurs-tour-de-france, communes-bourgogne-franche-comte, cepages, series-francaises, sommets-2000-france · locale
+- 2026-10-27 (j11) : departements-francais, instruments-de-musique, cols-de-france, oiseaux, peintres-francais-xixe
+- 2026-10-28 (j12) : constellations, plats-francais, mythologie-grecque, films-francais-annees-1990, marques-automobiles
+- 2026-10-29 (j13) : capitales, films-americains-annees-1980, pates-alimentaires, instruments-de-musique, albums-rap-francais
+- 2026-10-30 (j14) : presidents-republique-francaise, oeuvres-victor-hugo, patisseries-et-desserts, vins-aoc-france, films-francais-annees-1990
+- 2026-10-31 (j15) : vainqueurs-tour-de-france, communes-bourgogne-franche-comte, cours-d-eau-france, jeux-de-societe, series-francaises · locale
 
 ## Avertissements calendrier
 
 - 2026-10-25 : contrainte de non-répétition relâchée à 0 j
 - 2026-10-25 : contrainte de non-répétition relâchée à 0 j
-- 2026-10-25 : contrainte de non-répétition relâchée à 0 j
-- 2026-10-25 : contrainte de non-répétition relâchée à 0 j
 - 2026-10-26 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-26 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-26 : contrainte de non-répétition relâchée à 7 j
@@ -411,31 +408,31 @@ Généré le 2026-10-18T15:19:12.014Z. Fenêtre de vues : mois de 2026-09 (dump 
 - 2026-10-27 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-27 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-27 : contrainte de non-répétition relâchée à 7 j
-- 2026-10-27 : contrainte de non-répétition relâchée à 0 j
+- 2026-10-27 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-28 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-28 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-28 : contrainte de non-répétition relâchée à 7 j
-- 2026-10-28 : contrainte de non-répétition relâchée à 0 j
-- 2026-10-29 : contrainte de non-répétition relâchée à 7 j
+- 2026-10-28 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-29 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-29 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-29 : contrainte de non-répétition relâchée à 0 j
+- 2026-10-29 : contrainte de non-répétition relâchée à 0 j
+- 2026-10-30 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-30 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-30 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-30 : contrainte de non-répétition relâchée à 0 j
-- 2026-10-30 : contrainte de non-répétition relâchée à 0 j
 - 2026-10-31 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-31 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-31 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-01 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-01 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-01 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-01 : contrainte de non-répétition relâchée à 0 j
+- 2026-11-01 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-02 : contrainte de non-répétition relâchée à 14 j
 - 2026-11-02 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-02 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-02 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-02 : contrainte de non-répétition relâchée à 0 j
+- 2026-11-02 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-03 : contrainte de non-répétition relâchée à 14 j
 - 2026-11-03 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-03 : contrainte de non-répétition relâchée à 7 j
@@ -450,4 +447,6 @@ Généré le 2026-10-18T15:19:12.014Z. Fenêtre de vues : mois de 2026-09 (dump 
 - 2026-11-05 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-05 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-05 : contrainte de non-répétition relâchée à 7 j
-- … et 1681 autres
+- 2026-11-05 : contrainte de non-répétition relâchée à 0 j
+- 2026-11-06 : contrainte de non-répétition relâchée à 14 j
+- … et 1679 autres
