@@ -1,81 +1,82 @@
 # Obscur — rapport du pipeline
 
-Généré le 2026-10-18T14:50:17.380Z. Fenêtre de vues : mois de 2026-09 (dump pageview_complete).
+Généré le 2026-10-18T15:19:12.014Z. Fenêtre de vues : mois de 2026-09 (dump pageview_complete).
 
 ## Synthèse
 
 - Catégories traitées : 58 / 58
-- Éligibles au calendrier : 57
-- Membres au total : 68032
+- Éligibles au calendrier : 56
+- Membres au total : 65705
 - Jours de calendrier produits : 365
-- Avertissements calendrier : 1730 (voir bas de page)
+- Avertissements calendrier : 1731 (voir bas de page)
 
 ## Catégories
 
 | id | type | taille | min | retirés | absents | vues min / méd. / max | Fantôme | Confid. | Connu | Grand public | éligible | durée |
 |---|---|---:|---:|---:|---:|---|---:|---:|---:|---:|:---:|---:|
-| fromages-francais | ouverte | 365 | 100 | 5 | 0 | 3 / 120 / 12128 | 36 | 197 | 131 | 1 | ✅ | 50 s |
-| plats-francais | ouverte | 122 | 100 | 0 | 0 | 2 / 453 / 7681 | 2 | 51 | 69 | 0 | ✅ | 5 s |
-| patisseries-et-desserts | ouverte | 148 | 100 | 0 | 0 | 5 / 111 / 4151 | 7 | 103 | 38 | 0 | ✅ | 4 s |
-| pates-alimentaires | ouverte | 177 | 40 | 3 | 0 | 8 / 181 / 5726 | 8 | 101 | 68 | 0 | ✅ | 2 s |
-| cepages | ouverte | 539 | 150 | 3 | 0 | 3 / 41 / 6311 | 134 | 309 | 96 | 0 | ✅ | 6 s |
-| vins-aoc-france | ouverte | 472 | 150 | 1 | 0 | 6 / 187 / 4098 | 11 | 275 | 186 | 0 | ✅ | 46 s |
-| gares-de-france | ouverte | 5267 | 500 | 0 | 3 | 1 / 30 / 3957 | 1347 | 3572 | 348 | 0 | ✅ | 93 s |
-| stations-metro-paris | ouverte | 377 | 250 | 3 | 0 | 34 / 286 / 1834 | 0 | 176 | 201 | 0 | ✅ | 11 s |
-| stations-de-ski-france | ouverte | 216 | 100 | 0 | 1 | 5 / 177 / 4636 | 7 | 126 | 83 | 0 | ✅ | 3 s |
-| cols-de-france | ouverte | 669 | 200 | 0 | 1 | 2 / 43 / 2950 | 133 | 464 | 72 | 0 | ✅ | 5 s |
-| sommets-2000-france | ouverte | 626 | 200 | 0 | 0 | 2 / 46 / 13469 | 116 | 431 | 78 | 1 | ✅ | 44 s |
-| cours-d-eau-france | ouverte | 3719 | 500 | 0 | 1 | 1 / 30 / 12001 | 949 | 2530 | 237 | 3 | ✅ | 60 s |
-| monuments-historiques-lyon | ouverte (locale) | 91 | 60 | 0 | 0 | 14 / 201 / 4577 | 1 | 57 | 33 | 0 | ✅ | 2 s |
-| stations-metro-lyon | ouverte (locale) | 49 | 30 | 2 | 0 | 55 / 117 / 1496 | 0 | 44 | 5 | 0 | ✅ | 2 s |
-| communes-auvergne-rhone-alpes | ouverte (locale) | 4025 | 1000 | 0 | 0 | 38 / 177 / 33420 | 0 | 2794 | 1221 | 10 | ✅ | 64 s |
-| communes-bretagne | ouverte (locale) | 1202 | 500 | 0 | 0 | 48 / 296 / 21485 | 0 | 553 | 642 | 7 | ✅ | 9 s |
-| communes-normandie | ouverte (locale) | 2644 | 1000 | 0 | 0 | 23 / 101 / 24954 | 0 | 2233 | 407 | 4 | ✅ | 57 s |
-| communes-occitanie | ouverte (locale) | 4446 | 1000 | 0 | 0 | 14 / 131 / 48976 | 1 | 3429 | 1003 | 13 | ✅ | 105 s |
-| communes-nouvelle-aquitaine | ouverte (locale) | 4300 | 1000 | 0 | 0 | 2 / 126 / 176151 | 8 | 3396 | 886 | 10 | ✅ | 65 s |
-| communes-paca | ouverte (locale) | 946 | 500 | 0 | 0 | 47 / 421 / 30815 | 0 | 342 | 598 | 6 | ✅ | 8 s |
-| communes-hauts-de-france | ouverte (locale) | 3782 | 1000 | 0 | 0 | 20 / 107 / 22308 | 0 | 3181 | 597 | 4 | ✅ | 62 s |
-| communes-grand-est | ouverte (locale) | 5157 | 1000 | 0 | 0 | 16 / 86 / 45414 | 1 | 4530 | 621 | 5 | ✅ | 71 s |
-| communes-pays-de-la-loire | ouverte (locale) | 1228 | 500 | 0 | 0 | 26 / 179 / 31070 | 0 | 834 | 388 | 6 | ✅ | 9 s |
-| communes-ile-de-france | ouverte (locale) | 1266 | 500 | 0 | 0 | 55 / 332 / 81043 | 0 | 576 | 684 | 6 | ✅ | 47 s |
-| communes-centre-val-de-loire | ouverte (locale) | 1754 | 500 | 0 | 0 | 24 / 129 / 21724 | 0 | 1379 | 370 | 5 | ✅ | 50 s |
-| communes-bourgogne-franche-comte | ouverte (locale) | 3685 | 1000 | 0 | 0 | 20 / 91 / 18815 | 0 | 3270 | 411 | 4 | ✅ | 62 s |
-| peintres-francais-xixe | ouverte | 5762 | 1000 | 0 | 9 | 1 / 31 / 30443 | 1311 | 4138 | 301 | 12 | ✅ | 112 s |
-| films-francais-annees-1990 | ouverte | 489 | 500 | 0 | 1 | 5 / 100 / 32899 | 26 | 335 | 125 | 3 | ❌ | 4 s |
-| films-americains-annees-1980 | ouverte | 2246 | 500 | 1 | 4 | 2 / 107 / 28039 | 179 | 1435 | 627 | 5 | ✅ | 55 s |
-| series-francaises | ouverte | 2056 | 300 | 0 | 5 | 5 / 300 / 223832 | 18 | 978 | 1012 | 48 | ✅ | 54 s |
-| jeux-video-1998 | ouverte | 520 | 200 | 0 | 1 | 1 / 19 / 16752 | 234 | 259 | 26 | 1 | ✅ | 4 s |
-| albums-rap-francais | ouverte | 585 | 200 | 0 | 1 | 1 / 110 / 3211 | 41 | 406 | 138 | 0 | ✅ | 44 s |
-| jeux-de-societe | ouverte | 575 | 300 | 0 | 1 | 1 / 41 / 8842 | 115 | 380 | 80 | 0 | ✅ | 4 s |
-| instruments-de-musique | ouverte | 407 | 300 | 1 | 2 | 1 / 44 / 12901 | 82 | 280 | 44 | 1 | ✅ | 3 s |
-| langages-de-programmation | ouverte | 513 | 300 | 1 | 1 | 2 / 40 / 12614 | 129 | 310 | 73 | 1 | ✅ | 3 s |
-| marques-automobiles | ouverte | 1205 | 300 | 0 | 1 | 2 / 79 / 24228 | 183 | 716 | 299 | 7 | ✅ | 8 s |
-| oeuvres-victor-hugo | ouverte | 67 | 40 | 0 | 0 | 22 / 328 / 18359 | 0 | 31 | 34 | 2 | ✅ | 1 s |
-| romans-jules-verne | ouverte | 114 | 40 | 0 | 0 | 9 / 161 / 5294 | 6 | 79 | 29 | 0 | ✅ | 2 s |
-| mythologie-grecque | ouverte | 1081 | 300 | 3 | 1 | 1 / 94 / 36019 | 141 | 589 | 335 | 16 | ✅ | 12 s |
-| oiseaux | ouverte | 1097 | 300 | 0 | 2 | 1 / 24 / 15274 | 447 | 457 | 191 | 2 | ✅ | 7 s |
-| races-de-chiens | ouverte | 454 | 200 | 0 | 2 | 2 / 504 / 11958 | 3 | 128 | 321 | 2 | ✅ | 4 s |
-| dinosaures | ouverte | 1707 | 300 | 0 | 0 | 1 / 14 / 3727 | 993 | 668 | 46 | 0 | ✅ | 49 s |
-| lunes-systeme-solaire | ouverte | 288 | 60 | 0 | 0 | 1 / 21 / 11885 | 106 | 162 | 19 | 1 | ✅ | 4 s |
-| rois-de-france | fermee | 30 | 25 | 1 | 0 | 3083 / 16794 / 65226 | 0 | 0 | 9 | 21 | ✅ | 1 s |
-| rois-des-francs | fermee | 59 | 50 | 23 | 0 | 126 / 1609 / 43571 | 0 | 3 | 52 | 4 | ✅ | 1 s |
-| presidents-republique-francaise | fermee | 25 | 20 | 6 | 0 | 3386 / 11007 / 126643 | 0 | 0 | 12 | 13 | ✅ | 40 s |
-| empereurs-romains | fermee | 77 | 50 | 25 | 0 | 32 / 1073 / 22193 | 0 | 10 | 63 | 4 | ✅ | 41 s |
-| papes | fermee | 266 | 150 | 0 | 0 | 158 / 472 / 687260 | 0 | 65 | 190 | 11 | ✅ | 3 s |
-| elements-chimiques | fermee | 118 | 100 | 0 | 0 | 277 / 1670 / 7676 | 0 | 0 | 118 | 0 | ✅ | 2 s |
-| planetes-et-planetes-naines | fermee | 13 | 10 | 0 | 0 | 666 / 8264 / 19636 | 0 | 0 | 11 | 2 | ✅ | 1 s |
-| constellations | fermee | 86 | 80 | 0 | 0 | 117 / 323 / 6618 | 0 | 36 | 50 | 0 | ✅ | 2 s |
-| pays-membres-onu | fermee | 193 | 150 | 0 | 0 | 3721 / 14955 / 195257 | 0 | 0 | 62 | 131 | ✅ | 3 s |
-| capitales | fermee | 198 | 150 | 0 | 0 | 181 / 2693 / 81043 | 0 | 1 | 185 | 12 | ✅ | 3 s |
-| departements-francais | fermee | 101 | 90 | 2 | 0 | 2126 / 8863 / 81043 | 0 | 0 | 79 | 22 | ✅ | 3 s |
-| prix-nobel-litterature | fermee | 122 | 100 | 0 | 0 | 94 / 1265 / 39453 | 0 | 12 | 104 | 6 | ✅ | 2 s |
-| prix-nobel-physique | fermee | 230 | 150 | 0 | 1 | 22 / 105 / 48364 | 0 | 169 | 59 | 2 | ✅ | 3 s |
+| fromages-francais | ouverte | 365 | 100 | 5 | 0 | 3 / 120 / 12128 | 36 | 197 | 131 | 1 | ✅ | 0 s |
+| plats-francais | ouverte | 122 | 100 | 0 | 0 | 2 / 453 / 7681 | 2 | 51 | 69 | 0 | ✅ | 0 s |
+| patisseries-et-desserts | ouverte | 148 | 100 | 0 | 0 | 5 / 111 / 4151 | 7 | 103 | 38 | 0 | ✅ | 0 s |
+| pates-alimentaires | ouverte | 177 | 40 | 3 | 0 | 8 / 181 / 5726 | 8 | 101 | 68 | 0 | ✅ | 0 s |
+| cepages | ouverte | 539 | 150 | 3 | 0 | 3 / 41 / 6311 | 134 | 309 | 96 | 0 | ✅ | 0 s |
+| vins-aoc-france | ouverte | 472 | 150 | 1 | 0 | 6 / 187 / 4098 | 11 | 275 | 186 | 0 | ✅ | 0 s |
+| gares-de-france | ouverte | 4637 | 500 | 0 | 2 | 1 / 26 / 3957 | 1338 | 3156 | 143 | 0 | ✅ | 12 s |
+| stations-metro-paris | ouverte | 377 | 250 | 3 | 0 | 34 / 286 / 1834 | 0 | 176 | 201 | 0 | ✅ | 0 s |
+| stations-de-ski-france | ouverte | 216 | 100 | 0 | 1 | 5 / 177 / 4636 | 7 | 126 | 83 | 0 | ✅ | 0 s |
+| cols-de-france | ouverte | 669 | 200 | 0 | 1 | 2 / 43 / 2950 | 133 | 464 | 72 | 0 | ✅ | 0 s |
+| sommets-2000-france | ouverte | 626 | 200 | 0 | 0 | 2 / 46 / 13469 | 116 | 431 | 78 | 1 | ✅ | 0 s |
+| cours-d-eau-france | ouverte | 3719 | 500 | 0 | 1 | 1 / 30 / 12001 | 949 | 2530 | 237 | 3 | ✅ | 0 s |
+| monuments-historiques-lyon | ouverte (locale) | 91 | 60 | 0 | 0 | 14 / 201 / 4577 | 1 | 57 | 33 | 0 | ✅ | 0 s |
+| stations-metro-lyon | ouverte (locale) | 49 | 30 | 2 | 0 | 55 / 117 / 1496 | 0 | 44 | 5 | 0 | ✅ | 0 s |
+| communes-auvergne-rhone-alpes | ouverte (locale) | 4025 | 1000 | 0 | 0 | 38 / 177 / 33420 | 0 | 2794 | 1221 | 10 | ✅ | 0 s |
+| communes-bretagne | ouverte (locale) | 1202 | 500 | 0 | 0 | 48 / 296 / 21485 | 0 | 553 | 642 | 7 | ✅ | 0 s |
+| communes-normandie | ouverte (locale) | 2644 | 1000 | 0 | 0 | 23 / 101 / 24954 | 0 | 2233 | 407 | 4 | ✅ | 0 s |
+| communes-occitanie | ouverte (locale) | 4446 | 1000 | 0 | 0 | 14 / 131 / 48976 | 1 | 3429 | 1003 | 13 | ✅ | 0 s |
+| communes-nouvelle-aquitaine | ouverte (locale) | 4300 | 1000 | 0 | 0 | 2 / 126 / 176151 | 8 | 3396 | 886 | 10 | ✅ | 0 s |
+| communes-paca | ouverte (locale) | 946 | 500 | 0 | 0 | 47 / 421 / 30815 | 0 | 342 | 598 | 6 | ✅ | 0 s |
+| communes-hauts-de-france | ouverte (locale) | 3782 | 1000 | 0 | 0 | 20 / 107 / 22308 | 0 | 3181 | 597 | 4 | ✅ | 0 s |
+| communes-grand-est | ouverte (locale) | 5157 | 1000 | 0 | 0 | 16 / 86 / 45414 | 1 | 4530 | 621 | 5 | ✅ | 0 s |
+| communes-pays-de-la-loire | ouverte (locale) | 1228 | 500 | 0 | 0 | 26 / 179 / 31070 | 0 | 834 | 388 | 6 | ✅ | 0 s |
+| communes-ile-de-france | ouverte (locale) | 1266 | 500 | 0 | 0 | 55 / 332 / 81043 | 0 | 576 | 684 | 6 | ✅ | 0 s |
+| communes-centre-val-de-loire | ouverte (locale) | 1754 | 500 | 0 | 0 | 24 / 129 / 21724 | 0 | 1379 | 370 | 5 | ✅ | 0 s |
+| communes-bourgogne-franche-comte | ouverte (locale) | 3685 | 1000 | 0 | 0 | 20 / 91 / 18815 | 0 | 3270 | 411 | 4 | ✅ | 0 s |
+| peintres-francais-xixe | ouverte | 5762 | 1000 | 0 | 9 | 1 / 31 / 30443 | 1311 | 4138 | 301 | 12 | ✅ | 0 s |
+| films-francais-annees-1990 | ouverte | 489 | 500 | 0 | 1 | 5 / 100 / 32899 | 26 | 335 | 125 | 3 | ❌ | 0 s |
+| films-americains-annees-1980 | ouverte | 2246 | 500 | 1 | 4 | 2 / 107 / 28039 | 179 | 1435 | 627 | 5 | ✅ | 0 s |
+| series-francaises | ouverte | 2056 | 300 | 0 | 5 | 5 / 300 / 223832 | 18 | 978 | 1012 | 48 | ✅ | 0 s |
+| jeux-video-1998 | ouverte | 520 | 200 | 0 | 1 | 1 / 19 / 16752 | 234 | 259 | 26 | 1 | ✅ | 0 s |
+| albums-rap-francais | ouverte | 585 | 200 | 0 | 1 | 1 / 110 / 3211 | 41 | 406 | 138 | 0 | ✅ | 0 s |
+| jeux-de-societe | ouverte | 575 | 300 | 0 | 1 | 1 / 41 / 8842 | 115 | 380 | 80 | 0 | ✅ | 0 s |
+| instruments-de-musique | ouverte | 407 | 300 | 1 | 2 | 1 / 44 / 12901 | 82 | 280 | 44 | 1 | ✅ | 0 s |
+| langages-de-programmation | ouverte | 513 | 300 | 1 | 1 | 2 / 40 / 12614 | 129 | 310 | 73 | 1 | ✅ | 0 s |
+| marques-automobiles | ouverte | 1205 | 300 | 0 | 1 | 2 / 79 / 24228 | 183 | 716 | 299 | 7 | ✅ | 0 s |
+| oeuvres-victor-hugo | ouverte | 67 | 40 | 0 | 0 | 22 / 328 / 18359 | 0 | 31 | 34 | 2 | ✅ | 0 s |
+| romans-jules-verne | ouverte | 114 | 40 | 0 | 0 | 9 / 161 / 5294 | 6 | 79 | 29 | 0 | ✅ | 0 s |
+| mythologie-grecque | ouverte | 1081 | 300 | 3 | 1 | 1 / 94 / 36019 | 141 | 589 | 335 | 16 | ✅ | 0 s |
+| oiseaux | ouverte | 1097 | 300 | 0 | 2 | 1 / 24 / 15274 | 447 | 457 | 191 | 2 | ✅ | 0 s |
+| races-de-chiens | ouverte | 454 | 200 | 0 | 2 | 2 / 504 / 11958 | 3 | 128 | 321 | 2 | ✅ | 0 s |
+| dinosaures | ouverte | 10 | 300 | 0 | 0 | 6 / 15 / 37 | 6 | 4 | 0 | 0 | ❌ | 2 s |
+| lunes-systeme-solaire | ouverte | 288 | 60 | 0 | 0 | 1 / 21 / 11885 | 106 | 162 | 19 | 1 | ✅ | 0 s |
+| rois-de-france | fermee | 30 | 25 | 1 | 0 | 3083 / 16794 / 65226 | 0 | 0 | 9 | 21 | ✅ | 0 s |
+| rois-des-francs | fermee | 59 | 50 | 23 | 0 | 126 / 1609 / 43571 | 0 | 3 | 52 | 4 | ✅ | 0 s |
+| presidents-republique-francaise | fermee | 25 | 20 | 6 | 0 | 3386 / 11007 / 126643 | 0 | 0 | 12 | 13 | ✅ | 0 s |
+| empereurs-romains | fermee | 77 | 50 | 25 | 0 | 32 / 1073 / 22193 | 0 | 10 | 63 | 4 | ✅ | 0 s |
+| papes | fermee | 266 | 150 | 0 | 0 | 158 / 472 / 687260 | 0 | 65 | 190 | 11 | ✅ | 0 s |
+| elements-chimiques | fermee | 118 | 100 | 0 | 0 | 277 / 1670 / 7676 | 0 | 0 | 118 | 0 | ✅ | 0 s |
+| planetes-et-planetes-naines | fermee | 13 | 10 | 0 | 0 | 666 / 8264 / 19636 | 0 | 0 | 11 | 2 | ✅ | 0 s |
+| constellations | fermee | 86 | 80 | 0 | 0 | 117 / 323 / 6618 | 0 | 36 | 50 | 0 | ✅ | 0 s |
+| pays-membres-onu | fermee | 193 | 150 | 0 | 0 | 3721 / 14955 / 195257 | 0 | 0 | 62 | 131 | ✅ | 0 s |
+| capitales | fermee | 198 | 150 | 0 | 0 | 181 / 2693 / 81043 | 0 | 1 | 185 | 12 | ✅ | 0 s |
+| departements-francais | fermee | 101 | 90 | 2 | 0 | 2126 / 8863 / 81043 | 0 | 0 | 79 | 22 | ✅ | 0 s |
+| prix-nobel-litterature | fermee | 122 | 100 | 0 | 0 | 94 / 1265 / 39453 | 0 | 12 | 104 | 6 | ✅ | 0 s |
+| prix-nobel-physique | fermee | 230 | 150 | 0 | 1 | 22 / 105 / 48364 | 0 | 169 | 59 | 2 | ✅ | 0 s |
 | vainqueurs-tour-de-france | fermee | 64 | 50 | 0 | 0 | 146 / 761 / 23006 | 0 | 12 | 51 | 1 | ✅ | 0 s |
-| signes-du-zodiaque | fermee | 12 | 12 | 1 | 0 | 3054 / 5843 / 11165 | 0 | 0 | 11 | 1 | ✅ | 2 s |
+| signes-du-zodiaque | fermee | 12 | 12 | 1 | 0 | 3054 / 5843 / 11165 | 0 | 0 | 11 | 1 | ✅ | 0 s |
 
 ## Avertissements par catégorie
 
 - **films-francais-annees-1990** : taille 490 < min_size 500
+- **dinosaures** : taille 10 < min_size 300
 - **rois-de-france** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **presidents-republique-francaise** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **elements-chimiques** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
@@ -124,7 +125,7 @@ Généré le 2026-10-18T14:50:17.380Z. Fenêtre de vues : mois de 2026-09 (dump 
 
 - Les plus consultés : Gare de Paris-Nord (3957), Gare de Paris-Montparnasse (3198), Gare de Paris-Saint-Lazare (3119), Gare de Metz-Ville (3068), Paris-Gare-de-Lyon (3038)
 - Fantômes (≤ 10 vues) : Gare d'Accolay (10), Gare d'Achy (8), Gare d'Aiglun (9), Gare d'Ainay-le-Vieil (8), Gare d'Airaines (7)
-- Absents du dump, retirés (échantillon) : Saint-Martin – Airbus (métro de Toulouse), Station de Trévières, Station de Bénouville
+- Absents du dump, retirés (échantillon) : Station de Trévières, Station de Bénouville
 
 ### 🚇 Une station du métro de Paris (`stations-metro-paris`)
 
@@ -305,8 +306,8 @@ Généré le 2026-10-18T14:50:17.380Z. Fenêtre de vues : mois de 2026-09 (dump 
 
 ### 🦖 Un genre de dinosaure (`dinosaures`)
 
-- Les plus consultés : Autruche (3727), Cygne (3395), Pygargue (3128), Columba (oiseau) (2726), Pélican (2499)
-- Fantômes (≤ 10 vues) : Acanthorhynchus (10), Acrochordopus (4), Acropternis (3), Actinodura (8), Aethomyias (5)
+- Les plus consultés : Ledumahadi (37), Tratayenia (27), Jianianhualong (21), Xiyunykus (17), Laiyangosaurus (16)
+- Fantômes (≤ 10 vues) : Cardiodon (10), Gobihadros (6), Lingyuanosaurus (10)
 
 ### 🌙 Une lune du Système solaire (`lunes-systeme-solaire`)
 
@@ -383,25 +384,26 @@ Généré le 2026-10-18T14:50:17.380Z. Fenêtre de vues : mois de 2026-09 (dump 
 ## Calendrier (14 premiers jours)
 
 - 2026-10-18 (j2) : papes, stations-de-ski-france, langages-de-programmation, lunes-systeme-solaire, races-de-chiens · moins-consulte
-- 2026-10-19 (j3) : planetes-et-planetes-naines, stations-metro-paris, oiseaux, peintres-francais-xixe, instruments-de-musique
-- 2026-10-20 (j4) : prix-nobel-litterature, films-americains-annees-1980, oeuvres-victor-hugo, mythologie-grecque, plats-francais
-- 2026-10-21 (j5) : pays-membres-onu, pates-alimentaires, series-francaises, fromages-francais, romans-jules-verne
-- 2026-10-22 (j6) : prix-nobel-physique, vins-aoc-france, marques-automobiles, jeux-de-societe, patisseries-et-desserts
-- 2026-10-23 (j7) : signes-du-zodiaque, cepages, albums-rap-francais, cours-d-eau-france, sommets-2000-france
-- 2026-10-24 (j8) : rois-des-francs, communes-nouvelle-aquitaine, dinosaures, jeux-video-1998, gares-de-france · locale
-- 2026-10-25 (j9) : elements-chimiques, cols-de-france, oeuvres-victor-hugo, romans-jules-verne, fromages-francais · moins-consulte
+- 2026-10-19 (j3) : planetes-et-planetes-naines, stations-metro-paris, mythologie-grecque, cours-d-eau-france, jeux-de-societe
+- 2026-10-20 (j4) : prix-nobel-litterature, peintres-francais-xixe, marques-automobiles, oiseaux, plats-francais
+- 2026-10-21 (j5) : pays-membres-onu, pates-alimentaires, films-americains-annees-1980, fromages-francais, oeuvres-victor-hugo
+- 2026-10-22 (j6) : prix-nobel-physique, vins-aoc-france, instruments-de-musique, albums-rap-francais, patisseries-et-desserts
+- 2026-10-23 (j7) : signes-du-zodiaque, cepages, romans-jules-verne, sommets-2000-france, series-francaises
+- 2026-10-24 (j8) : rois-des-francs, communes-nouvelle-aquitaine, jeux-video-1998, cols-de-france, gares-de-france · locale
+- 2026-10-25 (j9) : elements-chimiques, jeux-de-societe, marques-automobiles, romans-jules-verne, fromages-francais · moins-consulte
 - 2026-10-26 (j10) : rois-de-france, races-de-chiens, stations-de-ski-france, langages-de-programmation, lunes-systeme-solaire
-- 2026-10-27 (j11) : departements-francais, instruments-de-musique, stations-metro-paris, oiseaux, peintres-francais-xixe
-- 2026-10-28 (j12) : constellations, plats-francais, mythologie-grecque, films-americains-annees-1980, fromages-francais
-- 2026-10-29 (j13) : capitales, series-francaises, pates-alimentaires, langages-de-programmation, albums-rap-francais
-- 2026-10-30 (j14) : presidents-republique-francaise, marques-automobiles, vins-aoc-france, patisseries-et-desserts, jeux-de-societe
-- 2026-10-31 (j15) : vainqueurs-tour-de-france, communes-bourgogne-franche-comte, cepages, cours-d-eau-france, sommets-2000-france · locale
+- 2026-10-27 (j11) : departements-francais, cours-d-eau-france, stations-metro-paris, mythologie-grecque, instruments-de-musique
+- 2026-10-28 (j12) : constellations, plats-francais, oiseaux, peintres-francais-xixe, fromages-francais
+- 2026-10-29 (j13) : capitales, oeuvres-victor-hugo, films-americains-annees-1980, pates-alimentaires, albums-rap-francais
+- 2026-10-30 (j14) : presidents-republique-francaise, vins-aoc-france, patisseries-et-desserts, stations-metro-paris, films-americains-annees-1980
+- 2026-10-31 (j15) : vainqueurs-tour-de-france, communes-bourgogne-franche-comte, cepages, series-francaises, sommets-2000-france · locale
 
 ## Avertissements calendrier
 
 - 2026-10-25 : contrainte de non-répétition relâchée à 0 j
 - 2026-10-25 : contrainte de non-répétition relâchée à 0 j
 - 2026-10-25 : contrainte de non-répétition relâchée à 0 j
+- 2026-10-25 : contrainte de non-répétition relâchée à 0 j
 - 2026-10-26 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-26 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-26 : contrainte de non-répétition relâchée à 7 j
@@ -409,19 +411,19 @@ Généré le 2026-10-18T14:50:17.380Z. Fenêtre de vues : mois de 2026-09 (dump 
 - 2026-10-27 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-27 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-27 : contrainte de non-répétition relâchée à 7 j
-- 2026-10-27 : contrainte de non-répétition relâchée à 7 j
+- 2026-10-27 : contrainte de non-répétition relâchée à 0 j
 - 2026-10-28 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-28 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-28 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-28 : contrainte de non-répétition relâchée à 0 j
 - 2026-10-29 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-29 : contrainte de non-répétition relâchée à 7 j
+- 2026-10-29 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-29 : contrainte de non-répétition relâchée à 0 j
-- 2026-10-29 : contrainte de non-répétition relâchée à 0 j
 - 2026-10-30 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-30 : contrainte de non-répétition relâchée à 7 j
-- 2026-10-30 : contrainte de non-répétition relâchée à 7 j
-- 2026-10-30 : contrainte de non-répétition relâchée à 7 j
+- 2026-10-30 : contrainte de non-répétition relâchée à 0 j
+- 2026-10-30 : contrainte de non-répétition relâchée à 0 j
 - 2026-10-31 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-31 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-31 : contrainte de non-répétition relâchée à 7 j
@@ -437,16 +439,15 @@ Généré le 2026-10-18T14:50:17.380Z. Fenêtre de vues : mois de 2026-09 (dump 
 - 2026-11-03 : contrainte de non-répétition relâchée à 14 j
 - 2026-11-03 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-03 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-03 : contrainte de non-répétition relâchée à 0 j
-- 2026-11-03 : contrainte de non-répétition relâchée à 0 j
+- 2026-11-03 : contrainte de non-répétition relâchée à 7 j
+- 2026-11-03 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-04 : contrainte de non-répétition relâchée à 14 j
 - 2026-11-04 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-04 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-04 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-04 : contrainte de non-répétition relâchée à 7 j
+- 2026-11-04 : contrainte de non-répétition relâchée à 0 j
 - 2026-11-05 : contrainte de non-répétition relâchée à 14 j
 - 2026-11-05 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-05 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-05 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-05 : contrainte de non-répétition relâchée à 7 j
-- … et 1680 autres
+- … et 1681 autres

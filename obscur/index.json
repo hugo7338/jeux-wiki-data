@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T14:50:17.380Z",
+  "generatedAt": "2026-10-18T15:19:12.014Z",
   "snapshot": "2026-09-30",
   "window": {
     "kind": "month",
@@ -89,10 +89,10 @@
       "emoji": "🚉",
       "type": "ouverte",
       "theme": null,
-      "size": 5267,
+      "size": 4637,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q55488 ; wdt:P17 wd:Q142 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Gares ferroviaires : les stations de métro (Q928830) et arrêts de tramway (Q2175765),\\n# sous-classes de « gare » dans Wikidata, ont leurs propres catégories.\\n?item wdt:P31/wdt:P279* wd:Q55488 ; wdt:P17 wd:Q142 .\\nFILTER NOT EXISTS { ?item wdt:P31/wdt:P279* wd:Q928830 }\\nFILTER NOT EXISTS { ?item wdt:P31/wdt:P279* wd:Q2175765 }\"},[],[]]",
       "recovered": false
     },
     {
@@ -509,10 +509,10 @@
       "emoji": "🦖",
       "type": "ouverte",
       "theme": null,
-      "size": 1707,
-      "eligible": true,
+      "size": 10,
+      "eligible": false,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q16521 ; wdt:P105 wd:Q34740 ; wdt:P171+ wd:Q430 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Genres de dinosaures non aviens : les oiseaux (Aves, Q5113) sont des dinosaures pour la\\n# cladistique, pas pour le joueur.\\n?item wdt:P31 wd:Q16521 ; wdt:P105 wd:Q34740 ; wdt:P171+ wd:Q430 .\\nFILTER NOT EXISTS { ?item wdt:P171+ wd:Q5113 }\"},[],[]]",
       "recovered": false
     },
     {
