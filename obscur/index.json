@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T13:53:21.359Z",
+  "generatedAt": "2026-10-18T14:50:17.380Z",
   "snapshot": "2026-09-30",
   "window": {
     "kind": "month",
@@ -19,7 +19,9 @@
       "theme": null,
       "size": 365,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Fromage français\"],\"depth\":2},[],[]]",
+      "recovered": false
     },
     {
       "id": "plats-francais",
@@ -29,7 +31,9 @@
       "theme": null,
       "size": 122,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q746549 .\\n{ ?item wdt:P495 wd:Q142 } UNION { ?item wdt:P17 wd:Q142 }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "patisseries-et-desserts",
@@ -39,7 +43,9 @@
       "theme": null,
       "size": 148,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"{ ?item wdt:P31/wdt:P279* wd:Q477248 } UNION { ?item wdt:P31/wdt:P279* wd:Q182940 }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "pates-alimentaires",
@@ -49,7 +55,9 @@
       "theme": null,
       "size": 177,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Pâte alimentaire\"],\"depth\":1},[],[]]",
+      "recovered": false
     },
     {
       "id": "cepages",
@@ -59,7 +67,9 @@
       "theme": null,
       "size": 539,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Cépage\"],\"depth\":1},[],[]]",
+      "recovered": false
     },
     {
       "id": "vins-aoc-france",
@@ -69,7 +79,9 @@
       "theme": null,
       "size": 472,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Vin AOC en France\"],\"depth\":4},[],[]]",
+      "recovered": false
     },
     {
       "id": "gares-de-france",
@@ -77,9 +89,11 @@
       "emoji": "🚉",
       "type": "ouverte",
       "theme": null,
-      "size": 5270,
+      "size": 5267,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q55488 ; wdt:P17 wd:Q142 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "stations-metro-paris",
@@ -89,7 +103,9 @@
       "theme": null,
       "size": 377,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Station du métro de Paris\"],\"depth\":1},[],[]]",
+      "recovered": false
     },
     {
       "id": "stations-de-ski-france",
@@ -97,9 +113,11 @@
       "emoji": "⛷️",
       "type": "ouverte",
       "theme": null,
-      "size": 217,
+      "size": 216,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q130003 ; wdt:P17 wd:Q142 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "cols-de-france",
@@ -107,9 +125,11 @@
       "emoji": "🚵",
       "type": "ouverte",
       "theme": null,
-      "size": 670,
+      "size": 669,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q133056 ; wdt:P17 wd:Q142 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "sommets-2000-france",
@@ -119,7 +139,9 @@
       "theme": null,
       "size": 626,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q8502 ; wdt:P17 wd:Q142 ; wdt:P2044 ?alt .\\nFILTER(?alt > 2000)\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "cours-d-eau-france",
@@ -127,9 +149,11 @@
       "emoji": "🏞️",
       "type": "ouverte",
       "theme": null,
-      "size": 3720,
+      "size": 3719,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q4022 ; wdt:P17 wd:Q142 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "monuments-historiques-lyon",
@@ -139,7 +163,9 @@
       "theme": "locale",
       "size": 91,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P1435 ?statut ; wdt:P131+ wd:Q456 .\\nVALUES ?statut { wd:Q10387684 wd:Q10387575 }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "stations-metro-lyon",
@@ -149,7 +175,9 @@
       "theme": "locale",
       "size": 49,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Station du métro de Lyon\"],\"depth\":1},[],[]]",
+      "recovered": false
     },
     {
       "id": "communes-auvergne-rhone-alpes",
@@ -159,7 +187,9 @@
       "theme": "locale",
       "size": 4025,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q18338206 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "communes-bretagne",
@@ -169,7 +199,9 @@
       "theme": "locale",
       "size": 1202,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q12130 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "communes-normandie",
@@ -179,7 +211,9 @@
       "theme": "locale",
       "size": 2644,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q18677875 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "communes-occitanie",
@@ -189,7 +223,9 @@
       "theme": "locale",
       "size": 4446,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q18678265 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "communes-nouvelle-aquitaine",
@@ -199,7 +235,9 @@
       "theme": "locale",
       "size": 4300,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q18678082 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "communes-paca",
@@ -209,7 +247,9 @@
       "theme": "locale",
       "size": 946,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q15104 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "communes-hauts-de-france",
@@ -219,7 +259,9 @@
       "theme": "locale",
       "size": 3782,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q18677767 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "communes-grand-est",
@@ -229,7 +271,9 @@
       "theme": "locale",
       "size": 5157,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q18677983 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "communes-pays-de-la-loire",
@@ -239,7 +283,9 @@
       "theme": "locale",
       "size": 1228,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q16994 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "communes-ile-de-france",
@@ -249,7 +295,9 @@
       "theme": "locale",
       "size": 1266,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q13917 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "communes-centre-val-de-loire",
@@ -259,7 +307,9 @@
       "theme": "locale",
       "size": 1754,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q13947 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "communes-bourgogne-franche-comte",
@@ -269,7 +319,9 @@
       "theme": "locale",
       "size": 3685,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q18578267 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "peintres-francais-xixe",
@@ -277,9 +329,11 @@
       "emoji": "🎨",
       "type": "ouverte",
       "theme": null,
-      "size": 5771,
+      "size": 5762,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P106 wd:Q1028181 ; wdt:P27 wd:Q142 ; wdt:P569 ?naissance .\\nFILTER(YEAR(?naissance) >= 1800 && YEAR(?naissance) <= 1899)\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "films-francais-annees-1990",
@@ -287,9 +341,11 @@
       "emoji": "🎬",
       "type": "ouverte",
       "theme": null,
-      "size": 490,
+      "size": 489,
       "eligible": false,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q11424 ; wdt:P495 wd:Q142 ; wdt:P577 ?sortie .\\nFILTER(YEAR(?sortie) >= 1990 && YEAR(?sortie) <= 1999)\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "films-americains-annees-1980",
@@ -297,9 +353,11 @@
       "emoji": "🎥",
       "type": "ouverte",
       "theme": null,
-      "size": 2250,
+      "size": 2246,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q11424 ; wdt:P495 wd:Q30 ; wdt:P577 ?sortie .\\nFILTER(YEAR(?sortie) >= 1980 && YEAR(?sortie) <= 1989)\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "series-francaises",
@@ -307,9 +365,11 @@
       "emoji": "📺",
       "type": "ouverte",
       "theme": null,
-      "size": 2060,
+      "size": 2056,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q5398426 ; wdt:P495 wd:Q142 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "jeux-video-1998",
@@ -317,9 +377,11 @@
       "emoji": "🕹️",
       "type": "ouverte",
       "theme": null,
-      "size": 521,
+      "size": 520,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Jeu vidéo sorti en 1998\"],\"depth\":0},[],[]]",
+      "recovered": false
     },
     {
       "id": "albums-rap-francais",
@@ -327,9 +389,11 @@
       "emoji": "🎤",
       "type": "ouverte",
       "theme": null,
-      "size": 586,
+      "size": 585,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q482994 ; wdt:P136/wdt:P279* wd:Q11401 ; wdt:P175 ?artiste .\\n{ ?artiste wdt:P27 wd:Q142 } UNION { ?artiste wdt:P495 wd:Q142 }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "jeux-de-societe",
@@ -337,9 +401,11 @@
       "emoji": "🎲",
       "type": "ouverte",
       "theme": null,
-      "size": 576,
+      "size": 575,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q131436 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "instruments-de-musique",
@@ -347,9 +413,11 @@
       "emoji": "🎻",
       "type": "ouverte",
       "theme": null,
-      "size": 409,
+      "size": 407,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q34379 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "langages-de-programmation",
@@ -357,9 +425,11 @@
       "emoji": "💻",
       "type": "ouverte",
       "theme": null,
-      "size": 514,
+      "size": 513,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q9143 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "marques-automobiles",
@@ -367,9 +437,11 @@
       "emoji": "🚗",
       "type": "ouverte",
       "theme": null,
-      "size": 1206,
+      "size": 1205,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q786820 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "oeuvres-victor-hugo",
@@ -379,7 +451,9 @@
       "theme": null,
       "size": 67,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P50 wd:Q535 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "romans-jules-verne",
@@ -389,7 +463,9 @@
       "theme": null,
       "size": 114,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P50 wd:Q33977 ; wdt:P31/wdt:P279* wd:Q7725634 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "mythologie-grecque",
@@ -397,9 +473,11 @@
       "emoji": "🏺",
       "type": "ouverte",
       "theme": null,
-      "size": 1082,
+      "size": 1081,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Divinité grecque\",\"Héros de la mythologie grecque\",\"Mortel de la mythologie grecque\",\"Créature fantastique de la mythologie grecque\"],\"depth\":1},[],[]]",
+      "recovered": false
     },
     {
       "id": "oiseaux",
@@ -407,9 +485,11 @@
       "emoji": "🐦",
       "type": "ouverte",
       "theme": null,
-      "size": 1099,
+      "size": 1097,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Oiseau (nom vernaculaire)\"],\"depth\":0},[],[]]",
+      "recovered": false
     },
     {
       "id": "races-de-chiens",
@@ -417,9 +497,11 @@
       "emoji": "🐕",
       "type": "ouverte",
       "theme": null,
-      "size": 456,
+      "size": 454,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q39367 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "dinosaures",
@@ -429,7 +511,9 @@
       "theme": null,
       "size": 1707,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q16521 ; wdt:P105 wd:Q34740 ; wdt:P171+ wd:Q430 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "lunes-systeme-solaire",
@@ -439,7 +523,9 @@
       "theme": null,
       "size": 288,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q2537 ; wdt:P397 ?planete .\\n?planete wdt:P397 wd:Q525 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "rois-de-france",
@@ -447,9 +533,11 @@
       "emoji": "👑",
       "type": "fermee",
       "theme": null,
-      "size": 29,
+      "size": 30,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# roi de France · roi de France et de Navarre · roi des Français (Louis XVI 1791-92, Louis-Philippe)\\nVALUES ?position { wd:Q18384454 wd:Q3439798 wd:Q3439814 }\\n?item wdt:P39 ?position ; wdt:P31 wd:Q5 ; wdt:P21 wd:Q6581097 .\"},[\"Louis XVII\",\"Louis XIX\",\"Henri d'Artois\"],[]]",
+      "recovered": false
     },
     {
       "id": "rois-des-francs",
@@ -457,9 +545,11 @@
       "emoji": "🗡️",
       "type": "fermee",
       "theme": null,
-      "size": 76,
+      "size": 59,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# roi des Francs · roi de Francie occidentale (Charles le Chauve → Louis V, que Wikidata range à part)\\nVALUES ?position { wd:Q22923081 wd:Q29168087 }\\n?item wdt:P39 ?position ; wdt:P31 wd:Q5 ; wdt:P21 wd:Q6581097 .\"},[\"Arbogast (général romain)\",\"Ascaric\",\"Gennobaud (IVe siècle)\",\"Mallobaud\",\"Marcomir\",\"Mérogaise\",\"Nebigast\",\"Sunnon\",\"Pharamond\",\"Théodomir\",\"Gondovald\",\"Charles de Provence\",\"Charles l'Enfant\",\"Charles le Jeune\",\"Pépin le Bossu\",\"Pépin Ier d'Aquitaine\",\"Pépin II d'Aquitaine\",\"Lothaire II (roi d'Italie)\",\"Lothaire II (roi de Lotharingie)\",\"Zwentibold\",\"Louis II le Jeune\",\"Hugues de France (1007-1025)\",\"Philippe de France (1116-1131)\"],[]]",
+      "recovered": false
     },
     {
       "id": "presidents-republique-francaise",
@@ -467,9 +557,11 @@
       "emoji": "🇫🇷",
       "type": "fermee",
       "theme": null,
-      "size": 32,
+      "size": 25,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P39 wd:Q191954 ; wdt:P31 wd:Q5 .\"},[\"Alain Poher\",\"Charles Dupuy\",\"Eugène Cavaignac\",\"Frédéric François-Marsal\",\"Louis Jules Trochu\",\"Georges Bidault\"],[]]",
+      "recovered": false
     },
     {
       "id": "empereurs-romains",
@@ -477,9 +569,11 @@
       "emoji": "🏛️",
       "type": "fermee",
       "theme": null,
-      "size": 103,
+      "size": 77,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P39 wd:Q842606 ; wdt:P31 wd:Q5 .\"},[],[\"Usurpateur romain\"]]",
+      "recovered": false
     },
     {
       "id": "papes",
@@ -487,9 +581,11 @@
       "emoji": "⛪",
       "type": "fermee",
       "theme": null,
-      "size": 267,
+      "size": 266,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P39 wd:Q19546 ; wdt:P31 wd:Q5 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "elements-chimiques",
@@ -497,9 +593,11 @@
       "emoji": "⚗️",
       "type": "fermee",
       "theme": null,
-      "size": 156,
+      "size": 118,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q11344 ; wdt:P1086 ?z .\\nFILTER(?z <= 118)\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "planetes-et-planetes-naines",
@@ -507,9 +605,11 @@
       "emoji": "🪐",
       "type": "fermee",
       "theme": null,
-      "size": 18,
+      "size": 13,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Les 8 planètes et les 5 planètes naines reconnues par l'UAI (Cérès, Pluton, Éris, Hauméa, Makémaké).\\nVALUES ?item { wd:Q308 wd:Q313 wd:Q2 wd:Q111 wd:Q319 wd:Q193 wd:Q324 wd:Q332\\n               wd:Q596 wd:Q339 wd:Q611 wd:Q1121 wd:Q1128 }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "constellations",
@@ -519,7 +619,9 @@
       "theme": null,
       "size": 86,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q8928 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "pays-membres-onu",
@@ -527,19 +629,23 @@
       "emoji": "🌍",
       "type": "fermee",
       "theme": null,
-      "size": 202,
+      "size": 193,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item p:P463 ?adhesion . ?adhesion ps:P463 wd:Q1065 .\\nFILTER NOT EXISTS { ?adhesion pq:P582 ?fin }\\n?item wdt:P31 wd:Q3624078 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?dissolution }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "capitales",
-      "label": "Une capitale d'État",
+      "label": "Une capitale d'État membre de l'ONU",
       "emoji": "🏙️",
       "type": "fermee",
       "theme": null,
-      "size": 210,
+      "size": 198,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?pays p:P463 ?adhesion . ?adhesion ps:P463 wd:Q1065 .\\nFILTER NOT EXISTS { ?adhesion pq:P582 ?fin }\\n?pays wdt:P31 wd:Q3624078 ; wdt:P36 ?item .\\nFILTER NOT EXISTS { ?pays wdt:P576 ?dissolution }\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "departements-francais",
@@ -547,9 +653,11 @@
       "emoji": "🗺️",
       "type": "fermee",
       "theme": null,
-      "size": 97,
+      "size": 101,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Paris (Q90) est commune et département dans le même élément, sans être instance de Q6465.\\n{ ?item wdt:P31/wdt:P279* wd:Q6465 . } UNION { VALUES ?item { wd:Q90 } }\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[\"Basses-Pyrénées\",\"Circonscription départementale du Rhône\",\"Métropole de Lyon\"],[]]",
+      "recovered": false
     },
     {
       "id": "prix-nobel-litterature",
@@ -559,7 +667,9 @@
       "theme": null,
       "size": 122,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P166 wd:Q37922 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "prix-nobel-physique",
@@ -567,9 +677,11 @@
       "emoji": "🔬",
       "type": "fermee",
       "theme": null,
-      "size": 231,
+      "size": 230,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P166 wd:Q38104 .\"},[],[]]",
+      "recovered": false
     },
     {
       "id": "vainqueurs-tour-de-france",
@@ -579,7 +691,9 @@
       "theme": null,
       "size": 64,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Vainqueur du Tour de France\"],\"depth\":0},[],[]]",
+      "recovered": false
     },
     {
       "id": "signes-du-zodiaque",
@@ -587,9 +701,11 @@
       "emoji": "♈",
       "type": "fermee",
       "theme": null,
-      "size": 13,
+      "size": 12,
       "eligible": true,
-      "validated": null
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q1795024 .\"},[\"Serpentaire (astrologie)\"],[]]",
+      "recovered": false
     }
   ]
 }
