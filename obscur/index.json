@@ -1,0 +1,595 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-18T13:53:21.359Z",
+  "snapshot": "2026-09-30",
+  "window": {
+    "kind": "month",
+    "month": "2026-09",
+    "start": "2026-09-01",
+    "end": "2026-09-30",
+    "days": 30
+  },
+  "partial": false,
+  "categories": [
+    {
+      "id": "fromages-francais",
+      "label": "Un fromage français",
+      "emoji": "🧀",
+      "type": "ouverte",
+      "theme": null,
+      "size": 365,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "plats-francais",
+      "label": "Un plat de la cuisine française",
+      "emoji": "🍲",
+      "type": "ouverte",
+      "theme": null,
+      "size": 122,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "patisseries-et-desserts",
+      "label": "Une pâtisserie ou un dessert",
+      "emoji": "🍰",
+      "type": "ouverte",
+      "theme": null,
+      "size": 148,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "pates-alimentaires",
+      "label": "Une variété de pâtes alimentaires",
+      "emoji": "🍝",
+      "type": "ouverte",
+      "theme": null,
+      "size": 177,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "cepages",
+      "label": "Un cépage",
+      "emoji": "🍇",
+      "type": "ouverte",
+      "theme": null,
+      "size": 539,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "vins-aoc-france",
+      "label": "Un vin AOC français",
+      "emoji": "🍷",
+      "type": "ouverte",
+      "theme": null,
+      "size": 472,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "gares-de-france",
+      "label": "Une gare ferroviaire française",
+      "emoji": "🚉",
+      "type": "ouverte",
+      "theme": null,
+      "size": 5270,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "stations-metro-paris",
+      "label": "Une station du métro de Paris",
+      "emoji": "🚇",
+      "type": "ouverte",
+      "theme": null,
+      "size": 377,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "stations-de-ski-france",
+      "label": "Une station de ski française",
+      "emoji": "⛷️",
+      "type": "ouverte",
+      "theme": null,
+      "size": 217,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "cols-de-france",
+      "label": "Un col de montagne en France",
+      "emoji": "🚵",
+      "type": "ouverte",
+      "theme": null,
+      "size": 670,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "sommets-2000-france",
+      "label": "Un sommet de plus de 2 000 m en France",
+      "emoji": "🏔️",
+      "type": "ouverte",
+      "theme": null,
+      "size": 626,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "cours-d-eau-france",
+      "label": "Un fleuve ou une rivière de France",
+      "emoji": "🏞️",
+      "type": "ouverte",
+      "theme": null,
+      "size": 3720,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "monuments-historiques-lyon",
+      "label": "Un monument historique de Lyon",
+      "emoji": "🏛️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 91,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "stations-metro-lyon",
+      "label": "Une station du métro de Lyon",
+      "emoji": "🚈",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 49,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "communes-auvergne-rhone-alpes",
+      "label": "Une commune d'Auvergne-Rhône-Alpes",
+      "emoji": "🏘️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 4025,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "communes-bretagne",
+      "label": "Une commune de Bretagne",
+      "emoji": "🏘️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 1202,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "communes-normandie",
+      "label": "Une commune de Normandie",
+      "emoji": "🏘️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 2644,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "communes-occitanie",
+      "label": "Une commune d'Occitanie",
+      "emoji": "🏘️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 4446,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "communes-nouvelle-aquitaine",
+      "label": "Une commune de Nouvelle-Aquitaine",
+      "emoji": "🏘️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 4300,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "communes-paca",
+      "label": "Une commune de Provence-Alpes-Côte d'Azur",
+      "emoji": "🏘️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 946,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "communes-hauts-de-france",
+      "label": "Une commune des Hauts-de-France",
+      "emoji": "🏘️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 3782,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "communes-grand-est",
+      "label": "Une commune du Grand Est",
+      "emoji": "🏘️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 5157,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "communes-pays-de-la-loire",
+      "label": "Une commune des Pays de la Loire",
+      "emoji": "🏘️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 1228,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "communes-ile-de-france",
+      "label": "Une commune d'Île-de-France",
+      "emoji": "🏘️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 1266,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "communes-centre-val-de-loire",
+      "label": "Une commune du Centre-Val de Loire",
+      "emoji": "🏘️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 1754,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "communes-bourgogne-franche-comte",
+      "label": "Une commune de Bourgogne-Franche-Comté",
+      "emoji": "🏘️",
+      "type": "ouverte",
+      "theme": "locale",
+      "size": 3685,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "peintres-francais-xixe",
+      "label": "Un peintre français né au XIXe siècle",
+      "emoji": "🎨",
+      "type": "ouverte",
+      "theme": null,
+      "size": 5771,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "films-francais-annees-1990",
+      "label": "Un film français des années 1990",
+      "emoji": "🎬",
+      "type": "ouverte",
+      "theme": null,
+      "size": 490,
+      "eligible": false,
+      "validated": null
+    },
+    {
+      "id": "films-americains-annees-1980",
+      "label": "Un film américain des années 1980",
+      "emoji": "🎥",
+      "type": "ouverte",
+      "theme": null,
+      "size": 2250,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "series-francaises",
+      "label": "Une série télévisée française",
+      "emoji": "📺",
+      "type": "ouverte",
+      "theme": null,
+      "size": 2060,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "jeux-video-1998",
+      "label": "Un jeu vidéo sorti en 1998",
+      "emoji": "🕹️",
+      "type": "ouverte",
+      "theme": null,
+      "size": 521,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "albums-rap-francais",
+      "label": "Un album de rap français",
+      "emoji": "🎤",
+      "type": "ouverte",
+      "theme": null,
+      "size": 586,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "jeux-de-societe",
+      "label": "Un jeu de société",
+      "emoji": "🎲",
+      "type": "ouverte",
+      "theme": null,
+      "size": 576,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "instruments-de-musique",
+      "label": "Un instrument de musique",
+      "emoji": "🎻",
+      "type": "ouverte",
+      "theme": null,
+      "size": 409,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "langages-de-programmation",
+      "label": "Un langage de programmation",
+      "emoji": "💻",
+      "type": "ouverte",
+      "theme": null,
+      "size": 514,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "marques-automobiles",
+      "label": "Un constructeur automobile",
+      "emoji": "🚗",
+      "type": "ouverte",
+      "theme": null,
+      "size": 1206,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "oeuvres-victor-hugo",
+      "label": "Une œuvre de Victor Hugo",
+      "emoji": "📚",
+      "type": "ouverte",
+      "theme": null,
+      "size": 67,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "romans-jules-verne",
+      "label": "Un roman de Jules Verne",
+      "emoji": "🎈",
+      "type": "ouverte",
+      "theme": null,
+      "size": 114,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "mythologie-grecque",
+      "label": "Un personnage de la mythologie grecque",
+      "emoji": "🏺",
+      "type": "ouverte",
+      "theme": null,
+      "size": 1082,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "oiseaux",
+      "label": "Un oiseau (nom vernaculaire)",
+      "emoji": "🐦",
+      "type": "ouverte",
+      "theme": null,
+      "size": 1099,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "races-de-chiens",
+      "label": "Une race de chien",
+      "emoji": "🐕",
+      "type": "ouverte",
+      "theme": null,
+      "size": 456,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "dinosaures",
+      "label": "Un genre de dinosaure",
+      "emoji": "🦖",
+      "type": "ouverte",
+      "theme": null,
+      "size": 1707,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "lunes-systeme-solaire",
+      "label": "Une lune du Système solaire",
+      "emoji": "🌙",
+      "type": "ouverte",
+      "theme": null,
+      "size": 288,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "rois-de-france",
+      "label": "Un roi de France",
+      "emoji": "👑",
+      "type": "fermee",
+      "theme": null,
+      "size": 29,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "rois-des-francs",
+      "label": "Un roi des Francs",
+      "emoji": "🗡️",
+      "type": "fermee",
+      "theme": null,
+      "size": 76,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "presidents-republique-francaise",
+      "label": "Un président de la République française",
+      "emoji": "🇫🇷",
+      "type": "fermee",
+      "theme": null,
+      "size": 32,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "empereurs-romains",
+      "label": "Un empereur romain",
+      "emoji": "🏛️",
+      "type": "fermee",
+      "theme": null,
+      "size": 103,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "papes",
+      "label": "Un pape",
+      "emoji": "⛪",
+      "type": "fermee",
+      "theme": null,
+      "size": 267,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "elements-chimiques",
+      "label": "Un élément chimique",
+      "emoji": "⚗️",
+      "type": "fermee",
+      "theme": null,
+      "size": 156,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "planetes-et-planetes-naines",
+      "label": "Une planète ou planète naine du Système solaire",
+      "emoji": "🪐",
+      "type": "fermee",
+      "theme": null,
+      "size": 18,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "constellations",
+      "label": "Une constellation",
+      "emoji": "✨",
+      "type": "fermee",
+      "theme": null,
+      "size": 86,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "pays-membres-onu",
+      "label": "Un pays membre de l'ONU",
+      "emoji": "🌍",
+      "type": "fermee",
+      "theme": null,
+      "size": 202,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "capitales",
+      "label": "Une capitale d'État",
+      "emoji": "🏙️",
+      "type": "fermee",
+      "theme": null,
+      "size": 210,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "departements-francais",
+      "label": "Un département français",
+      "emoji": "🗺️",
+      "type": "fermee",
+      "theme": null,
+      "size": 97,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "prix-nobel-litterature",
+      "label": "Un prix Nobel de littérature",
+      "emoji": "🏅",
+      "type": "fermee",
+      "theme": null,
+      "size": 122,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "prix-nobel-physique",
+      "label": "Un prix Nobel de physique",
+      "emoji": "🔬",
+      "type": "fermee",
+      "theme": null,
+      "size": 231,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "vainqueurs-tour-de-france",
+      "label": "Un vainqueur du Tour de France",
+      "emoji": "🚴",
+      "type": "fermee",
+      "theme": null,
+      "size": 64,
+      "eligible": true,
+      "validated": null
+    },
+    {
+      "id": "signes-du-zodiaque",
+      "label": "Un signe du zodiaque",
+      "emoji": "♈",
+      "type": "fermee",
+      "theme": null,
+      "size": 13,
+      "eligible": true,
+      "validated": null
+    }
+  ]
+}
