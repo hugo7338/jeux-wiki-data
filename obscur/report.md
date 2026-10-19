@@ -1,6 +1,6 @@
 # Obscur — rapport du pipeline
 
-Généré le 2026-10-18T15:26:30.768Z. Fenêtre de vues : mois de 2026-09 (dump pageview_complete).
+Généré le 2026-10-19T08:31:55.276Z. Fenêtre de vues : mois de 2026-09 (dump pageview_complete).
 
 ## Synthèse
 
@@ -40,9 +40,9 @@ Généré le 2026-10-18T15:26:30.768Z. Fenêtre de vues : mois de 2026-09 (dump 
 | communes-ile-de-france | ouverte (locale) | 1266 | 500 | 0 | 0 | 55 / 332 / 81043 | 0 | 576 | 684 | 6 | ✅ | 0 s |
 | communes-centre-val-de-loire | ouverte (locale) | 1754 | 500 | 0 | 0 | 24 / 129 / 21724 | 0 | 1379 | 370 | 5 | ✅ | 0 s |
 | communes-bourgogne-franche-comte | ouverte (locale) | 3685 | 1000 | 0 | 0 | 20 / 91 / 18815 | 0 | 3270 | 411 | 4 | ✅ | 0 s |
-| peintres-francais-xixe | ouverte | 5762 | 1000 | 0 | 9 | 1 / 31 / 30443 | 1311 | 4138 | 301 | 12 | ✅ | 31 s |
-| films-francais-annees-1990 | ouverte | 1700 | 500 | 1 | 3 | 1 / 97 / 32899 | 146 | 1105 | 442 | 7 | ✅ | 14 s |
-| films-americains-annees-1980 | ouverte | 2246 | 500 | 1 | 4 | 2 / 107 / 28039 | 179 | 1435 | 627 | 5 | ✅ | 19 s |
+| peintres-francais-xixe | ouverte | 5762 | 1000 | 0 | 9 | 1 / 31 / 30443 | 1311 | 4138 | 301 | 12 | ✅ | 0 s |
+| films-francais-annees-1990 | ouverte | 1700 | 500 | 1 | 3 | 1 / 97 / 32899 | 146 | 1105 | 442 | 7 | ✅ | 0 s |
+| films-americains-annees-1980 | ouverte | 2246 | 500 | 1 | 4 | 2 / 107 / 28039 | 179 | 1435 | 627 | 5 | ✅ | 0 s |
 | series-francaises | ouverte | 2056 | 300 | 0 | 5 | 5 / 300 / 223832 | 18 | 978 | 1012 | 48 | ✅ | 0 s |
 | jeux-video-1998 | ouverte | 520 | 200 | 0 | 1 | 1 / 19 / 16752 | 234 | 259 | 26 | 1 | ✅ | 0 s |
 | albums-rap-francais | ouverte | 585 | 200 | 0 | 1 | 1 / 110 / 3211 | 41 | 406 | 138 | 0 | ✅ | 0 s |
@@ -55,7 +55,7 @@ Généré le 2026-10-18T15:26:30.768Z. Fenêtre de vues : mois de 2026-09 (dump 
 | mythologie-grecque | ouverte | 1081 | 300 | 3 | 1 | 1 / 94 / 36019 | 141 | 589 | 335 | 16 | ✅ | 0 s |
 | oiseaux | ouverte | 1097 | 300 | 0 | 2 | 1 / 24 / 15274 | 447 | 457 | 191 | 2 | ✅ | 0 s |
 | races-de-chiens | ouverte | 454 | 200 | 0 | 2 | 2 / 504 / 11958 | 3 | 128 | 321 | 2 | ✅ | 0 s |
-| dinosaures | ouverte | 1195 | 300 | 0 | 0 | 1 / 22 / 6704 | 449 | 698 | 48 | 0 | ✅ | 8 s |
+| dinosaures | ouverte | 1195 | 300 | 0 | 0 | 1 / 22 / 6704 | 449 | 698 | 48 | 0 | ✅ | 0 s |
 | lunes-systeme-solaire | ouverte | 288 | 60 | 0 | 0 | 1 / 21 / 11885 | 106 | 162 | 19 | 1 | ✅ | 0 s |
 | rois-de-france | fermee | 30 | 25 | 1 | 0 | 3083 / 16794 / 65226 | 0 | 0 | 9 | 21 | ✅ | 0 s |
 | rois-des-francs | fermee | 59 | 50 | 23 | 0 | 126 / 1609 / 43571 | 0 | 3 | 52 | 4 | ✅ | 0 s |
@@ -382,29 +382,25 @@ Généré le 2026-10-18T15:26:30.768Z. Fenêtre de vues : mois de 2026-09 (dump 
 
 ## Calendrier (14 premiers jours)
 
-- 2026-10-18 (j2) : papes, stations-de-ski-france, langages-de-programmation, lunes-systeme-solaire, races-de-chiens · moins-consulte
 - 2026-10-19 (j3) : planetes-et-planetes-naines, cols-de-france, oiseaux, peintres-francais-xixe, instruments-de-musique
-- 2026-10-20 (j4) : prix-nobel-litterature, films-francais-annees-1990, marques-automobiles, mythologie-grecque, plats-francais
-- 2026-10-21 (j5) : pays-membres-onu, pates-alimentaires, films-americains-annees-1980, fromages-francais, romans-jules-verne
-- 2026-10-22 (j6) : prix-nobel-physique, vins-aoc-france, oeuvres-victor-hugo, albums-rap-francais, patisseries-et-desserts
-- 2026-10-23 (j7) : signes-du-zodiaque, cepages, jeux-de-societe, cours-d-eau-france, series-francaises
-- 2026-10-24 (j8) : rois-des-francs, communes-nouvelle-aquitaine, dinosaures, jeux-video-1998, stations-metro-paris · locale
-- 2026-10-25 (j9) : elements-chimiques, sommets-2000-france, gares-de-france, romans-jules-verne, fromages-francais · moins-consulte
-- 2026-10-26 (j10) : rois-de-france, races-de-chiens, stations-de-ski-france, langages-de-programmation, lunes-systeme-solaire
+- 2026-10-20 (j4) : prix-nobel-litterature, series-francaises, romans-jules-verne, dinosaures, plats-francais
+- 2026-10-21 (j5) : constellations, cepages, films-americains-annees-1980, fromages-francais, mythologie-grecque
+- 2026-10-22 (j6) : prix-nobel-physique, gares-de-france, oeuvres-victor-hugo, marques-automobiles, patisseries-et-desserts
+- 2026-10-23 (j7) : signes-du-zodiaque, pates-alimentaires, races-de-chiens, jeux-video-1998, films-francais-annees-1990
+- 2026-10-24 (j8) : rois-des-francs, communes-nouvelle-aquitaine, lunes-systeme-solaire, langages-de-programmation, stations-de-ski-france · locale
+- 2026-10-25 (j9) : elements-chimiques, cours-d-eau-france, albums-rap-francais, jeux-de-societe, vins-aoc-france · moins-consulte
+- 2026-10-26 (j10) : rois-de-france, sommets-2000-france, stations-metro-paris, pates-alimentaires, films-francais-annees-1990
 - 2026-10-27 (j11) : departements-francais, instruments-de-musique, cols-de-france, oiseaux, peintres-francais-xixe
-- 2026-10-28 (j12) : constellations, plats-francais, mythologie-grecque, films-francais-annees-1990, marques-automobiles
-- 2026-10-29 (j13) : capitales, films-americains-annees-1980, pates-alimentaires, instruments-de-musique, albums-rap-francais
-- 2026-10-30 (j14) : presidents-republique-francaise, oeuvres-victor-hugo, patisseries-et-desserts, vins-aoc-france, films-francais-annees-1990
-- 2026-10-31 (j15) : vainqueurs-tour-de-france, communes-bourgogne-franche-comte, cours-d-eau-france, jeux-de-societe, series-francaises · locale
+- 2026-10-28 (j12) : pays-membres-onu, plats-francais, dinosaures, series-francaises, romans-jules-verne
+- 2026-10-29 (j13) : capitales, mythologie-grecque, films-americains-annees-1980, cepages, fromages-francais
+- 2026-10-30 (j14) : presidents-republique-francaise, oeuvres-victor-hugo, gares-de-france, patisseries-et-desserts, marques-automobiles
+- 2026-10-31 (j15) : vainqueurs-tour-de-france, communes-bourgogne-franche-comte, jeux-video-1998, races-de-chiens, jeux-de-societe · locale
+- 2026-11-01 (j16) : empereurs-romains, langages-de-programmation, lunes-systeme-solaire, stations-de-ski-france, patisseries-et-desserts · moins-consulte
 
 ## Avertissements calendrier
 
-- 2026-10-25 : contrainte de non-répétition relâchée à 0 j
-- 2026-10-25 : contrainte de non-répétition relâchée à 0 j
-- 2026-10-26 : contrainte de non-répétition relâchée à 7 j
-- 2026-10-26 : contrainte de non-répétition relâchée à 7 j
-- 2026-10-26 : contrainte de non-répétition relâchée à 7 j
-- 2026-10-26 : contrainte de non-répétition relâchée à 7 j
+- 2026-10-26 : contrainte de non-répétition relâchée à 0 j
+- 2026-10-26 : contrainte de non-répétition relâchée à 0 j
 - 2026-10-27 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-27 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-27 : contrainte de non-répétition relâchée à 7 j
@@ -415,24 +411,23 @@ Généré le 2026-10-18T15:26:30.768Z. Fenêtre de vues : mois de 2026-09 (dump 
 - 2026-10-28 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-29 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-29 : contrainte de non-répétition relâchée à 7 j
-- 2026-10-29 : contrainte de non-répétition relâchée à 0 j
-- 2026-10-29 : contrainte de non-répétition relâchée à 0 j
+- 2026-10-29 : contrainte de non-répétition relâchée à 7 j
+- 2026-10-29 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-30 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-30 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-30 : contrainte de non-répétition relâchée à 7 j
-- 2026-10-30 : contrainte de non-répétition relâchée à 0 j
+- 2026-10-30 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-31 : contrainte de non-répétition relâchée à 7 j
 - 2026-10-31 : contrainte de non-répétition relâchée à 7 j
-- 2026-10-31 : contrainte de non-répétition relâchée à 7 j
+- 2026-10-31 : contrainte de non-répétition relâchée à 0 j
 - 2026-11-01 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-01 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-01 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-01 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-02 : contrainte de non-répétition relâchée à 14 j
+- 2026-11-01 : contrainte de non-répétition relâchée à 0 j
 - 2026-11-02 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-02 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-02 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-02 : contrainte de non-répétition relâchée à 7 j
+- 2026-11-02 : contrainte de non-répétition relâchée à 0 j
 - 2026-11-03 : contrainte de non-répétition relâchée à 14 j
 - 2026-11-03 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-03 : contrainte de non-répétition relâchée à 7 j
@@ -442,11 +437,16 @@ Généré le 2026-10-18T15:26:30.768Z. Fenêtre de vues : mois de 2026-09 (dump 
 - 2026-11-04 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-04 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-04 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-04 : contrainte de non-répétition relâchée à 0 j
+- 2026-11-04 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-05 : contrainte de non-répétition relâchée à 14 j
 - 2026-11-05 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-05 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-05 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-05 : contrainte de non-répétition relâchée à 0 j
+- 2026-11-05 : contrainte de non-répétition relâchée à 7 j
 - 2026-11-06 : contrainte de non-répétition relâchée à 14 j
+- 2026-11-06 : contrainte de non-répétition relâchée à 7 j
+- 2026-11-06 : contrainte de non-répétition relâchée à 7 j
+- 2026-11-06 : contrainte de non-répétition relâchée à 7 j
+- 2026-11-06 : contrainte de non-répétition relâchée à 7 j
+- 2026-11-07 : contrainte de non-répétition relâchée à 14 j
 - … et 1679 autres
