@@ -1,87 +1,271 @@
 # Obscur — rapport du pipeline
 
-Généré le 2026-11-09T15:27:20.496Z. Fenêtre de vues : mois de 2026-10 (dump pageview_complete).
+Généré le 2026-11-10T08:36:06.163Z. Fenêtre de vues : mois de 2026-10 (dump pageview_complete).
 
 ## Synthèse
 
-- Catégories traitées : 58 / 58
-- Éligibles au calendrier : 58
-- Membres au total : 68158
+- Catégories traitées : 221 / 226 (5 en erreur)
+- Éligibles au calendrier : 221
+- Membres au total : 178512
 - Jours de calendrier produits : 365
-- Avertissements calendrier : 1729 (voir bas de page)
+
+## Erreurs
+
+- **explorateurs** (133 s) : HTTP 504 https://query.wikidata.org/sparql
+- **astronautes** (265 s) : HTTP 429 https://query.wikidata.org/sparql
+- **animes** (133 s) : HTTP 504 https://query.wikidata.org/sparql
+- **tableaux-de-monet** (134 s) : HTTP 504 https://query.wikidata.org/sparql
+- **regions-de-france** (144 s) : HTTP 504 https://query.wikidata.org/sparql
 
 ## Catégories
 
 | id | type | taille | min | retirés | absents | vues min / méd. / max | Fantôme | Confid. | Connu | Grand public | éligible | durée |
 |---|---|---:|---:|---:|---:|---|---:|---:|---:|---:|:---:|---:|
-| fromages-francais | ouverte | 365 | 100 | 5 | 0 | 3 / 124 / 17834 | 39 | 194 | 130 | 2 | ✅ | 40 s |
-| plats-francais | ouverte | 124 | 100 | 0 | 1 | 7 / 435 / 8790 | 1 | 47 | 76 | 0 | ✅ | 4 s |
-| patisseries-et-desserts | ouverte | 151 | 100 | 0 | 1 | 5 / 101 / 3221 | 13 | 100 | 38 | 0 | ✅ | 8 s |
-| pates-alimentaires | ouverte | 177 | 40 | 3 | 0 | 4 / 170 / 5889 | 8 | 102 | 67 | 0 | ✅ | 2 s |
-| cepages | ouverte | 540 | 150 | 3 | 0 | 3 / 35 / 2969 | 163 | 297 | 80 | 0 | ✅ | 6 s |
-| vins-aoc-france | ouverte | 473 | 150 | 1 | 0 | 5 / 154 / 3093 | 25 | 291 | 157 | 0 | ✅ | 37 s |
-| gares-de-france | ouverte | 4637 | 500 | 0 | 0 | 1 / 26 / 3957 | 1338 | 3156 | 143 | 0 | ✅ | 135 s |
-| stations-metro-paris | ouverte | 377 | 250 | 3 | 0 | 43 / 307 / 2018 | 0 | 162 | 215 | 0 | ✅ | 7 s |
-| stations-de-ski-france | ouverte | 218 | 100 | 0 | 0 | 2 / 140 / 6960 | 12 | 123 | 83 | 0 | ✅ | 103 s |
-| cols-de-france | ouverte | 669 | 200 | 0 | 0 | 3 / 32 / 1966 | 182 | 437 | 50 | 0 | ✅ | 104 s |
-| sommets-2000-france | ouverte | 628 | 200 | 0 | 0 | 2 / 33 / 14242 | 173 | 399 | 55 | 1 | ✅ | 9 s |
-| cours-d-eau-france | ouverte | 3719 | 500 | 0 | 4 | 1 / 20 / 10196 | 1539 | 1998 | 182 | 0 | ✅ | 20 s |
-| monuments-historiques-lyon | ouverte (locale) | 91 | 60 | 0 | 0 | 14 / 153 / 4265 | 1 | 62 | 28 | 0 | ✅ | 14 s |
-| stations-metro-lyon | ouverte (locale) | 49 | 30 | 2 | 0 | 66 / 110 / 1856 | 0 | 45 | 4 | 0 | ✅ | 1 s |
-| communes-auvergne-rhone-alpes | ouverte (locale) | 4025 | 1000 | 0 | 0 | 29 / 147 / 34490 | 0 | 3019 | 997 | 9 | ✅ | 33 s |
-| communes-bretagne | ouverte (locale) | 1202 | 500 | 0 | 0 | 38 / 240 / 19643 | 0 | 668 | 530 | 4 | ✅ | 23 s |
-| communes-normandie | ouverte (locale) | 2644 | 1000 | 0 | 0 | 16 / 84 / 22153 | 1 | 2301 | 338 | 4 | ✅ | 64 s |
-| communes-occitanie | ouverte (locale) | 4446 | 1000 | 0 | 0 | 16 / 105 / 30005 | 4 | 3620 | 815 | 7 | ✅ | 95 s |
-| communes-nouvelle-aquitaine | ouverte (locale) | 4296 | 1000 | 0 | 4 | 2 / 105 / 99997 | 3 | 3524 | 760 | 9 | ✅ | 94 s |
-| communes-paca | ouverte (locale) | 946 | 500 | 0 | 0 | 38 / 339 / 30509 | 0 | 414 | 526 | 6 | ✅ | 50 s |
-| communes-hauts-de-france | ouverte (locale) | 3782 | 1000 | 0 | 0 | 12 / 83 / 19714 | 2 | 3278 | 498 | 4 | ✅ | 14 s |
-| communes-grand-est | ouverte (locale) | 5157 | 1000 | 0 | 0 | 14 / 71 / 23240 | 5 | 4641 | 505 | 6 | ✅ | 67 s |
-| communes-pays-de-la-loire | ouverte (locale) | 1228 | 500 | 0 | 0 | 24 / 150 / 27836 | 0 | 895 | 330 | 3 | ✅ | 20 s |
-| communes-ile-de-france | ouverte (locale) | 1265 | 500 | 0 | 0 | 31 / 275 / 62669 | 0 | 632 | 630 | 3 | ✅ | 51 s |
-| communes-centre-val-de-loire | ouverte (locale) | 1754 | 500 | 0 | 0 | 21 / 108 / 25972 | 0 | 1449 | 301 | 4 | ✅ | 45 s |
-| communes-bourgogne-franche-comte | ouverte (locale) | 3685 | 1000 | 0 | 0 | 10 / 75 / 16859 | 5 | 3353 | 323 | 4 | ✅ | 23 s |
-| peintres-francais-xixe | ouverte | 5773 | 1000 | 0 | 7 | 1 / 27 / 41078 | 1594 | 3873 | 294 | 12 | ✅ | 69 s |
-| films-francais-annees-1990 | ouverte | 1703 | 500 | 1 | 2 | 1 / 90 / 60243 | 160 | 1107 | 434 | 2 | ✅ | 60 s |
-| films-americains-annees-1980 | ouverte | 2250 | 500 | 1 | 1 | 1 / 100 / 22613 | 200 | 1432 | 611 | 7 | ✅ | 43 s |
-| series-francaises | ouverte | 2065 | 300 | 0 | 2 | 1 / 274 / 211019 | 28 | 1006 | 997 | 34 | ✅ | 55 s |
-| jeux-video-1998 | ouverte | 518 | 200 | 0 | 3 | 1 / 19 / 9623 | 230 | 264 | 24 | 0 | ✅ | 3 s |
-| albums-rap-francais | ouverte | 586 | 200 | 0 | 1 | 1 / 104 / 3393 | 44 | 407 | 135 | 0 | ✅ | 48 s |
-| jeux-de-societe | ouverte | 578 | 300 | 0 | 1 | 1 / 38 / 8635 | 146 | 355 | 77 | 0 | ✅ | 45 s |
-| instruments-de-musique | ouverte | 409 | 300 | 1 | 1 | 1 / 38 / 8370 | 101 | 267 | 41 | 0 | ✅ | 4 s |
-| langages-de-programmation | ouverte | 528 | 300 | 1 | 1 | 1 / 34 / 21415 | 159 | 303 | 64 | 2 | ✅ | 5 s |
-| marques-automobiles | ouverte | 1207 | 300 | 0 | 3 | 2 / 68 / 34956 | 219 | 700 | 283 | 5 | ✅ | 9 s |
-| oeuvres-victor-hugo | ouverte | 67 | 40 | 0 | 0 | 13 / 325 / 101304 | 1 | 29 | 35 | 2 | ✅ | 5 s |
-| romans-jules-verne | ouverte | 114 | 40 | 0 | 0 | 6 / 129 / 5445 | 10 | 78 | 26 | 0 | ✅ | 6 s |
-| mythologie-grecque | ouverte | 1082 | 300 | 3 | 1 | 1 / 75 / 24740 | 202 | 559 | 313 | 8 | ✅ | 10 s |
-| oiseaux | ouverte | 1094 | 300 | 0 | 5 | 1 / 23 / 21067 | 447 | 458 | 187 | 2 | ✅ | 6 s |
-| races-de-chiens | ouverte | 457 | 200 | 0 | 0 | 1 / 479 / 11364 | 5 | 138 | 313 | 1 | ✅ | 6 s |
-| dinosaures | ouverte | 1196 | 300 | 0 | 1 | 1 / 22 / 6728 | 406 | 740 | 50 | 0 | ✅ | 41 s |
-| lunes-systeme-solaire | ouverte | 288 | 60 | 0 | 0 | 1 / 18 / 11221 | 130 | 142 | 15 | 1 | ✅ | 41 s |
-| rois-de-france | fermee | 30 | 25 | 1 | 0 | 2916 / 15838 / 123230 | 0 | 0 | 9 | 21 | ✅ | 39 s |
-| rois-des-francs | fermee | 59 | 50 | 23 | 0 | 89 / 1651 / 34348 | 0 | 3 | 52 | 4 | ✅ | 2 s |
-| presidents-republique-francaise | fermee | 25 | 20 | 6 | 0 | 3814 / 12033 / 150375 | 0 | 0 | 11 | 14 | ✅ | 4 s |
-| empereurs-romains | fermee | 77 | 50 | 25 | 0 | 36 / 1184 / 22252 | 0 | 10 | 61 | 6 | ✅ | 7 s |
-| papes | fermee | 266 | 150 | 0 | 0 | 93 / 328 / 84203 | 0 | 120 | 138 | 8 | ✅ | 7 s |
-| elements-chimiques | fermee | 118 | 100 | 0 | 0 | 230 / 1343 / 26256 | 0 | 5 | 112 | 1 | ✅ | 7 s |
-| planetes-et-planetes-naines | fermee | 13 | 10 | 0 | 0 | 527 / 6768 / 17747 | 0 | 0 | 12 | 1 | ✅ | 4 s |
-| constellations | fermee | 86 | 80 | 0 | 0 | 117 / 342 / 6212 | 0 | 35 | 51 | 0 | ✅ | 6 s |
-| pays-membres-onu | fermee | 193 | 150 | 0 | 0 | 3624 / 13602 / 190399 | 0 | 0 | 76 | 117 | ✅ | 8 s |
-| capitales | fermee | 198 | 150 | 0 | 0 | 204 / 2643 / 83455 | 0 | 1 | 186 | 11 | ✅ | 11 s |
-| departements-francais | fermee | 101 | 90 | 2 | 0 | 1811 / 7976 / 83455 | 0 | 0 | 83 | 18 | ✅ | 11 s |
-| prix-nobel-litterature | fermee | 122 | 100 | 0 | 0 | 58 / 1302 / 66358 | 0 | 16 | 97 | 9 | ✅ | 10 s |
-| prix-nobel-physique | fermee | 231 | 150 | 0 | 0 | 11 / 100 / 60314 | 3 | 167 | 57 | 4 | ✅ | 8 s |
+| fromages-francais | ouverte | 365 | 100 | 5 | 0 | 3 / 124 / 17834 | 39 | 194 | 130 | 2 | ✅ | 0 s |
+| plats-francais | ouverte | 124 | 100 | 0 | 1 | 7 / 435 / 8790 | 1 | 47 | 76 | 0 | ✅ | 0 s |
+| patisseries-et-desserts | ouverte | 151 | 100 | 0 | 1 | 5 / 101 / 3221 | 13 | 100 | 38 | 0 | ✅ | 0 s |
+| pates-alimentaires | ouverte | 177 | 40 | 3 | 0 | 4 / 170 / 5889 | 8 | 102 | 67 | 0 | ✅ | 0 s |
+| cepages | ouverte | 540 | 150 | 3 | 0 | 3 / 35 / 2969 | 163 | 297 | 80 | 0 | ✅ | 0 s |
+| vins-aoc-france | ouverte | 473 | 150 | 1 | 0 | 5 / 154 / 3093 | 25 | 291 | 157 | 0 | ✅ | 0 s |
+| gares-de-france | ouverte | 4641 | 500 | 0 | 11 | 1 / 24 / 3706 | 1464 | 3051 | 126 | 0 | ✅ | 63 s |
+| stations-metro-paris | ouverte | 377 | 250 | 3 | 0 | 43 / 307 / 2018 | 0 | 162 | 215 | 0 | ✅ | 0 s |
+| stations-de-ski-france | ouverte | 218 | 100 | 0 | 0 | 2 / 140 / 6960 | 12 | 123 | 83 | 0 | ✅ | 0 s |
+| cols-de-france | ouverte | 669 | 200 | 0 | 0 | 3 / 32 / 1966 | 182 | 437 | 50 | 0 | ✅ | 0 s |
+| sommets-2000-france | ouverte | 628 | 200 | 0 | 0 | 2 / 33 / 14242 | 173 | 399 | 55 | 1 | ✅ | 0 s |
+| cours-d-eau-france | ouverte | 3719 | 500 | 0 | 4 | 1 / 20 / 10196 | 1539 | 1998 | 182 | 0 | ✅ | 0 s |
+| monuments-historiques-lyon | ouverte (locale) | 91 | 60 | 0 | 0 | 14 / 153 / 4265 | 1 | 62 | 28 | 0 | ✅ | 0 s |
+| stations-metro-lyon | ouverte (locale) | 49 | 30 | 2 | 0 | 66 / 110 / 1856 | 0 | 45 | 4 | 0 | ✅ | 0 s |
+| communes-auvergne-rhone-alpes | ouverte (locale) | 4025 | 1000 | 0 | 0 | 29 / 147 / 34490 | 0 | 3019 | 997 | 9 | ✅ | 0 s |
+| communes-bretagne | ouverte (locale) | 1202 | 500 | 0 | 0 | 38 / 240 / 19643 | 0 | 668 | 530 | 4 | ✅ | 0 s |
+| communes-normandie | ouverte (locale) | 2644 | 1000 | 0 | 0 | 16 / 84 / 22153 | 1 | 2301 | 338 | 4 | ✅ | 0 s |
+| communes-occitanie | ouverte (locale) | 4446 | 1000 | 0 | 0 | 16 / 105 / 30005 | 4 | 3620 | 815 | 7 | ✅ | 0 s |
+| communes-nouvelle-aquitaine | ouverte (locale) | 4296 | 1000 | 0 | 4 | 2 / 105 / 99997 | 3 | 3524 | 760 | 9 | ✅ | 0 s |
+| communes-paca | ouverte (locale) | 946 | 500 | 0 | 0 | 38 / 339 / 30509 | 0 | 414 | 526 | 6 | ✅ | 0 s |
+| communes-hauts-de-france | ouverte (locale) | 3782 | 1000 | 0 | 0 | 12 / 83 / 19714 | 2 | 3278 | 498 | 4 | ✅ | 0 s |
+| communes-grand-est | ouverte (locale) | 5157 | 1000 | 0 | 0 | 14 / 71 / 23240 | 5 | 4641 | 505 | 6 | ✅ | 0 s |
+| communes-pays-de-la-loire | ouverte (locale) | 1228 | 500 | 0 | 0 | 24 / 150 / 27836 | 0 | 895 | 330 | 3 | ✅ | 0 s |
+| communes-ile-de-france | ouverte (locale) | 1265 | 500 | 0 | 0 | 31 / 275 / 62669 | 0 | 632 | 630 | 3 | ✅ | 0 s |
+| communes-centre-val-de-loire | ouverte (locale) | 1754 | 500 | 0 | 0 | 21 / 108 / 25972 | 0 | 1449 | 301 | 4 | ✅ | 0 s |
+| communes-bourgogne-franche-comte | ouverte (locale) | 3685 | 1000 | 0 | 0 | 10 / 75 / 16859 | 5 | 3353 | 323 | 4 | ✅ | 0 s |
+| peintres-francais-xixe | ouverte | 5773 | 1000 | 0 | 7 | 1 / 27 / 41078 | 1594 | 3873 | 294 | 12 | ✅ | 0 s |
+| films-francais-annees-1990 | ouverte | 1703 | 500 | 1 | 2 | 1 / 90 / 60243 | 160 | 1107 | 434 | 2 | ✅ | 0 s |
+| films-americains-annees-1980 | ouverte | 2250 | 500 | 1 | 1 | 1 / 100 / 22613 | 200 | 1432 | 611 | 7 | ✅ | 0 s |
+| series-francaises | ouverte | 2065 | 300 | 0 | 2 | 1 / 274 / 211019 | 28 | 1006 | 997 | 34 | ✅ | 0 s |
+| jeux-video-1998 | ouverte | 518 | 200 | 0 | 3 | 1 / 19 / 9623 | 230 | 264 | 24 | 0 | ✅ | 0 s |
+| albums-rap-francais | ouverte | 586 | 200 | 0 | 1 | 1 / 104 / 3393 | 44 | 407 | 135 | 0 | ✅ | 0 s |
+| jeux-de-societe | ouverte | 578 | 300 | 0 | 1 | 1 / 38 / 8635 | 146 | 355 | 77 | 0 | ✅ | 0 s |
+| instruments-de-musique | ouverte | 409 | 300 | 1 | 1 | 1 / 38 / 8370 | 101 | 267 | 41 | 0 | ✅ | 0 s |
+| langages-de-programmation | ouverte | 528 | 300 | 1 | 1 | 1 / 34 / 21415 | 159 | 303 | 64 | 2 | ✅ | 0 s |
+| marques-automobiles | ouverte | 1207 | 300 | 0 | 3 | 2 / 68 / 34956 | 219 | 700 | 283 | 5 | ✅ | 0 s |
+| oeuvres-victor-hugo | ouverte | 67 | 40 | 0 | 0 | 13 / 325 / 101304 | 1 | 29 | 35 | 2 | ✅ | 0 s |
+| romans-jules-verne | ouverte | 114 | 40 | 0 | 0 | 6 / 129 / 5445 | 10 | 78 | 26 | 0 | ✅ | 0 s |
+| mythologie-grecque | ouverte | 1082 | 300 | 3 | 1 | 1 / 75 / 24740 | 202 | 559 | 313 | 8 | ✅ | 0 s |
+| oiseaux | ouverte | 1094 | 300 | 0 | 5 | 1 / 23 / 21067 | 447 | 458 | 187 | 2 | ✅ | 0 s |
+| races-de-chiens | ouverte | 457 | 200 | 0 | 0 | 1 / 479 / 11364 | 5 | 138 | 313 | 1 | ✅ | 0 s |
+| dinosaures | ouverte | 1196 | 300 | 0 | 1 | 1 / 22 / 6728 | 406 | 740 | 50 | 0 | ✅ | 0 s |
+| lunes-systeme-solaire | ouverte | 288 | 60 | 0 | 0 | 1 / 18 / 11221 | 130 | 142 | 15 | 1 | ✅ | 0 s |
+| rois-de-france | fermee | 30 | 25 | 1 | 0 | 2916 / 15838 / 123230 | 0 | 0 | 9 | 21 | ✅ | 0 s |
+| rois-des-francs | fermee | 59 | 50 | 23 | 0 | 89 / 1651 / 34348 | 0 | 3 | 52 | 4 | ✅ | 0 s |
+| presidents-republique-francaise | fermee | 25 | 20 | 6 | 0 | 3814 / 12033 / 150375 | 0 | 0 | 11 | 14 | ✅ | 0 s |
+| empereurs-romains | fermee | 77 | 50 | 25 | 0 | 36 / 1184 / 22252 | 0 | 10 | 61 | 6 | ✅ | 0 s |
+| papes | fermee | 266 | 150 | 0 | 0 | 93 / 328 / 84203 | 0 | 120 | 138 | 8 | ✅ | 0 s |
+| elements-chimiques | fermee | 118 | 100 | 0 | 0 | 230 / 1343 / 26256 | 0 | 5 | 112 | 1 | ✅ | 0 s |
+| planetes-et-planetes-naines | fermee | 13 | 10 | 0 | 0 | 527 / 6768 / 17747 | 0 | 0 | 12 | 1 | ✅ | 0 s |
+| constellations | fermee | 86 | 80 | 0 | 0 | 117 / 342 / 6212 | 0 | 35 | 51 | 0 | ✅ | 0 s |
+| pays-membres-onu | fermee | 193 | 150 | 0 | 0 | 3624 / 13602 / 190399 | 0 | 0 | 76 | 117 | ✅ | 0 s |
+| capitales | fermee | 198 | 150 | 0 | 0 | 204 / 2643 / 83455 | 0 | 1 | 186 | 11 | ✅ | 0 s |
+| departements-francais | fermee | 101 | 90 | 2 | 0 | 1811 / 7976 / 83455 | 0 | 0 | 83 | 18 | ✅ | 0 s |
+| prix-nobel-litterature | fermee | 122 | 100 | 0 | 0 | 58 / 1302 / 66358 | 0 | 16 | 97 | 9 | ✅ | 0 s |
+| prix-nobel-physique | fermee | 231 | 150 | 0 | 0 | 11 / 100 / 60314 | 3 | 167 | 57 | 4 | ✅ | 0 s |
 | vainqueurs-tour-de-france | fermee | 64 | 50 | 0 | 0 | 133 / 669 / 17292 | 0 | 10 | 53 | 1 | ✅ | 0 s |
-| signes-du-zodiaque | fermee | 12 | 12 | 1 | 0 | 2874 / 5603 / 8900 | 0 | 0 | 12 | 0 | ✅ | 7 s |
+| signes-du-zodiaque | fermee | 12 | 12 | 1 | 0 | 2874 / 5603 / 8900 | 0 | 0 | 12 | 0 | ✅ | 0 s |
+| sauces | ouverte | 38 | 30 | 0 | 0 | 11 / 246 / 7475 | 3 | 18 | 17 | 0 | ✅ | 4 s |
+| fruits | ouverte | 320 | 120 | 3 | 2 | 1 / 202 / 18256 | 42 | 133 | 144 | 1 | ✅ | 2 s |
+| legumes | ouverte | 373 | 100 | 5 | 8 | 1 / 170 / 13327 | 64 | 149 | 159 | 1 | ✅ | 5 s |
+| champignons-comestibles | ouverte | 175 | 100 | 1 | 0 | 1 / 266 / 20499 | 11 | 77 | 84 | 3 | ✅ | 1 s |
+| varietes-de-pommes | ouverte | 247 | 150 | 2 | 0 | 2 / 28 / 1930 | 89 | 130 | 28 | 0 | ✅ | 2 s |
+| confiseries | ouverte | 286 | 120 | 127 | 0 | 4 / 117 / 5611 | 25 | 163 | 98 | 0 | ✅ | 11 s |
+| cocktails | ouverte | 125 | 100 | 0 | 0 | 3 / 147 / 8731 | 6 | 67 | 52 | 0 | ✅ | 3 s |
+| races-bovines | ouverte | 388 | 250 | 3 | 0 | 5 / 35 / 4300 | 103 | 236 | 49 | 0 | ✅ | 49 s |
+| races-de-chevaux | ouverte | 1412 | 200 | 5 | 6 | 1 / 22 / 3434 | 522 | 799 | 91 | 0 | ✅ | 104 s |
+| races-de-chats | ouverte | 93 | 50 | 0 | 0 | 6 / 501 / 14764 | 1 | 35 | 55 | 2 | ✅ | 3 s |
+| races-de-poules | ouverte | 184 | 100 | 6 | 0 | 5 / 58 / 1622 | 19 | 136 | 29 | 0 | ✅ | 7 s |
+| iles-francaises | ouverte | 1256 | 300 | 0 | 2 | 1 / 22 / 30964 | 524 | 595 | 135 | 2 | ✅ | 8 s |
+| lacs-de-france | ouverte | 974 | 200 | 0 | 0 | 1 / 31 / 7113 | 344 | 527 | 103 | 0 | ✅ | 48 s |
+| phares-de-france | ouverte | 268 | 100 | 0 | 0 | 5 / 77 / 5507 | 10 | 229 | 29 | 0 | ✅ | 3 s |
+| cathedrales-de-france | ouverte | 200 | 100 | 0 | 0 | 8 / 333 / 28821 | 1 | 79 | 119 | 1 | ✅ | 42 s |
+| abbayes-de-france | ouverte | 1112 | 200 | 0 | 0 | 1 / 54 / 5790 | 108 | 879 | 125 | 0 | ✅ | 6 s |
+| chateaux-de-la-loire | ouverte | 87 | 60 | 0 | 0 | 14 / 406 / 11538 | 1 | 37 | 48 | 1 | ✅ | 1 s |
+| chateaux-de-france | ouverte | 7425 | 1000 | 0 | 1 | 1 / 42 / 13653 | 1034 | 5877 | 512 | 2 | ✅ | 72 s |
+| grottes-de-france | ouverte | 438 | 150 | 0 | 2 | 3 / 43 / 24879 | 71 | 323 | 42 | 2 | ✅ | 3 s |
+| volcans | ouverte | 1303 | 500 | 0 | 1 | 1 / 13 / 13624 | 762 | 454 | 85 | 2 | ✅ | 10 s |
+| deserts | ouverte | 130 | 80 | 0 | 0 | 1 / 54 / 6271 | 20 | 76 | 34 | 0 | ✅ | 5 s |
+| iles-grecques | ouverte | 274 | 150 | 0 | 3 | 1 / 19 / 13234 | 131 | 90 | 52 | 1 | ✅ | 46 s |
+| aeroports-de-france | ouverte | 184 | 100 | 0 | 0 | 6 / 135 / 8360 | 23 | 105 | 56 | 0 | ✅ | 44 s |
+| ponts-de-france | ouverte | 1554 | 300 | 0 | 1 | 1 / 31 / 11791 | 438 | 1018 | 97 | 1 | ✅ | 12 s |
+| plus-beaux-villages-de-france | ouverte | 142 | 120 | 1 | 0 | 219 / 808 / 5802 | 0 | 3 | 139 | 0 | ✅ | 1 s |
+| stations-thermales-france | ouverte | 174 | 60 | 1 | 0 | 1 / 303 / 12784 | 15 | 70 | 87 | 2 | ✅ | 9 s |
+| autoroutes-de-france | ouverte | 177 | 60 | 0 | 1 | 2 / 136 / 13882 | 10 | 102 | 64 | 1 | ✅ | 2 s |
+| musees-de-france | ouverte | 2091 | 300 | 0 | 2 | 1 / 53 / 13653 | 322 | 1514 | 253 | 2 | ✅ | 9 s |
+| rues-de-paris | ouverte | 5094 | 1000 | 0 | 0 | 1 / 41 / 11093 | 935 | 3773 | 385 | 1 | ✅ | 65 s |
+| monuments-historiques-paris | ouverte | 918 | 300 | 0 | 0 | 2 / 232 / 68505 | 26 | 487 | 396 | 9 | ✅ | 51 s |
+| etats-disparus | ouverte | 2469 | 300 | 2 | 5 | 1 / 111 / 23817 | 349 | 1328 | 775 | 17 | ✅ | 50 s |
+| monnaies | ouverte | 423 | 200 | 0 | 0 | 1 / 85 / 16565 | 57 | 270 | 95 | 1 | ✅ | 6 s |
+| langues | ouverte | 3450 | 1000 | 0 | 8 | 1 / 12 / 26328 | 2207 | 1125 | 116 | 2 | ✅ | 58 s |
+| communes-corse | ouverte (locale) | 360 | 200 | 0 | 0 | 25 / 118 / 6683 | 0 | 286 | 74 | 0 | ✅ | 8 s |
+| communes-outre-mer | ouverte (locale) | 129 | 80 | 0 | 0 | 111 / 390 / 4854 | 0 | 40 | 89 | 0 | ✅ | 42 s |
+| rues-de-lyon | ouverte (locale) | 403 | 150 | 0 | 0 | 2 / 31 / 531 | 102 | 295 | 6 | 0 | ✅ | 42 s |
+| pharaons | ouverte | 397 | 100 | 0 | 0 | 4 / 66 / 46055 | 66 | 242 | 87 | 2 | ✅ | 6 s |
+| marechaux-de-france | ouverte | 180 | 150 | 0 | 0 | 9 / 193 / 75032 | 7 | 99 | 68 | 6 | ✅ | 4 s |
+| chefs-du-gouvernement-francais | fermee | 34 | 25 | 0 | 0 | 4051 / 15373 / 134708 | 0 | 0 | 14 | 20 | ✅ | 1 s |
+| deputes-de-la-convention | ouverte | 712 | 300 | 2 | 0 | 1 / 16 / 33883 | 364 | 303 | 41 | 4 | ✅ | 5 s |
+| batailles-napoleoniennes | ouverte | 465 | 150 | 41 | 0 | 3 / 78 / 10827 | 28 | 381 | 56 | 0 | ✅ | 10 s |
+| batailles-seconde-guerre-mondiale | ouverte | 957 | 300 | 1 | 0 | 1 / 63 / 83425 | 136 | 661 | 158 | 2 | ✅ | 8 s |
+| reines-de-france | ouverte | 75 | 40 | 1 | 0 | 47 / 935 / 34849 | 0 | 14 | 55 | 6 | ✅ | 6 s |
+| philosophes-grece-antique | ouverte | 291 | 150 | 0 | 0 | 1 / 30 / 17833 | 95 | 144 | 49 | 3 | ✅ | 2 s |
+| films-francais-annees-1970 | ouverte | 1590 | 500 | 2 | 1 | 3 / 114 / 80118 | 95 | 1038 | 448 | 9 | ✅ | 141 s |
+| films-francais-annees-1980 | ouverte | 1613 | 500 | 1 | 1 | 1 / 124 / 80118 | 103 | 1027 | 475 | 8 | ✅ | 140 s |
+| films-francais-annees-2000 | ouverte | 2752 | 500 | 2 | 6 | 1 / 84 / 28573 | 398 | 1641 | 703 | 10 | ✅ | 141 s |
+| films-americains-annees-1970 | ouverte | 1503 | 500 | 5 | 0 | 1 / 70 / 30534 | 176 | 1022 | 300 | 5 | ✅ | 19 s |
+| films-americains-annees-1990 | ouverte | 2910 | 500 | 3 | 1 | 1 / 100 / 34370 | 293 | 1711 | 889 | 17 | ✅ | 22 s |
+| films-d-animation | ouverte | 4297 | 500 | 2 | 5 | 1 / 22 / 27918 | 1887 | 1768 | 636 | 6 | ✅ | 19 s |
+| films-louis-de-funes | ouverte | 151 | 80 | 0 | 0 | 14 / 180 / 60243 | 2 | 92 | 56 | 1 | ✅ | 4 s |
+| films-bourvil | ouverte | 65 | 40 | 0 | 0 | 8 / 447 / 10965 | 3 | 22 | 39 | 1 | ✅ | 1 s |
+| films-jean-gabin | ouverte | 104 | 60 | 0 | 0 | 9 / 560 / 50125 | 3 | 32 | 66 | 3 | ✅ | 2 s |
+| films-belmondo | ouverte | 90 | 50 | 0 | 0 | 14 / 1080 / 41362 | 2 | 21 | 66 | 1 | ✅ | 2 s |
+| films-alain-delon | ouverte | 94 | 50 | 0 | 0 | 10 / 637 / 38215 | 2 | 13 | 77 | 2 | ✅ | 2 s |
+| films-catherine-deneuve | ouverte | 141 | 60 | 0 | 0 | 7 / 383 / 29523 | 3 | 53 | 84 | 1 | ✅ | 3 s |
+| films-hitchcock | ouverte | 58 | 40 | 0 | 0 | 22 / 447 / 54010 | 0 | 26 | 31 | 1 | ✅ | 3 s |
+| films-spielberg | ouverte | 37 | 25 | 0 | 0 | 62 / 2692 / 18029 | 0 | 1 | 35 | 1 | ✅ | 3 s |
+| films-truffaut | ouverte | 22 | 20 | 0 | 0 | 189 / 997 / 6949 | 0 | 1 | 21 | 0 | ✅ | 4 s |
+| films-godard | ouverte | 72 | 40 | 0 | 0 | 11 / 203 / 4634 | 1 | 46 | 25 | 0 | ✅ | 5 s |
+| films-woody-allen | ouverte | 51 | 40 | 0 | 0 | 88 / 303 / 2297 | 0 | 21 | 30 | 0 | ✅ | 5 s |
+| series-americaines | ouverte | 5321 | 500 | 0 | 10 | 1 / 142 / 172711 | 401 | 2926 | 1900 | 94 | ✅ | 106 s |
+| series-d-animation | ouverte | 2488 | 300 | 2 | 2 | 2 / 106 / 19872 | 154 | 1676 | 652 | 6 | ✅ | 51 s |
+| emissions-tv-francaises | ouverte | 729 | 300 | 0 | 0 | 1 / 177 / 72369 | 36 | 405 | 281 | 7 | ✅ | 41 s |
+| jeux-televises-francais | ouverte | 195 | 100 | 0 | 0 | 12 / 142 / 72369 | 2 | 122 | 67 | 4 | ✅ | 4 s |
+| chaines-tv-francaises | ouverte | 222 | 100 | 0 | 1 | 1 / 237 / 59006 | 14 | 113 | 89 | 6 | ✅ | 3 s |
+| radios-francaises | ouverte | 384 | 150 | 0 | 0 | 3 / 59 / 21906 | 58 | 274 | 50 | 2 | ✅ | 3 s |
+| journaux-et-magazines-francais | ouverte | 936 | 300 | 0 | 0 | 1 / 44 / 58299 | 204 | 535 | 192 | 5 | ✅ | 47 s |
+| compositeurs-baroques | ouverte | 1281 | 200 | 2 | 0 | 1 / 16 / 18360 | 655 | 573 | 51 | 2 | ✅ | 58 s |
+| compositeurs-romantiques | ouverte | 2387 | 200 | 5 | 2 | 1 / 16 / 32344 | 1213 | 1018 | 152 | 4 | ✅ | 78 s |
+| fables-de-la-fontaine | ouverte | 264 | 100 | 1 | 0 | 1 / 78 / 7431 | 8 | 216 | 40 | 0 | ✅ | 2 s |
+| nouvelles-de-maupassant | ouverte | 330 | 100 | 0 | 0 | 3 / 54 / 8820 | 35 | 250 | 45 | 0 | ✅ | 3 s |
+| romans-de-simenon | ouverte | 217 | 100 | 0 | 0 | 9 / 65 / 1789 | 15 | 191 | 11 | 0 | ✅ | 2 s |
+| romans-agatha-christie | ouverte | 276 | 40 | 0 | 0 | 5 / 40 / 5930 | 54 | 176 | 46 | 0 | ✅ | 2 s |
+| romans-stephen-king | ouverte | 230 | 40 | 0 | 0 | 8 / 99 / 34094 | 10 | 148 | 71 | 1 | ✅ | 3 s |
+| contes-de-grimm | ouverte | 58 | 40 | 0 | 0 | 14 / 121 / 7157 | 1 | 41 | 16 | 0 | ✅ | 1 s |
+| albums-lucky-luke | ouverte | 85 | 50 | 0 | 0 | 44 / 118 / 339 | 0 | 83 | 2 | 0 | ✅ | 1 s |
+| series-de-bande-dessinee | ouverte | 7291 | 500 | 2 | 88 | 1 / 31 / 24951 | 2284 | 4187 | 810 | 10 | ✅ | 110 s |
+| mangas | ouverte | 2209 | 500 | 1 | 9 | 1 / 59 / 24951 | 384 | 1391 | 426 | 8 | ✅ | 55 s |
+| chansons-edith-piaf | ouverte | 22 | 20 | 1 | 0 | 13 / 262 / 2506 | 1 | 11 | 10 | 0 | ✅ | 11 s |
+| albums-johnny-hallyday | ouverte | 124 | 60 | 0 | 0 | 10 / 89 / 1271 | 3 | 108 | 13 | 0 | ✅ | 116 s |
+| groupes-de-musique-francais | ouverte | 1300 | 300 | 0 | 1 | 1 / 120 / 37166 | 127 | 733 | 430 | 10 | ✅ | 89 s |
+| rappeurs-francais | ouverte | 367 | 300 | 0 | 0 | 16 / 1028 / 75812 | 1 | 72 | 263 | 31 | ✅ | 10 s |
+| humoristes-francais | ouverte | 381 | 300 | 0 | 1 | 2 / 2809 / 86746 | 14 | 62 | 230 | 75 | ✅ | 9 s |
+| genres-musicaux | ouverte | 2258 | 300 | 0 | 0 | 1 / 60 / 7043 | 411 | 1426 | 421 | 0 | ✅ | 10 s |
+| danses | ouverte | 637 | 200 | 0 | 0 | 2 / 53 / 3810 | 123 | 417 | 97 | 0 | ✅ | 7 s |
+| festivals-en-france | ouverte | 849 | 300 | 0 | 0 | 1 / 28 / 4197 | 277 | 516 | 56 | 0 | ✅ | 9 s |
+| tableaux-du-louvre | ouverte | 790 | 200 | 0 | 0 | 1 / 45 / 27605 | 95 | 606 | 86 | 3 | ✅ | 4 s |
+| tableaux-d-orsay | ouverte | 474 | 100 | 0 | 6 | 1 / 54 / 9266 | 35 | 374 | 65 | 0 | ✅ | 3 s |
+| tableaux-de-van-gogh | ouverte | 124 | 100 | 0 | 0 | 7 / 65 / 15642 | 5 | 100 | 18 | 1 | ✅ | 2 s |
+| mouvements-artistiques | ouverte | 479 | 100 | 1 | 0 | 3 / 113 / 14068 | 56 | 278 | 143 | 2 | ✅ | 138 s |
+| personnages-marvel | ouverte | 882 | 300 | 3 | 3 | 1 / 143 / 16951 | 75 | 489 | 315 | 3 | ✅ | 5 s |
+| personnages-disney | ouverte | 299 | 150 | 3 | 4 | 1 / 132 / 11233 | 50 | 145 | 103 | 1 | ✅ | 8 s |
+| personnages-star-wars | ouverte | 72 | 50 | 0 | 0 | 85 / 538 / 6779 | 0 | 10 | 62 | 0 | ✅ | 1 s |
+| personnages-de-tintin | ouverte | 33 | 25 | 1 | 1 | 1 / 179 / 2353 | 6 | 12 | 15 | 0 | ✅ | 0 s |
+| divinites-egyptiennes | ouverte | 252 | 150 | 5 | 0 | 3 / 59 / 9866 | 34 | 167 | 51 | 0 | ✅ | 1 s |
+| mythologie-nordique | ouverte | 143 | 80 | 46 | 0 | 5 / 100 / 6349 | 9 | 101 | 33 | 0 | ✅ | 2 s |
+| jeux-video-1992 | ouverte | 473 | 200 | 0 | 7 | 1 / 14 / 1119 | 268 | 188 | 17 | 0 | ✅ | 1 s |
+| jeux-video-2001 | ouverte | 555 | 200 | 0 | 4 | 1 / 18 / 4385 | 253 | 267 | 35 | 0 | ✅ | 2 s |
+| jeux-video-2007 | ouverte | 604 | 200 | 0 | 13 | 1 / 25 / 13475 | 235 | 328 | 40 | 1 | ✅ | 2 s |
+| jeux-video-mario | ouverte | 159 | 80 | 8 | 0 | 4 / 109 / 4216 | 6 | 106 | 47 | 0 | ✅ | 2 s |
+| jeux-zelda | ouverte | 38 | 25 | 0 | 0 | 3 / 882 / 9623 | 3 | 9 | 26 | 0 | ✅ | 0 s |
+| consoles-de-jeux | ouverte | 276 | 80 | 3 | 0 | 3 / 107 / 12115 | 21 | 161 | 93 | 1 | ✅ | 5 s |
+| jeux-de-cartes | ouverte | 231 | 100 | 0 | 0 | 2 / 138 / 28257 | 24 | 131 | 75 | 1 | ✅ | 111 s |
+| ouvertures-aux-echecs | ouverte | 102 | 80 | 9 | 0 | 7 / 52 / 2142 | 17 | 70 | 15 | 0 | ✅ | 1 s |
+| sports | ouverte | 425 | 300 | 0 | 1 | 2 / 228 / 14178 | 25 | 205 | 192 | 3 | ✅ | 14 s |
+| internationaux-francais-football | ouverte | 1115 | 500 | 0 | 0 | 4 / 114 / 230471 | 114 | 569 | 364 | 68 | ✅ | 4 s |
+| champions-olympiques-francais | ouverte | 425 | 300 | 0 | 0 | 6 / 78 / 18884 | 67 | 237 | 117 | 4 | ✅ | 1 s |
+| clubs-de-football-francais | ouverte | 769 | 300 | 0 | 1 | 1 / 124 / 57416 | 75 | 468 | 217 | 9 | ✅ | 9 s |
+| stades-de-france | ouverte | 377 | 200 | 0 | 0 | 3 / 89 / 21073 | 42 | 240 | 93 | 2 | ✅ | 9 s |
+| pilotes-de-formule-1 | ouverte | 873 | 300 | 0 | 0 | 3 / 43 / 102851 | 217 | 468 | 177 | 11 | ✅ | 12 s |
+| vainqueurs-tour-d-italie | ouverte | 72 | 50 | 0 | 0 | 24 / 298 / 17292 | 0 | 35 | 36 | 1 | ✅ | 1 s |
+| vainqueurs-d-etape-tour-de-france | ouverte | 866 | 300 | 0 | 0 | 4 / 77 / 25194 | 80 | 578 | 206 | 2 | ✅ | 5 s |
+| mammiferes | ouverte | 2807 | 500 | 90 | 527 | 1 / 9 / 65676 | 1689 | 775 | 333 | 10 | ✅ | 57 s |
+| poissons | ouverte | 1559 | 300 | 123 | 312 | 1 / 5 / 6801 | 1104 | 347 | 108 | 0 | ✅ | 53 s |
+| insectes | ouverte | 1779 | 150 | 73 | 312 | 1 / 7 / 11818 | 1190 | 487 | 99 | 3 | ✅ | 51 s |
+| arbres | ouverte | 134 | 120 | 0 | 14 | 1 / 39 / 4633 | 53 | 41 | 40 | 0 | ✅ | 1 s |
+| sondes-spatiales | ouverte | 209 | 80 | 0 | 0 | 5 / 34 / 7118 | 52 | 140 | 17 | 0 | ✅ | 5 s |
+| unites-de-mesure | ouverte | 816 | 200 | 0 | 30 | 1 / 53 / 14570 | 246 | 361 | 208 | 1 | ✅ | 47 s |
+| theoremes | ouverte | 1256 | 300 | 0 | 1 | 1 / 44 / 13227 | 265 | 800 | 190 | 1 | ✅ | 48 s |
+| figures-de-style | ouverte | 175 | 100 | 1 | 0 | 6 / 267 / 8890 | 7 | 82 | 86 | 0 | ✅ | 1 s |
+| locutions-latines | ouverte | 392 | 150 | 2 | 1 | 1 / 155 / 14147 | 30 | 223 | 138 | 1 | ✅ | 1 s |
+| biais-cognitifs | ouverte | 131 | 50 | 0 | 0 | 8 / 134 / 10485 | 4 | 91 | 36 | 0 | ✅ | 0 s |
+| paradoxes | ouverte | 176 | 50 | 1 | 0 | 2 / 123 / 8899 | 20 | 98 | 58 | 0 | ✅ | 40 s |
+| algorithmes | ouverte | 809 | 200 | 0 | 1 | 1 / 53 / 6758 | 173 | 507 | 129 | 0 | ✅ | 4 s |
+| systemes-d-exploitation | ouverte | 662 | 100 | 0 | 0 | 1 / 54 / 6531 | 142 | 405 | 115 | 0 | ✅ | 5 s |
+| distributions-linux | ouverte | 232 | 100 | 0 | 0 | 4 / 42 / 3000 | 56 | 134 | 42 | 0 | ✅ | 5 s |
+| navigateurs-web | ouverte | 92 | 50 | 1 | 0 | 6 / 59 / 14436 | 6 | 65 | 20 | 1 | ✅ | 3 s |
+| polices-d-ecriture | ouverte | 106 | 100 | 0 | 2 | 4 / 25 / 807 | 36 | 64 | 6 | 0 | ✅ | 2 s |
+| couleurs | ouverte | 149 | 100 | 0 | 0 | 1 / 143 / 2826 | 6 | 104 | 39 | 0 | ✅ | 3 s |
+| modeles-peugeot | ouverte | 191 | 60 | 0 | 0 | 5 / 74 / 5675 | 3 | 122 | 66 | 0 | ✅ | 3 s |
+| modeles-renault | ouverte | 170 | 60 | 0 | 0 | 16 / 799 / 7142 | 2 | 55 | 113 | 0 | ✅ | 3 s |
+| modeles-citroen | ouverte | 86 | 50 | 0 | 0 | 13 / 892 / 18723 | 1 | 22 | 62 | 1 | ✅ | 2 s |
+| avions-de-ligne | ouverte | 408 | 200 | 1 | 0 | 3 / 113 / 25630 | 44 | 230 | 131 | 3 | ✅ | 6 s |
+| avions-de-chasse | ouverte | 600 | 300 | 1 | 2 | 2 / 45 / 40912 | 142 | 373 | 83 | 2 | ✅ | 4 s |
+| paquebots | ouverte | 690 | 100 | 0 | 0 | 2 / 42 / 22715 | 137 | 463 | 89 | 1 | ✅ | 5 s |
+| presidents-etats-unis | fermee | 45 | 40 | 0 | 0 | 967 / 3797 / 84044 | 0 | 0 | 31 | 14 | ✅ | 1 s |
+| monarques-anglais-et-britanniques | fermee | 52 | 50 | 0 | 0 | 730 / 5945 / 53159 | 0 | 0 | 37 | 15 | ✅ | 1 s |
+| prix-nobel-chimie | fermee | 200 | 100 | 0 | 0 | 10 / 54 / 60314 | 6 | 162 | 30 | 2 | ✅ | 3 s |
+| prix-nobel-medecine | fermee | 236 | 100 | 0 | 0 | 13 / 64 / 14010 | 3 | 194 | 38 | 1 | ✅ | 5 s |
+| prix-nobel-paix | fermee | 143 | 60 | 1 | 0 | 25 / 513 / 51562 | 0 | 53 | 78 | 12 | ✅ | 5 s |
+| laureats-prix-goncourt | fermee | 123 | 80 | 0 | 0 | 63 / 847 / 30900 | 0 | 35 | 75 | 13 | ✅ | 5 s |
+| ballon-d-or | fermee | 48 | 40 | 0 | 0 | 1389 / 9938 / 686714 | 0 | 0 | 28 | 20 | ✅ | 4 s |
+| champions-du-monde-f1 | fermee | 36 | 30 | 0 | 0 | 437 / 2782 / 102851 | 0 | 0 | 29 | 7 | ✅ | 0 s |
+| champions-du-monde-echecs | fermee | 39 | 30 | 0 | 0 | 7 / 243 / 15691 | 3 | 19 | 15 | 2 | ✅ | 0 s |
+| pieces-de-moliere | fermee | 36 | 25 | 1 | 0 | 17 / 278 / 5404 | 0 | 17 | 19 | 0 | ✅ | 3 s |
+| pieces-de-shakespeare | fermee | 43 | 30 | 0 | 0 | 20 / 276 / 23687 | 0 | 21 | 20 | 2 | ✅ | 1 s |
+| albums-de-tintin | fermee | 26 | 20 | 0 | 0 | 180 / 1214 / 3846 | 0 | 1 | 25 | 0 | ✅ | 0 s |
+| albums-d-asterix | fermee | 42 | 30 | 0 | 0 | 1 / 468 / 1547 | 1 | 0 | 41 | 0 | ✅ | 0 s |
+| albums-studio-des-beatles | fermee | 30 | 20 | 0 | 0 | 37 / 219 / 5268 | 0 | 17 | 13 | 0 | ✅ | 0 s |
+| oscars-du-meilleur-film | fermee | 98 | 80 | 0 | 0 | 97 / 2534 / 84560 | 0 | 10 | 79 | 9 | ✅ | 32 s |
+| palmes-d-or | fermee | 83 | 60 | 0 | 0 | 29 / 1346 / 50981 | 0 | 7 | 73 | 3 | ✅ | 32 s |
+| cesars-du-meilleur-film | fermee | 52 | 40 | 0 | 0 | 297 / 2172 / 16514 | 0 | 0 | 50 | 2 | ✅ | 0 s |
+| etats-des-etats-unis | fermee | 50 | 45 | 0 | 0 | 2229 / 4634 / 12024 | 0 | 0 | 49 | 1 | ✅ | 115 s |
+| pays-union-europeenne | fermee | 27 | 25 | 0 | 0 | 1574 / 17114 / 190399 | 0 | 0 | 3 | 24 | ✅ | 115 s |
+| pays-d-afrique | fermee | 54 | 50 | 0 | 0 | 4075 / 13038 / 138616 | 0 | 0 | 22 | 32 | ✅ | 2 s |
+| pays-d-asie | fermee | 48 | 40 | 0 | 0 | 5024 / 14348 / 143736 | 0 | 0 | 17 | 31 | ✅ | 1 s |
+| pays-d-amerique-du-sud | fermee | 12 | 12 | 0 | 0 | 6791 / 9100 / 54350 | 0 | 0 | 8 | 4 | ✅ | 1 s |
+| cantons-suisses | fermee | 26 | 24 | 0 | 0 | 682 / 1234 / 6705 | 0 | 0 | 26 | 0 | ✅ | 1 s |
+| lander-allemands | fermee | 16 | 15 | 0 | 0 | 540 / 2783 / 10114 | 0 | 0 | 16 | 0 | ✅ | 1 s |
+| communautes-autonomes-espagne | fermee | 16 | 15 | 0 | 0 | 1316 / 2445 / 12549 | 0 | 0 | 14 | 2 | ✅ | 2 s |
+| provinces-et-territoires-canada | fermee | 13 | 12 | 0 | 0 | 2908 / 5701 / 39865 | 0 | 0 | 11 | 2 | ✅ | 2 s |
+| lettres-grecques | fermee | 41 | 24 | 0 | 0 | 8 / 722 / 3244 | 4 | 11 | 26 | 0 | ✅ | 0 s |
 
 ## Avertissements par catégorie
 
-- **gares-de-france** : données du run précédent conservées (4637 membres, instantané 2026-09-30) : HTTP 429 https://query.wikidata.org/sparql
 - **rois-de-france** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **presidents-republique-francaise** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **planetes-et-planetes-naines** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **pays-membres-onu** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **departements-francais** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **signes-du-zodiaque** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **chefs-du-gouvernement-francais** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **presidents-etats-unis** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **monarques-anglais-et-britanniques** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **ballon-d-or** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **champions-du-monde-f1** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **cesars-du-meilleur-film** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **etats-des-etats-unis** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **pays-union-europeenne** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **pays-d-afrique** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **pays-d-asie** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **pays-d-amerique-du-sud** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **cantons-suisses** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **lander-allemands** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **communautes-autonomes-espagne** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **provinces-et-territoires-canada** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 
 ## Aperçu
 
@@ -123,8 +307,9 @@ Généré le 2026-11-09T15:27:20.496Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 ### 🚉 Une gare ferroviaire française (`gares-de-france`)
 
-- Les plus consultés : Gare de Paris-Nord (3957), Gare de Paris-Montparnasse (3198), Gare de Paris-Saint-Lazare (3119), Gare de Metz-Ville (3068), Paris-Gare-de-Lyon (3038)
-- Fantômes (≤ 10 vues) : Gare d'Accolay (10), Gare d'Achy (8), Gare d'Aiglun (9), Gare d'Ainay-le-Vieil (8), Gare d'Airaines (7)
+- Les plus consultés : Gare de Paris-Nord (3706), Gare de Paris-Saint-Lazare (3618), Paris-Gare-de-Lyon (3316), Gare de Limoges-Bénédictins (3276), Gare de Paris-Austerlitz (3203)
+- Fantômes (≤ 10 vues) : Gare d'Accolay (8), Gare d'Achy (8), Gare d'Ailly-sur-Somme (9), Gare d'Airel (10), Gare d'Albigny (10)
+- Absents du dump, retirés (échantillon) : Gare de Presles-et-Thierny, Gare de Nouvion-le-Vineux, Gare de Bruyères-et-Montbérault, Gare de Bousies, Gare d'Étrœungt, Gare de Liencourt, Gare de Saint-Martin-des-Besaces, Station de Trévières
 
 ### 🚇 Une station du métro de Paris (`stations-metro-paris`)
 
@@ -380,73 +565,881 @@ Généré le 2026-11-09T15:27:20.496Z. Fenêtre de vues : mois de 2026-10 (dump 
 - Les plus consultés : Scorpion (astrologie) (8900), Verseau (astrologie) (7607), Capricorne (astrologie) (7420), Sagittaire (astrologie) (6373), Balance (astrologie) (6037)
 - Retirés (échantillon) : Serpentaire (astrologie) [exclu]
 
+### 🥣 Une sauce (`sauces`)
+
+- Les plus consultés : Chimichurri (7475), Sauce hollandaise (2595), Sauce béchamel (2582), Amatriciana (2171), Sauce Mornay (1076)
+
+### 🍎 Un fruit comestible (`fruits`)
+
+- Les plus consultés : Kaki (18256), Feijoa sellowiana (10551), Coing (9170), Annona cherimola (8492), Pitaya (7780)
+- Fantômes (≤ 10 vues) : Acioa guianensis (9), Amélanchier de Fernald (8), Aubletella macoucou (8), Campomanesia aromatica (8), Campomanesia grandiflora (7)
+- Retirés (échantillon) : Liste de fruits comestibles [technique], Liste des espèces d'amélanchiers [technique], Liste des fruits du Brésil [technique]
+- Absents du dump, retirés (échantillon) : Cériman, Yosta
+
+### 🥕 Un légume ou une plante potagère (`legumes`)
+
+- Les plus consultés : Chayote (13327), Doubeurre (10656), Pomme de terre (9674), Échelle de Scoville (9664), Patate douce (9405)
+- Fantômes (≤ 10 vues) : Ail à boule étoilée (1), Ail à fleurs violettes (1), Ail blanc (3), Ail crénelé (5), Ail d'Aflatun (2)
+- Retirés (échantillon) : Liste des plantes potagères recommandées dans le capitulaire De Villis [technique], Liste de légumes [technique], Liste des plantes potagères par familles botaniques [technique], Liste de variétés de piment [technique], Liste de variétés de tomates [technique]
+- Absents du dump, retirés (échantillon) : Chou de Chypre, Ail pourpre, Ail en panicule, Ail strié, Ail de Malte, Ail tacheté, Ail oblique, Ail de Girerd
+
+### 🍄 Un champignon comestible (`champignons-comestibles`)
+
+- Les plus consultés : Macrolepiota procera (20499), Bolet bai (12584), Bolet à pied rouge (11866), Coprin chevelu (8754), Boletus edulis (8688)
+- Fantômes (≤ 10 vues) : Boletochaete bicolor (5), Boletus reticuloceps (10), Cantharellus garnierii (10), Entoloma aprile (6), Tricholoma niveipes (1)
+- Retirés (échantillon) : Liste de champignons comestibles [technique]
+
+### 🍏 Une variété de pomme (`varietes-de-pommes`)
+
+- Les plus consultés : Reinette du Canada (1930), Chantecler (pomme) (1809), Pink Lady (pomme) (1565), Reine des reinettes (1486), Pomme d'api (fruit) (1476)
+- Fantômes (≤ 10 vues) : Ahrista (8), Aldas (10), Angold (9), Bec d'oie (9), Benoni (pomme) (9)
+- Retirés (échantillon) : Liste de variétés de pommes [technique], Liste de cultivars de pommiers domestiques [technique]
+
+### 🍬 Une confiserie ou un bonbon (`confiseries`)
+
+- Les plus consultés : Loukoum (5611), Tête au chocolat (4453), Guimauve (confiserie) (3686), Gâteau de lune (2979), Massepain (2881)
+- Fantômes (≤ 10 vues) : Banque commerciale et agricole de l'Équateur (4), Deuk Deuk Tong (9), Miyagegashi (5), Nói Síríus (9), Plateforme ivoirienne pour le cacao durable (6)
+- Retirés (échantillon) : Carambar [exclu], Kinder [exclu], Milka [exclu], Bamboula [exclu], Snickers [exclu], M&M's [exclu], Maltesers [exclu], Milky Way [exclu]
+
+### 🍸 Un cocktail (`cocktails`)
+
+- Les plus consultés : Porn star martini (8731), Spritz (4927), Pisco sour (4079), Negroni (cocktail) (3571), Margarita (cocktail) (3232)
+- Fantômes (≤ 10 vues) : Aggravation (cocktail) (3), Lyon-Reims (7), Pistón (7)
+
+### 🐄 Une race bovine (`races-bovines`)
+
+- Les plus consultés : Wagyu (4300), Highland (race bovine) (3627), Aberdeen Angus (3336), Aubrac (race bovine) (2301), Zébu (2237)
+- Fantômes (≤ 10 vues) : Arunachali (6), Bœuf tacheté de Hongrie (10), BueLingo (10), Caqueteño (6), Costeño con cuernos (8)
+- Retirés (échantillon) : Liste de races bovines [technique], Liste de races de buffles [technique], Liste de races de yacks [technique]
+
+### 🐎 Une race de cheval (`races-de-chevaux`)
+
+- Les plus consultés : Cheval de Przewalski (3434), Frison (cheval) (2692), Mustang (cheval) (2522), Pottok (2347), Akhal-Teké (2337)
+- Fantômes (≤ 10 vues) : Abtenauer (8), Ack Ack (9), Alaca (cheval) (8), Alexander Goldrun (5), American walking pony (4)
+- Retirés (échantillon) : Liste de races chevalines [technique], Liste de chevaux de course [technique], Liste des races chevalines de France [technique], Liste des races chevalines d'Italie [technique], Liste des races de chevaux japonaises éteintes [technique]
+- Absents du dump, retirés (échantillon) : Sun Goddess, Mihono Bourbon, Cheval du Haut-Ienisseï, Aratel, Arattel, Race de Bulle
+
+### 🐈 Une race de chat (`races-de-chats`)
+
+- Les plus consultés : Maine coon (14764), Ragdoll (11695), Savannah (chat) (9650), British shorthair (8814), Bengal (8732)
+- Fantômes (≤ 10 vues) : Bobtail de Carélie (6)
+
+### 🐔 Une race de poule (`races-de-poules`)
+
+- Les plus consultés : Poule Soie (1622), Brahma (race de poule) (1501), Ross 308 (1273), Marans (poule) (1141), Leghorn (1092)
+- Fantômes (≤ 10 vues) : Noire de Moscou (9), Orava (poule) (6), Poule au long chant (5), Poule de Bohême (6), Poule de Drente (8)
+- Retirés (échantillon) : Liste de races de poules [technique], Liste des races de poules naines [technique], Liste des races de poules européennes [technique], Liste des races de poules asiatiques [technique], Liste des races de poules américaines [technique], Liste des races de poules françaises [technique]
+
+### 🏝️ Une île française (`iles-francaises`)
+
+- Les plus consultés : Île Clipperton (30964), La Réunion (27763), Tahiti (10888), Belle-Île-en-Mer (9548), Île d'Yeu (8384)
+- Fantômes (≤ 10 vues) : Atoll du Portail (9), Banc de Plassac (8), Banc Portland (10), Banya Nord (3), Banya Sud (9)
+- Absents du dump, retirés (échantillon) : Île Koko, Toopua
+
+### 💧 Un lac de France (`lacs-de-france`)
+
+- Les plus consultés : Léman (7113), Lac de Vouglans (6057), Lac de Serre-Ponçon (4997), Lac du Der-Chantecoq (4982), Lac du Bourget (4735)
+- Fantômes (≤ 10 vues) : Barrage de Rioumajou (8), Bassin des Bourguignons (8), Estany de Castellà (4), Estany de L'Esparver (10), Étang Blaou (8)
+
+### 🗼 Un phare français (`phares-de-france`)
+
+- Les plus consultés : Phare d'Ar-Men (5507), Phare de Kéréon (3241), Phare de Cordouan (3056), Phare du Tévennec (2677), Phare de l'île Vierge (2452)
+- Fantômes (≤ 10 vues) : Phare aéronautique du Petit-Bassevelle (9), Phare de la pointe Doublé (10), Phare du port de Plagne (5), Phare du port des Saintes (9)
+
+### ⛪ Une cathédrale de France (`cathedrales-de-france`)
+
+- Les plus consultés : Cathédrale Notre-Dame de Paris (28821), Cathédrale Notre-Dame de Strasbourg (7683), Cathédrale Notre-Dame de Reims (7021), Basilique Saint-Denis (6897), Cathédrale Notre-Dame de Chartres (5153)
+- Fantômes (≤ 10 vues) : Église Saint-Luperc d'Eauze (8)
+
+### 🕍 Une abbaye de France (`abbayes-de-france`)
+
+- Les plus consultés : Abbaye Sainte-Marie de Fontfroide (5790), Abbaye de Cluny (4681), Abbaye de Saint-Germain-des-Prés (3051), Abbaye Notre-Dame de Fontevraud (2964), Abbaye de Cîteaux (2391)
+- Fantômes (≤ 10 vues) : Abbaye de Bons (5), Abbaye de Chantoin (9), Abbaye de Chartreuve (10), Abbaye de Chézoy (6), Abbaye de Crottet (7)
+
+### 🏰 Un château de la Loire (`chateaux-de-la-loire`)
+
+- Les plus consultés : Château de Chambord (11538), Château de Chenonceau (7672), Saint-Aignan (Loir-et-Cher) (4607), Château d'Amboise (3827), Château de Blois (3562)
+
+### 🏯 Un château en France (`chateaux-de-france`)
+
+- Les plus consultés : Château de Versailles (13653), Château de Chambord (11538), Château des Vives-Eaux (9542), Bastille (9513), Château de Vaux-le-Vicomte (7755)
+- Fantômes (≤ 10 vues) : Ancien rendez-vous de chasse des ducs de Rohan (8), Butte du Castel (7), Butte Saint-Clair (6), Castel Huelen (5), Chapelle du château de Kéralio (9)
+- Absents du dump, retirés (échantillon) : Château de Giez
+
+### 🕳️ Une grotte de France (`grottes-de-france`)
+
+- Les plus consultés : Grotte Chauvet (24879), Grotte de Lascaux (14904), Grotte Cosquer (4278), Grotte de Massabielle (3790), Gouffre de Padirac (2708)
+- Fantômes (≤ 10 vues) : Abri Sous-les-Rideaux (6), Chapelle rupestre Saint-Jean-Baptiste (10), Glacière d'Aimargues (3), Grotte d'Antonnaire (9), Grotte de Can Pey (9)
+- Absents du dump, retirés (échantillon) : Grotte de la Ratapignata, Grotte des Grandes Canalettes
+
+### 🌋 Un volcan (`volcans`)
+
+- Les plus consultés : Kilimandjaro (13624), Vésuve (11207), Mont Fuji (10621), Etna (7786), Piton de la Fournaise (6636)
+- Fantômes (≤ 10 vues) : Ådnesøya (4), Æskjeret (3), Aguilera (volcan) (2), Alaïd (4), Alcedo (volcan) (9)
+- Absents du dump, retirés (échantillon) : Monument naturel de Los Ajaches
+
+### 🏜️ Un désert (`deserts`)
+
+- Les plus consultés : Sahara (6271), Désert d'Atacama (4631), Désert de Gobi (4189), Sinaï (3067), Vallée de la Mort (2355)
+- Fantômes (≤ 10 vues) : Bloc culturel du désert occidental (7), Broussailles xériques de San Lucas (5), Désert de Pedirka (10), Désert Strzelecki (10), Déserts de pierres de Tirari et de Sturt (6)
+
+### 🇬🇷 Une île grecque (`iles-grecques`)
+
+- Les plus consultés : Crète (13234), Rhodes (6102), Corfou (5240), Santorin (5041), Ithaque (3496)
+- Fantômes (≤ 10 vues) : Aféndis Christós (10), Agía Kyriakí (Astypalée) (5), Agía Thékla (Pátmos) (3), Agia Varvara (île) (1), Ágios Antónios (Nísyros) (5)
+- Absents du dump, retirés (échantillon) : Kínyra (îlot, Thasos), Tsoungriá, Arkí (Grèce)
+
+### ✈️ Un aéroport français (`aeroports-de-france`)
+
+- Les plus consultés : Aéroport de Paris-Charles-de-Gaulle (8360), Aéroport de Paris-Orly (4394), Aéroport de Lyon-Saint-Exupéry (2513), Aéroport de Nice-Côte d'Azur (2209), Aéroport Marseille-Provence (1746)
+- Fantômes (≤ 10 vues) : Aérodrome de Bélep (6), Aérodrome de Fangatau (8), Aérodrome de Kauehi (10), Aérodrome de Napuka (8), Aérodrome de Niau (8)
+
+### 🌉 Un pont en France (`ponts-de-france`)
+
+- Les plus consultés : Viaduc de Millau (11791), Pont du Gard (7601), Pont de Normandie (5325), Viaduc de Garabit (4967), Pont de Tancarville (3719)
+- Fantômes (≤ 10 vues) : Arche Mauvillain (7), Nouveau pont de la Rivière des Galets (10), Nouveau pont du Bonhomme (1), Passerelle de l'île de la Loge (7), Passerelle de la Côtière (8)
+- Absents du dump, retirés (échantillon) : Vieux pont au Change
+
+### 🏡 Un village classé « Plus Beaux Villages de France » (`plus-beaux-villages-de-france`)
+
+- Les plus consultés : Rocamadour (5802), Collonges-la-Rouge (4777), Saint-Guilhem-le-Désert (4560), Vézelay (4553), Saint-Cirq-Lapopie (3327)
+- Retirés (échantillon) : Liste des localités adhérant au réseau Les Plus Beaux Villages de France [technique]
+
+### ♨️ Une station thermale française (`stations-thermales-france`)
+
+- Les plus consultés : Aix-en-Provence (12784), Vichy (12681), Lons-le-Saunier (7459), Dax (6745), Rochefort (Charente-Maritime) (6409)
+- Fantômes (≤ 10 vues) : 15e étape du Tour de France 1935 (9), Chambre de commerce et d'industrie des Alpes-de-Haute-Provence (4), Chapelle Saint-Jérôme d'Ax-les-Thermes (7), Digne (Alpes-de-Haute-Provence) (3), Maison de retraite de Plombières-les-Bains (9)
+- Retirés (échantillon) : Liste des stations thermales françaises [technique]
+
+### 🛣️ Une autoroute française (`autoroutes-de-france`)
+
+- Les plus consultés : Autoroute A69 (France) (13882), Autoroute A40 (France) (9248), Autoroute A412 (France) (5630), Autoroute A13 (France) (2998), Autoroute A14 (France) (2538)
+- Fantômes (≤ 10 vues) : Autoroute A186 (France) (5), Autoroute A211 (France) (8), Autoroute A400 (France) (4), Autoroute A516 (France) (5), Autoroute A631 (France) (8)
+- Absents du dump, retirés (échantillon) : Section Artenay-Courtenay de l'autoroute A19
+
+### 🖼️ Un musée en France (`musees-de-france`)
+
+- Les plus consultés : Château de Versailles (13653), Musée du Louvre (11803), Catacombes de Paris (9541), Musée d'Orsay (8130), Château de Fontainebleau (6048)
+- Fantômes (≤ 10 vues) : Art42 (4), Association Azzedine Alaïa (3), Atelier-musée du textile (9), Cabinet des Tableaux du roi (10), Castanea, Espace découverte de la châtaigne d'Ardèche (8)
+- Absents du dump, retirés (échantillon) : Musée de l’info et de la presse, Historial Charles-de-Gaulle
+
+### 🚏 Une rue de Paris (`rues-de-paris`)
+
+- Les plus consultés : Villa Montmorency (11093), Avenue des Champs-Élysées (8306), Boulevards des Maréchaux (5998), Quai des Orfèvres (4919), Rue Barbet-de-Jouy (4023)
+- Fantômes (≤ 10 vues) : Allée Alexandre-Vialatte (2), Allée Andrée-Jacob (8), Allée Avril-de-Sainte-Croix (8), Allée Blaise-Cendrars (5), Allée Celestino-Alfonso (4)
+
+### 🏛️ Un monument historique de Paris (`monuments-historiques-paris`)
+
+- Les plus consultés : Marché des Enfants-Rouges (68505), Tour Eiffel (37599), Cathédrale Notre-Dame de Paris (28821), Monument à la République (17457), Panthéon (Paris) (15289)
+- Fantômes (≤ 10 vues) : Chapelle de l'hôpital Laennec (2), Hôtel de Claude Trutat (7), Hôtel du 28 rue Geoffroy-l'Asnier (7), Maison Trouard (8), Regard de la Chambrette (6)
+
+### 🏳️ Un État disparu (`etats-disparus`)
+
+- Les plus consultés : Empire ottoman (23817), Union des républiques socialistes soviétiques (23565), Empire byzantin (21852), Régime de Vichy (21745), Saint-Empire romain germanique (19303)
+- Fantômes (≤ 10 vues) : Amb (9), Athgarh (4), Baghal (8), Baghat (3), Bamra (4)
+- Retirés (échantillon) : Liste des seigneurs de Béarn [technique], Liste des comtes et vicomtes de Corbeil [technique]
+- Absents du dump, retirés (échantillon) : Ikikoku, Principauté de Castrioti, Royaume de Porto-novo, État de Chhota Udaipur, Miraj Junior
+
+### 💱 Une monnaie (actuelle ou ancienne) (`monnaies`)
+
+- Les plus consultés : Euro (16565), Dollar américain (8560), Franc CFA (6113), Bitcoin (5394), Yuan (3491)
+- Fantômes (≤ 10 vues) : Aes rude (8), Agontano (3), Basilikon (7), Biatec (9), Dollar de l'Île-du-Prince-Édouard (9)
+
+### 🗣️ Une langue (`langues`)
+
+- Les plus consultés : Français (26328), Anglais (12987), Arabe (9669), Latin (9400), Grec ancien (6787)
+- Fantômes (≤ 10 vues) : 'Auhelawa (5), A'ou de Hongfeng (7), Abadi (langue) (9), Adiya (9), Aïki (4)
+- Absents du dump, retirés (échantillon) : Bwenyi, Kallahan keley-i, Lawunuia, Likum, Sangil, Tangga, Baram (langue), Nung (langue)
+
+### 🏘️ Une commune de Corse (`communes-corse`)
+
+- Les plus consultés : Ajaccio (6683), Bastia (4397), Corte (3610), Bonifacio (3173), Calvi (2605)
+
+### 🌴 Une commune d'outre-mer (`communes-outre-mer`)
+
+- Les plus consultés : Cayenne (4854), Saint-Denis (La Réunion) (3885), Fort-de-France (3840), Pointe-à-Pitre (3774), Baie-Mahault (2392)
+
+### 🚏 Une rue de Lyon (`rues-de-lyon`)
+
+- Les plus consultés : Rue de la République (Lyon) (531), Avenue Berthelot (Lyon) (429), Rue Mercière (Lyon) (423), Rue du Président-Édouard-Herriot (313), Rue Victor-Hugo (Lyon) (300)
+- Fantômes (≤ 10 vues) : Allée Eugénie-Niboyet (8), Allée Flora-Tristan (10), Impasse Beauregard (8), Impasse du Bon-Pasteur (7), Impasse Patay (6)
+
+### ⚱️ Un pharaon (`pharaons`)
+
+- Les plus consultés : Cléopâtre VII (46055), Alexandre le Grand (24912), Ramsès II (10392), Toutânkhamon (10068), Néfertiti (8923)
+- Fantômes (≤ 10 vues) : Âanati (6), Âanati-Har (9), Ânkhkarê (7), Aper-Anat (8), Djadjay (10)
+
+### 🎖️ Un maréchal de France (`marechaux-de-france`)
+
+- Les plus consultés : Philippe Leclerc de Hauteclocque (75032), Pierre Kœnig (52015), Philippe Pétain (51875), Gilles de Rais (13750), Patrice de Mac Mahon (12033)
+- Fantômes (≤ 10 vues) : Jean IV de Beaumont (9)
+
+### 🏛️ Un Premier ministre français (`chefs-du-gouvernement-francais`)
+
+- Les plus consultés : Dominique de Villepin (134708), Édouard Philippe (130375), Charles de Gaulle (117265), Gabriel Attal (110650), Sébastien Lecornu (108006)
+
+### 📜 Un député de la Convention nationale (`deputes-de-la-convention`)
+
+- Les plus consultés : Maximilien de Robespierre (33883), Joseph Lakanal (21688), Georges Jacques Danton (11639), Jean-Paul Marat (11052), Nicolas de Condorcet (7932)
+- Fantômes (≤ 10 vues) : Albert Sallengros (10), Alexandre Edme David-Delisle (4), Alexandre Legot (9), Alexandre-Jean Ruault (9), Alexis Joseph Vermon (6)
+- Retirés (échantillon) : Liste des membres de la Convention nationale par département [technique], Liste des membres de la Convention nationale [technique]
+
+### ⚔️ Une bataille des guerres napoléoniennes (`batailles-napoleoniennes`)
+
+- Les plus consultés : Bataille d'Austerlitz (10827), Bataille de Trafalgar (9198), Bataille d'Iéna (5426), Bataille de la Bérézina (4244), Bataille de Leipzig (1813) (3747)
+- Fantômes (≤ 10 vues) : Bataille de Pfaffenhofen (1809) (4), Bataille de Sandöström (9), Bataille de Waidring (9), Bataille du Suriname (7), Combat de Bruneval (3)
+- Retirés (échantillon) : Bataille de Rocquencourt [exclu], Ordre de bataille des armées aux Quatre-Bras [exclu], Ordre de bataille de la bataille de Trafalgar [exclu], Ordre de bataille lors de la bataille de Claye [exclu], Ordre de bataille lors de la bataille de Montmirail [exclu], Ordre de bataille lors de la bataille de Vauchamps [exclu], Ordre de bataille lors de la bataille de Saalfeld [exclu], Ordre de bataille lors de la bataille d'Iéna [exclu]
+
+### 💥 Une bataille de la Seconde Guerre mondiale (`batailles-seconde-guerre-mondiale`)
+
+- Les plus consultés : Bataille de Bir Hakeim (83425), Attaque de Mers el-Kébir (12094), Attaque de Pearl Harbor (10646), Débarquement de Normandie (10105), Bataille de Stalingrad (9493)
+- Fantômes (≤ 10 vues) : Action du 14 février 1944 (10), Action du 26 juin 1941 (6), Action du 27 février 1941 (10), Bataille d'Oivi-Gorari (9), Bataille d'Oktwin (10)
+- Retirés (échantillon) : Liste des navires de l'US Navy impliqués dans la bataille de Guadalcanal [technique]
+
+### 👸 Une reine de France (`reines-de-france`)
+
+- Les plus consultés : Marie-Antoinette d'Autriche (34849), Catherine de Médicis (26539), Aliénor d'Aquitaine (24311), Marie Stuart (17086), Anne de Bretagne (14222)
+- Retirés (échantillon) : Liste des reines et impératrices de France [technique]
+
+### 🏺 Un philosophe de la Grèce antique (`philosophes-grece-antique`)
+
+- Les plus consultés : Socrate (17833), Aristote (16392), Platon (15653), Pythagore (10819), Diogène de Sinope (10198)
+- Fantômes (≤ 10 vues) : Agallis de Corcyre (9), Alcimos (10), Amyntas d'Héraclée (7), Annicéris (8), Antipatros de Cyrène (8)
+
+### 🎬 Un film français des années 1970 (`films-francais-annees-1970`)
+
+- Les plus consultés : Cadavres exquis (80118), Police Python 357 (68536), Les Aventures de Rabbi Jacob (60243), Les Mariés de l'an II (41362), Z (film, 1969) (18356)
+- Fantômes (≤ 10 vues) : 500 Grammes de foie de veau (6), A. Constant (9), Allégorie (film, 1974) (9), Caméra (film) (8), Ciné Follies (10)
+- Retirés (échantillon) : Sarabande porno [bloque], Le Journal d'un suicidé [bloque]
+- Absents du dump, retirés (échantillon) : La Mort du grand-père ou le Sommeil du juste
+
+### 🎬 Un film français des années 1980 (`films-francais-annees-1980`)
+
+- Les plus consultés : Cadavres exquis (80118), Police Python 357 (68536), Les Aventures de Rabbi Jacob (60243), Monsieur Hire (48603), Papy fait de la résistance (19438)
+- Fantômes (≤ 10 vues) : Au Père Lachaise (10), Au-delà du souvenir (1), Bertrand disparu (10), Bisbille (7), Brûler les planches (9)
+- Retirés (échantillon) : Liste noire (film, 1984) [technique]
+- Absents du dump, retirés (échantillon) : Le Grand Chemin (film, 1987)
+
+### 🎬 Un film français des années 2000 (`films-francais-annees-2000`)
+
+- Les plus consultés : Sur mes lèvres (28573), 36 quai des Orfèvres (film) (20525), Cette femme-là (19077), 1492 : Christophe Colomb (16932), Une affaire privée (film, 2002) (15360)
+- Fantômes (≤ 10 vues) : … Et tremble d'être heureux (9), 40 Milligrammes d'amour par jour (6), 40 x 15 (9), 57000 kilomètres entre nous (8), À corps défendant (2)
+- Retirés (échantillon) : Une liaison pornographique [bloque], Mutantes (Féminisme Porno Punk) [bloque]
+- Absents du dump, retirés (échantillon) : Angkor, la forêt de pierre, Darwin et la science de l'évolution (documentaire), Les cités perdues des Mayas (documentaire), All About "The Birds", Xiao Jia rentre à la maison, 11'09"01 - September 11
+
+### 🎥 Un film américain des années 1970 (`films-americains-annees-1970`)
+
+- Les plus consultés : The Rocky Horror Picture Show (30534), Les Hommes du président (film) (29058), Le Parrain (film) (26411), Carrie au bal du diable (25855), Le Parrain, 2e partie (16041)
+- Fantômes (≤ 10 vues) : A Man, a Woman, and a Killer (10), Alaska Wilderness Lake (3), Always a New Beginning (3), Antonia: A Portrait of the Woman (1), Arab Israeli Dialogue (7)
+- Retirés (échantillon) : Escadrilles suicide [bloque], Alice in Wonderland: A Musical Porno [bloque], The Gore Gore Girls [bloque], Furies porno [bloque], The Wizard of Gore [bloque]
+
+### 🎥 Un film américain des années 1990 (`films-americains-annees-1990`)
+
+- Les plus consultés : Usual Suspects (34370), The Game (film) (32588), Braveheart (26714), Misery (film) (24962), Le Silence des agneaux (film) (21049)
+- Fantômes (≤ 10 vues) : 100 contre 1 (10), A Fish in the Bathtub (10), A Great Day in Harlem (film) (9), À la recherche de mon fils (9), A Pirate Anthology Treasure (4)
+- Retirés (échantillon) : Suicide Club (film, 1997) [bloque], Suicide Kings [bloque], The World's Biggest Gang Bang III – The Houston 620 [bloque]
+- Absents du dump, retirés (échantillon) : Ironclads (film)
+
+### 🧞 Un film d'animation (`films-d-animation`)
+
+- Les plus consultés : Le Corset (27918), L'Étrange Noël de monsieur Jack (18400), Coraline (film) (12812), Les Noces funèbres (12330), L'Île des souvenirs (11090)
+- Fantômes (≤ 10 vues) : .hack//Liminality (4), (Fool Time) Job (9), A Cartoonist's Nightmare (6), À chacun son crooner (10), A Coy Decoy (7)
+- Retirés (échantillon) : The Suicide Sheik [bloque], Suicide Squad : Le Prix de l'enfer [bloque]
+- Absents du dump, retirés (échantillon) : Bestia (court métrage), Tchebourachka 2, L'Harmonica de verre, Armored Trooper VOTOMS, Le Nez ou la Conspiration des non-conformistes
+
+### 🤪 Un film avec Louis de Funès (`films-louis-de-funes`)
+
+- Les plus consultés : Les Aventures de Rabbi Jacob (60243), L'Aile ou la Cuisse (9269), La Soupe aux choux (film) (8229), La Grande Vadrouille (7109), La Folie des grandeurs (6422)
+
+### 🎩 Un film avec Bourvil (`films-bourvil`)
+
+- Les plus consultés : Les Misérables (film, 1958) (10965), La Grande Vadrouille (7109), Le Cercle rouge (4073), Le Corniaud (3766), Le Jour le plus long (3712)
+- Fantômes (≤ 10 vues) : Le Bal du comité de défense (8), Reflets du temps passé (8), Studio en folies (9)
+
+### 🚬 Un film avec Jean Gabin (`films-jean-gabin`)
+
+- Les plus consultés : Maigret voit rouge (50125), Mélodie en sous-sol (38215), Les Misérables (film, 1958) (10965), Un singe en hiver (film) (4218), Monsieur (film, 1964) (4198)
+- Fantômes (≤ 10 vues) : Ciné Follies (10), Die schönen Tage von Aranjuez (9)
+
+### 🥊 Un film avec Jean-Paul Belmondo (`films-belmondo`)
+
+- Les plus consultés : Les Mariés de l'an II (41362), Les Misérables (film, 1995) (6401), À bout de souffle (4634), Le Professionnel (4538), Un singe en hiver (film) (4218)
+
+### 🕶️ Un film avec Alain Delon (`films-alain-delon`)
+
+- Les plus consultés : Mélodie en sous-sol (38215), La Piscine (film) (14105), Le Guépard (film) (5341), Le Cercle rouge (4073), Le Clan des Siciliens (3873)
+- Fantômes (≤ 10 vues) : Cannes... les 400 coups (10)
+
+### ☂️ Un film avec Catherine Deneuve (`films-catherine-deneuve`)
+
+- Les plus consultés : Potiche (film) (29523), Au plus près du paradis (8647), Forty Love (7231), Les Demoiselles de Rochefort (5856), Peau d'Âne (film, 1970) (5286)
+- Fantômes (≤ 10 vues) : Danielle Darrieux, une vie de cinéma (7)
+
+### 🐦‍⬛ Un film d'Alfred Hitchcock (`films-hitchcock`)
+
+- Les plus consultés : La Maison du docteur Edwardes (54010), Psychose (film) (10366), La Mort aux trousses (9260), Fenêtre sur cour (5412), Rebecca (film, 1940) (5412)
+
+### 🦈 Un film de Steven Spielberg (`films-spielberg`)
+
+- Les plus consultés : Disclosure Day (18029), Jurassic Park (9758), La Liste de Schindler (8326), Il faut sauver le soldat Ryan (7671), Les Dents de la mer (6276)
+
+### 🎞️ Un film de François Truffaut (`films-truffaut`)
+
+- Les plus consultés : Jules et Jim (film) (6949), Les Quatre Cents Coups (3405), Le Dernier Métro (2051), La Nuit américaine (film) (1836), L'Enfant sauvage (1697)
+
+### 📽️ Un film de Jean-Luc Godard (`films-godard`)
+
+- Les plus consultés : À bout de souffle (4634), Le Mépris (film) (2731), Pierrot le Fou (2524), Deux ou trois choses que je sais d'elle (2256), La Chinoise (1315)
+
+### 🎷 Un film de Woody Allen (`films-woody-allen`)
+
+- Les plus consultés : Match Point (2297), Coup de chance (1922), Minuit à Paris (1838), Annie Hall (1640), Vicky Cristina Barcelona (1538)
+
+### 📺 Une série télévisée américaine (`series-americaines`)
+
+- Les plus consultés : À l'est d'Éden (mini-série) (172711), Crystal Lake (série télévisée) (69919), The Rookie : Le Flic de Los Angeles (64456), Ghosts : Fantômes à la maison (59401), MobLand (50584)
+- Fantômes (≤ 10 vues) : 100 contre 1 (10), ABC Weekend Specials (10), All About Lizzie (9), All-New Dennis the Menace (6), Alone Together (série télévisée) (8)
+- Absents du dump, retirés (échantillon) : Nathan for You, La Vie secrète des épouses mormones, Chocolat amer (série télévisée), Orgueil et Préjugés (mini-série, 2026), The Chair Company, Nocturne (série télévisée), Le Peuple contre Gorilla Grodd, The Red Line (série télévisée)
+
+### 🐭 Une série télévisée d'animation (`series-d-animation`)
+
+- Les plus consultés : PAW Patrol : La Pat' Patrouille (19872), Signé Cat's Eyes (série télévisée d'animation, 1983) (17007), Cyberpunk: Edgerunners (14390), South Park (13604), Avatar, le dernier maître de l'air (12682)
+- Fantômes (≤ 10 vues) : .hack//Liminality (4), .hack//Roots (4), .hack//SIGN (2), All-New Dennis the Menace (6), Aquarion Logos (9)
+- Retirés (échantillon) : Suicide Squad Isekai [bloque], Liste des épisodes de Goku no daibōken [technique]
+- Absents du dump, retirés (échantillon) : Ren & Stimpy "Adult Party Cartoon", Armored Trooper VOTOMS
+
+### 🎙️ Une émission de télévision française (`emissions-tv-francaises`)
+
+- Les plus consultés : N'oubliez pas les paroles ! (72369), Les Douze Coups de midi (55459), Koh-Lanta (35941), Cauchemar en cuisine (France) (12702), L'Heure de vérité (12438)
+- Fantômes (≤ 10 vues) : 24 h Jérusalem (10), 26 minutes de célébrité (7), Authentik Aventures (7), Belles et Rebelles (9), Bienvenue aux mariés (5)
+
+### 🎰 Un jeu télévisé français (`jeux-televises-francais`)
+
+- Les plus consultés : N'oubliez pas les paroles ! (72369), Les Douze Coups de midi (55459), Wanted : Attrape-moi si tu peux ! (25512), Masters de N'oubliez pas les paroles ! (15902), Tout le monde veut prendre sa place (10486)
+
+### 📡 Une chaîne de télévision française (`chaines-tv-francaises`)
+
+- Les plus consultés : Arte (59006), France 24 (35984), CNews (25559), BFM TV (23233), Euronews (12928)
+- Fantômes (≤ 10 vues) : France 3 Estuaire (6), MCM 2 (Chaîne de Télévision) (1), Ouatch (10), SFR Sport 5 (4), Télémante (9)
+- Absents du dump, retirés (échantillon) : ATV (chaîne de télévision)
+
+### 📻 Une station de radio française (`radios-francaises`)
+
+- Les plus consultés : France Inter (21906), Radio Nova (France) (14497), RTL (10803), Radio France internationale (9331), Ici et Maintenant ! (8782)
+- Fantômes (≤ 10 vues) : Be Bop (radio) (10), Couleurs FM (8), FMT 95.2 programme Europe 2 (9), Gapeau FM (10), Lens Info (4)
+
+### 📰 Un journal ou un magazine français (`journaux-et-magazines-francais`)
+
+- Les plus consultés : Mediapart (58299), Le Monde (25066), Le Figaro (21834), Frontières (média) (13007), Libération (journal) (12995)
+- Fantômes (≤ 10 vues) : Abeille du Bugey et du pays de Gex (10), Acquisition et interaction en langue étrangère (10), Alsic (6), Amérique latine histoire et mémoire (4), Andastan (6)
+
+### 🎼 Un compositeur de la période baroque (`compositeurs-baroques`)
+
+- Les plus consultés : Jean-Sébastien Bach (18360), Antonio Vivaldi (13355), Georg Friedrich Haendel (5925), Jean-Baptiste Lully (5790), Jean-Philippe Rameau (3547)
+- Fantômes (≤ 10 vues) : (1814) Bach (6), (3826) Handel (5), (4040) Purcell (7), (4246) Telemann (5), (4330) Vivaldi (3)
+- Retirés (échantillon) : Liste de compositeurs de la période baroque [technique], Liste de compositeurs anglais de l'époque baroque [technique]
+
+### 🎻 Un compositeur de la période romantique (`compositeurs-romantiques`)
+
+- Les plus consultés : George Sand (32344), Frédéric Chopin (22552), Ludwig van Beethoven (16521), Louis II (roi de Bavière) (11090), Richard Wagner (9713)
+- Fantômes (≤ 10 vues) : (1059) Mussorgskia (4), (10820) Offenbach (6), (1815) Beethoven (8), (1818) Brahms (10), (2047) Smetana (9)
+- Retirés (échantillon) : Liste des œuvres d'Hector Berlioz [technique], Tentative de suicide de Piotr Tchaïkovski [bloque], Liste des œuvres d'Antonín Dvořák [technique], Liste des œuvres de Marie Jaëll [technique], Liste de compositeurs de la période romantique [technique]
+- Absents du dump, retirés (échantillon) : Franz von Blon, Johann Heinrich Beck
+
+### 🦊 Une fable de La Fontaine (`fables-de-la-fontaine`)
+
+- Les plus consultés : Le Corbeau et le Renard (7431), La Cigale et la Fourmi (La Fontaine) (5870), Fables de La Fontaine (5626), Les Animaux malades de la peste (3209), Le Loup et l'Agneau (3045)
+- Fantômes (≤ 10 vues) : Les Lapins (1), Les Poissons et le Berger qui joue de la flûte (8)
+- Retirés (échantillon) : Liste des Fables de La Fontaine [technique]
+
+### 🪶 Une œuvre de Maupassant (`nouvelles-de-maupassant`)
+
+- Les plus consultés : Le Horla (8820), Bel-Ami (6546), Boule de Suif (4459), La Parure (4042), Une vie (Maupassant) (2731)
+- Fantômes (≤ 10 vues) : Cri d'alarme (10), Étrennes (nouvelle) (10), Le Bûcher (10), Le Remplaçant (nouvelle) (10), Les 25 Francs de la supérieure (8)
+
+### 🪤 Une œuvre de Georges Simenon (`romans-de-simenon`)
+
+- Les plus consultés : Les Fiançailles de monsieur Hire (1789), Maigret, Lognon et les Gangsters (1066), Maigret et les Vieillards (1003), Le Chien jaune (906), L'Affaire Saint-Fiacre (488)
+- Fantômes (≤ 10 vues) : Je suis resté un enfant de chœur (10), Les Petits Hommes (Simenon) (10), Quand vient le froid (9)
+
+### 🔍 Une œuvre d'Agatha Christie (`romans-agatha-christie`)
+
+- Les plus consultés : Ils étaient dix (5930), Le Crime de l'Orient-Express (2736), Les Sept Cadrans (1849), Mort sur le Nil (1617), Le Meurtre de Roger Ackroyd (1548)
+- Fantômes (≤ 10 vues) : Alibi irréfutable (9), Avez-vous tout ce que vous voulez ? (5), Colin-maillard (nouvelle) (7), Dead Man's Mirror and Other Stories (10), L'Affaire du sinistre étranger (10)
+
+### 🎈 Une œuvre de Stephen King (`romans-stephen-king`)
+
+- Les plus consultés : Carrie (roman) (34094), Ça (roman) (4778), Le Fléau (roman) (4117), Misery (roman) (3381), Shining, l'enfant lumière (3255)
+- Fantômes (≤ 10 vues) : Night Visions 5 (8), Pourquoi nous étions au Vietnam (8)
+
+### 📖 Un conte des frères Grimm (`contes-de-grimm`)
+
+- Les plus consultés : Rumplestiltskin (personnage) (7157), Le Petit Chaperon rouge (6238), Hansel et Gretel (5090), La Belle au bois dormant (4975), Le Joueur de flûte de Hamelin (4890)
+
+### 🤠 Un album de Lucky Luke (`albums-lucky-luke`)
+
+- Les plus consultés : Ma Dalton (339), L'Homme qui tua Lucky Luke (305), Un cow-boy sous pression (272), Les Rivaux de Painful Gulch (271), Les Cousins Dalton (265)
+
+### 💬 Une série de bande dessinée (`series-de-bande-dessinee`)
+
+- Les plus consultés : One Piece (24951), L'Attaque des Titans (23088), Cat's Eye (19815), Black Clover (19773), Naruto (16830)
+- Fantômes (≤ 10 vues) : ...Courent dans la montagne (2), .hack//Alcor (1), .hack//G.U.+ (3), .hack//Legend of the Twilight (5), .hack//Link (1)
+- Retirés (échantillon) : Suicide Island [bloque], À gore et à cris [bloque]
+- Absents du dump, retirés (échantillon) : I"s, Coup de génie (Léonard), Ultimate Spider-Man (2024), Ultimate X-Men (2024), Les premières amours difficiles d'Akira Momose, Zombie Sagashitemasu, Elle est moche !, Full métal casquette
+
+### 🇯🇵 Un manga (`mangas`)
+
+- Les plus consultés : One Piece (24951), L'Attaque des Titans (23088), Cat's Eye (19815), Black Clover (19773), Naruto (16830)
+- Fantômes (≤ 10 vues) : .hack//Alcor (1), .hack//G.U.+ (3), .hack//Legend of the Twilight (5), .hack//Link (1), .hack//XXXX (3)
+- Retirés (échantillon) : Suicide Island [bloque]
+- Absents du dump, retirés (échantillon) : I"s, Les premières amours difficiles d'Akira Momose, Zombie Sagashitemasu, Cage (manga), Le Rakugo ou la Vie, Kirarin Revolution : Kirari to akarihen, Kirarin Revolution : Tokubetsuhen, Mujirushi ou le Signe des rêves
+
+### 🌹 Une chanson interprétée par Édith Piaf (`chansons-edith-piaf`)
+
+- Les plus consultés : Hymne à l'amour (2506), La Vie en rose (2271), Sous le ciel de Paris (chanson) (1193), La Foule (chanson) (1157), Non, je ne regrette rien (1149)
+- Retirés (échantillon) : Liste des chansons d'Édith Piaf [technique]
+
+### 🎸 Un album de Johnny Hallyday (`albums-johnny-hallyday`)
+
+- Les plus consultés : Gang (album) (1271), Sang pour sang (album) (630), Rock'n'Roll Attitude (487), Hamlet (album de Johnny Hallyday) (468), Mon pays c'est l'amour (411)
+- Fantômes (≤ 10 vues) : Faces à faces (10)
+
+### 🎶 Un groupe de musique français (`groupes-de-musique-francais`)
+
+- Les plus consultés : Bigflo et Oli (37166), Indochine (groupe) (30548), Videoclub (21694), PNL (groupe) (17387), Daft Punk (17131)
+- Fantômes (≤ 10 vues) : (Life Is a) Dead End (8), Aching Beauty (9), Archemia (7), Aubert'n'Ko (2), Aubertignac (7)
+- Absents du dump, retirés (échantillon) : Warside (groupe français)
+
+### 🎤 Un rappeur ou une rappeuse française (`rappeurs-francais`)
+
+- Les plus consultés : Prince Waly (75812), MB14 (65042), Orelsan (33021), Aya Nakamura (26104), Diam's (25692)
+
+### 😂 Un ou une humoriste française (`humoristes-francais`)
+
+- Les plus consultés : Éric Judor (86746), Omar Sy (80458), Cyril Hanouna (73155), Thierry Lhermitte (66719), Louis de Funès (60834)
+- Fantômes (≤ 10 vues) : Arsène Brivot (9), Charles-Edme Vernet (8), Corinne Fleurot (7), François Hus (10), Hamid Lourari (2)
+- Absents du dump, retirés (échantillon) : Jessé (acteur)
+
+### 🎵 Un genre musical (`genres-musicaux`)
+
+- Les plus consultés : Musique de la période classique (7043), Rap (6478), K-pop (5693), Jazz (4448), Pop (musique) (4134)
+- Fantômes (≤ 10 vues) : Abhang (9), Achigs d'Azerbaïdjan (6), Avant-punk (10), Bakkashot (9), Bantu groove (1)
+
+### 💃 Une danse (`danses`)
+
+- Les plus consultés : Flamenco (3810), Striptease (3654), Tecktonik (3163), Capoeira (2966), Tango (danse) (2802)
+- Fantômes (≤ 10 vues) : Abbots Bromley Horn Dance (8), Akiu no Taue Odori (7), Al-Bar'ah (9), Angama (îles Ryūkyū) (9), Anglesse (10)
+
+### 🎪 Un festival en France (`festivals-en-france`)
+
+- Les plus consultés : Festival de Cannes (4197), Hellfest (4182), Fête de l'Humanité (2692), Fête des Lumières (Lyon) (2137), Festival des Vieilles Charrues (2009)
+- Fantômes (≤ 10 vues) : Atlantide, les mots du monde (7), Automne Musical de Nîmes (10), Biennale Artifices (8), Biennale de design graphique d'Échirolles (4), Biennale de l'environnement (6)
+
+### 🖼️ Un tableau exposé au Louvre (`tableaux-du-louvre`)
+
+- Les plus consultés : La Joconde (27605), La Liberté guidant le peuple (24094), Le Radeau de la Méduse (15613), Le Sacre de Napoléon (8491), Les Noces de Cana (Véronèse) (4550)
+- Fantômes (≤ 10 vues) : Adoration de l'Enfant, avec les instruments de la Passion (10), Athalie interrogeant Joas (1747) (10), Étalon arabe (8), Femme épouillant un enfant (8), Jeune Saint avec une épée (9)
+
+### 🕰️ Un tableau du musée d'Orsay (`tableaux-d-orsay`)
+
+- Les plus consultés : L'Origine du monde (9266), Le Déjeuner sur l'herbe (6862), Un enterrement à Ornans (4160), Bal du moulin de la Galette (Renoir) (3103), Des glaneuses (3090)
+- Fantômes (≤ 10 vues) : Ambroise Vollard (musée d'Orsay) (5), La Sœur aînée (Tissot) (10), Moisson au bord de la mer (10), Mon oncle et mes deux cousines (10), Portrait de monsieur Alexandre Natanson (8)
+- Absents du dump, retirés (échantillon) : Portrait de Mme G.L., Roger Boutet de Monvel au molosse, Deux Danseuses (Paris), Job (Bonnat), L'Enfance de Sixte-Quint, La Pâleur du véritable amour
+
+### 🌻 Un tableau de Vincent van Gogh (`tableaux-de-van-gogh`)
+
+- Les plus consultés : La Nuit étoilée (1889) (15642), La Nuit étoilée (1888) (2778), Autoportrait à l'oreille bandée (2517), Autoportrait à l'oreille bandée et à la pipe (2309), Terrasse du café le soir (2214)
+- Fantômes (≤ 10 vues) : Les Bateaux amarrés (7)
+
+### 🖌️ Un mouvement artistique (`mouvements-artistiques`)
+
+- Les plus consultés : Renaissance (14068), Impressionnisme (14038), Expressionnisme abstrait (10640), Romantisme (8814), Art nouveau (8031)
+- Fantômes (≤ 10 vues) : Actionnisme moscovite (8), Aka-e (10), Art équitable (10), Benizuri-e (9), Black Speculative Arts Movement (7)
+- Retirés (échantillon) : Mouvement d'Art Porno [bloque]
+
+### 🦸 Un personnage de Marvel Comics (`personnages-marvel`)
+
+- Les plus consultés : Jean Grey (16951), Docteur Fatalis (13909), Spider-Man (13836), Paladin (Marvel Comics) (8502), Sorcière rouge (7711)
+- Fantômes (≤ 10 vues) : Anneau de la liberté (7), Antithèses (5), Astra (Shi'ar) (4), Barnacle (comics) (7), Batragon (1)
+- Retirés (échantillon) : Liste des membres des équipes de X-Men [technique], Liste des membres des équipes de Vengeurs [technique], Liste des démons de l'univers Marvel [technique]
+- Absents du dump, retirés (échantillon) : Melloncamp, Starbolt, Sidewinder (comics)
+
+### 🏰 Un personnage Disney (`personnages-disney`)
+
+- Les plus consultés : Winnie l'ourson (11233), Jean sans Terre (8549), Mickey Mouse (4892), Balthazar Picsou (3454), Flash McQueen (3124)
+- Fantômes (≤ 10 vues) : 0.0. Duck (1), Abner Duck (8), Barnabé Duck (8), Belle Couac (1), Bichou Duck (4)
+- Retirés (échantillon) : Liste des personnages de l'univers de Donald Duck [technique], Liste des personnages de La Bande à Picsou [technique], Liste des méchants de Disney [technique]
+- Absents du dump, retirés (échantillon) : Gretchen Gribiche, Sancho Pacha, Thomas Duckis, Buckaroo Duck
+
+### ⭐ Un personnage de Star Wars (`personnages-star-wars`)
+
+- Les plus consultés : Anakin Skywalker (6779), Obi-Wan Kenobi (3473), Padmé Amidala (2926), Leia Organa (2812), Grogu (2512)
+
+### 🐶 Un personnage de Tintin (`personnages-de-tintin`)
+
+- Les plus consultés : Capitaine Haddock (2353), Dupond et Dupont (2145), Professeur Tournesol (2074), Tintin (personnage) (1618), Bianca Castafiore (1193)
+- Fantômes (≤ 10 vues) : Capitaine Chester (1), Chiquito (personnage) (3), Colonel Diaz (3), Ranko (Tintin) (2), Sponsz (2)
+- Retirés (échantillon) : Liste des personnages des Aventures de Tintin [technique]
+- Absents du dump, retirés (échantillon) : Rodriguez (Tintin)
+
+### 🌞 Une divinité égyptienne (`divinites-egyptiennes`)
+
+- Les plus consultés : Osiris (9866), Isis (6839), Horus (5573), Anubis (5101), Seth (4245)
+- Fantômes (≤ 10 vues) : Akhti (7), Anhor (9), Harphrê (4), Hor-Khonsou (10), Ihet (9)
+- Retirés (échantillon) : Liste de divinités égyptiennes par famille [technique], Liste de divinités égyptiennes par ville [technique], Liste de divinités égyptiennes par ordre alphabétique [technique], Liste de divinités égyptiennes par animal [technique], Liste de divinités égyptiennes par symbole [technique]
+
+### ⚡ Un personnage de la mythologie nordique (`mythologie-nordique`)
+
+- Les plus consultés : Odin (6349), Loki (4581), Valkyrie (4224), Freyja (3641), Thor (3596)
+- Fantômes (≤ 10 vues) : Gjálp et Greip (6), Harthgrepa (5), Hildólf (10), Ítreksjóð (5)
+- Retirés (échantillon) : Liste des jötnar [technique], Liste des noms d'Odin [technique], Liste des noms de Thor [technique], (240) Vanadis [exclu], (299) Thora [exclu], (328) Gudrun [exclu], (351) Yrsa [exclu], (76) Freia [exclu]
+
+### 👾 Un jeu vidéo sorti en 1992 (`jeux-video-1992`)
+
+- Les plus consultés : Alone in the Dark (jeu vidéo, 1992) (1119), Super Mario Kart (1085), Adibou (jeu vidéo) (911), Wolfenstein 3D (701), Final Fantasy V (553)
+- Fantômes (≤ 10 vues) : A Ressha de Ikō MD (9), A-Train III (7), Aguri Suzuki F-1 Super Driving (6), Air Bucks (5), Air Force Commander (5)
+- Absents du dump, retirés (échantillon) : Chase H.Q. II, Evander Holyfield's "Real Deal" Boxing, Wagyan Land 3, Batter Up (jeu vidéo), Shinseiki GPX Cyber Formula (Game Boy), Soreike! Anpanman: Minna de Hiking Game!, Dangerous Dave Returns
+
+### 🎮 Un jeu vidéo sorti en 2001 (`jeux-video-2001`)
+
+- Les plus consultés : Grand Theft Auto III (4385), Silent Hill 2 (3071), Final Fantasy X (1589), Halo: Combat Evolved (1112), RuneScape (921)
+- Fantômes (≤ 10 vues) : 911 Fire Rescue (7), Age of Sail II (5), Air Ranger: Rescue Helicopter (10), Alien Front Online (6), Alienators: Evolution Continues (jeu vidéo) (9)
+- Absents du dump, retirés (échantillon) : Golden Tee Classic, Jurassic Park III: Dino Defender, Barbie: Beach Vacation, Benjamin Blümchen: Ein verrueckter Tag im Zoo
+
+### 🕹️ Un jeu vidéo sorti en 2007 (`jeux-video-2007`)
+
+- Les plus consultés : Call of Duty 4: Modern Warfare (13475), Dragon Ball Z: Budokai Tenkaichi 3 (3799), BioShock (jeu vidéo) (2279), Assassin's Creed (jeu vidéo) (1971), The Witcher (jeu vidéo) (1718)
+- Fantômes (≤ 10 vues) : 1914 Shells of Fury (6), 7 Wonders II (4), 7 Wonders of the Ancient World (3), 8Ball Allstars (10), À prendre ou à laisser (jeu vidéo, 2007) (4)
+- Absents du dump, retirés (échantillon) : Platinum Sudoku, Charlotte aux fraises : Le Gâteau des quatre saisons, Golden Tee 2008 Unplugged, Golden Tee Live 2007, Negima!? Chō Mahora Taisen Chū: Checkiin Zenin Shūgō! Yappari Onsen Kichaimashitaa, .hack//G.U. vol. 3//Redemption, .hack//G.U. Last Recode, Reggie Bush Pro Football 2007
+
+### 🍄 Un jeu vidéo Mario (`jeux-video-mario`)
+
+- Les plus consultés : Super Mario (4216), Super Mario Bros. (2568), Super Mario 64 (1377), Super Mario Odyssey (1321), Mario Bros. (1124)
+- Fantômes (≤ 10 vues) : Mario's Early Years! Preschool Fun (8), Photos with Mario (8), Puzzle and Dragons: Super Mario Bros. Edition (4), Yoshi no Cookie: Kuruppon Oven de Cookie (7)
+- Retirés (échantillon) : Wario [exclu], Waluigi [exclu], Liste de jeux vidéo Wario [technique], Liste de jeux vidéo Mario [technique], Liste des séries télévisées Mario [technique], Yoshi [exclu], Liste de jeux vidéo Yoshi [technique], Luigi [exclu]
+
+### 🗡️ Un jeu The Legend of Zelda (`jeux-zelda`)
+
+- Les plus consultés : The Legend of Zelda: Ocarina of Time (9623), The Legend of Zelda: Breath of the Wild (4276), The Legend of Zelda: Tears of the Kingdom (3525), The Legend of Zelda: Ocarina of Time (jeu vidéo, 2026) (2773), The Legend of Zelda: Majora's Mask (2550)
+- Fantômes (≤ 10 vues) : Hyrule Warriors Legends (10), The Legend of Zelda: Four Swords Anniversary Edition (3), The Legend of Zelda: Ocarina of Time / Master Quest (3)
+
+### 🎮 Une console de jeux vidéo (`consoles-de-jeux`)
+
+- Les plus consultés : PlayStation 5 (12115), PlayStation (7702), PlayStation 4 (6853), PlayStation 3 (6749), PlayStation 2 (6603)
+- Fantômes (≤ 10 vues) : Ameprod TVG-10 (3), C64 Direct-to-TV (10), Intellivoice (5), Jeu TV portable (8), Media Go (7)
+- Retirés (échantillon) : Liste de consoles de jeux vidéo [technique], Liste de jeux vidéo annulés sur Game Boy Advance [technique], Liste des consoles de jeux vidéo Sega [technique]
+
+### 🃏 Un jeu de cartes (`jeux-de-cartes`)
+
+- Les plus consultés : WikiMasters (28257), Blackjack (jeu) (9282), Rami (6690), Dutch (jeu de cartes) (5441), Scopa (jeu de cartes) (4927)
+- Fantômes (≤ 10 vues) : .hack//ENEMY (2), 5e édition de Magic : L'Assemblée (10), Horus Heresy (jeu de cartes) (5), Kaldheim (8), Les Rues de la Nouvelle-Capenna (7)
+
+### ♟️ Une ouverture aux échecs (`ouvertures-aux-echecs`)
+
+- Les plus consultés : Système de Londres (2142), Défense Caro-Kann (1749), Défense française (1706), Ouverture (échecs) (1344), Défense Benoni (1193)
+- Fantômes (≤ 10 vues) : Défense Balogh (9), Défense Carr (8), Défense Clarendon Court (10), Défense Döry (9), Défense Dzindzi-indienne (8)
+- Retirés (échantillon) : Liste des ouvertures d'échecs suivant le code ECO [technique], Liste des ouvertures d'échecs suivant l'ex-code informateur [technique], Liste des ouvertures d'échecs suivant le code ECO (volume A) [technique], Liste des ouvertures d'échecs suivant le code ECO (volume B) [technique], Liste des ouvertures d'échecs suivant le code ECO (volume C) [technique], Liste des ouvertures d'échecs suivant le code ECO (volume D) [technique], Liste des ouvertures d'échecs suivant le code ECO (volume E) [technique], Liste des ouvertures d'échecs suivant le code New In Chess [technique]
+
+### 🤸 Un sport (`sports`)
+
+- Les plus consultés : Football (14178), Pickleball (11960), Arts martiaux mixtes (11671), Padel (9383), Échecs (8635)
+- Fantômes (≤ 10 vues) : Chun Kuk Do (2), Gulech (8), Kayti (6), Plongeon synchronisé (2), Sports d'eaux vives (10)
+- Absents du dump, retirés (échantillon) : Marathon (activité)
+
+### ⚽ Un footballeur ou une footballeuse internationale française (`internationaux-francais-football`)
+
+- Les plus consultés : Michael Olise (230471), Kylian Mbappé (207765), Zinédine Zidane (125815), Désiré Doué (100280), Jean-Pierre Papin (88256)
+- Fantômes (≤ 10 vues) : Angèle Mei (10), Corinne Lagache (9), Élodie Jacq (8), Fabienne Bentejac (6), Félix Pozo (10)
+
+### 🥇 Un champion ou une championne olympique française (`champions-olympiques-francais`)
+
+- Les plus consultés : Teddy Riner (18884), Antoine Dupont (15735), Michel Bensoussan (14327), Amaury Leveaux (11738), Guillaume Cizeron (10678)
+- Fantômes (≤ 10 vues) : André Labatut (10), André Lesauvage (6), Bernard Gravier (8), Charles Collignon (8), Chrétien Waydelich (8)
+
+### 🏟️ Un club de football français (`clubs-de-football-francais`)
+
+- Les plus consultés : Paris Saint-Germain Football Club (57416), Équipe de France de football (39814), Football Club des Girondins de Bordeaux (25094), Olympique de Marseille (23611), Red Star Football Club (16203)
+- Fantômes (≤ 10 vues) : AS Prix-lès-Mézières (6), ASPTT Mâcon (1), Association omnisports Javouhey de Mana (7), Association sportive Baume-les-Dames (féminines) (10), Association sportive Foot Les Verchers-Saint-Georges-sur-Layon (6)
+- Absents du dump, retirés (échantillon) : Union sportive de Charnay
+
+### 🏟️ Un stade en France (`stades-de-france`)
+
+- Les plus consultés : Plenitude Arena (21073), Stade de France (11212), Stade Vélodrome (5831), Stade Bauer (4269), Parc Olympique lyonnais (3507)
+- Fantômes (≤ 10 vues) : Arènes André-Ladouès (10), Arènes de Beauvoisin (10), Arènes de Castries (8), Arènes de Gabarret (7), Arènes de Montaut (Landes) (10)
+
+### 🏎️ Un pilote de Formule 1 (`pilotes-de-formule-1`)
+
+- Les plus consultés : Michael Schumacher (102851), Lewis Hamilton (36252), Kimi Antonelli (34786), Max Verstappen (30628), Paul Belmondo (pilote automobile) (26423)
+- Fantômes (≤ 10 vues) : Alan Rollinson (10), Alberto Crespo (8), Alberto Uria (10), Alex Blignaut (7), Alfredo Piàn (3)
+
+### 🚴 Un vainqueur du Tour d'Italie (`vainqueurs-tour-d-italie`)
+
+- Les plus consultés : Tadej Pogačar (17292), Laurent Fignon (7832), Jacques Anquetil (6568), Bernard Hinault (6318), Primož Roglič (6208)
+
+### 🚵 Un vainqueur d'étape du Tour de France (`vainqueurs-d-etape-tour-de-france`)
+
+- Les plus consultés : Remco Evenepoel (25194), Tadej Pogačar (17292), Ángel Arroyo (7967), Laurent Fignon (7832), Julian Alaphilippe (7669)
+- Fantômes (≤ 10 vues) : Aldo Parecchini (10), Bernard Van Rysselberghe (9), Camille Van De Casteele (8), Eugenio Gestri (10), Heinz Wengler (9)
+
+### 🦌 Un mammifère (nom vernaculaire) (`mammiferes`)
+
+- Les plus consultés : Lion (65676), Koala (57302), Ratel (15867), Ornithorynque (15823), Hydrochoerus hydrochaeris (15791)
+- Fantômes (≤ 10 vues) : Acouchi commun (5), Acouchi de Buffon (1), Acrobate (animal) (1), Agouti à points (4), Agouti de l'île de Coiba (8)
+- Retirés (échantillon) : Tenrec [exclu], Musaraigne [exclu], Hérisson [exclu], Vespertilion [exclu], Roussette (mammifère) [exclu], Campagnol [exclu], Liste des noms vernaculaires de rongeurs [technique], Écureuil volant [exclu]
+- Absents du dump, retirés (échantillon) : Otarie d'Afrique du Sud, Ours de mer, Éléphant des forêts, Lion de Ceylan, Pétrogale d'Australie occidentale, Pétrogale de Sharman, Pétrogale Proserpine, Lechwe
+
+### 🐟 Un poisson (nom vernaculaire) (`poissons`)
+
+- Les plus consultés : Mégalodon (6801), Requin du Groenland (6408), Sériole couronnée (6229), Aiglefin (6182), Môle (poisson) (5177)
+- Fantômes (≤ 10 vues) : Abadèche rosée (3), Abadèche royale du Cap (3), Able commun (1), Ablette commune (1), Ablette de lacs (1)
+- Retirés (échantillon) : Rouget [exclu], Baudroie [exclu], Grondin (poisson) [exclu], Saint-pierre [exclu], Rascasse [exclu], Pastenague [exclu], Truite [exclu], Saumon [exclu]
+- Absents du dump, retirés (échantillon) : Poisson gendarme, Loup denticulé, Castagnole fauchoir, Bourrugue, Mérou de Méditerranée, Poisson paradis, Poisson perroquet bicolore, Perroquet feuille morte
+
+### 🐞 Un insecte (nom vernaculaire) (`insectes`)
+
+- Les plus consultés : Poisson d'argent (11818), Mante religieuse (11304), Fourmi (11186), Moro-sphinx (8111), Gendarme (insecte) (6553)
+- Fantômes (≤ 10 vues) : Abeille d'eau (4), Abeille maçonne à poils roux (1), Acidalie blanchâtre (2), Acidalie chétive (2), Acidalie décorée (1)
+- Retirés (échantillon) : Coléoptère bombardier [exclu], Mouche à merde [exclu], Mouche [exclu], Sauterelle (insecte) [exclu], Rhynchite [exclu], Guêpe [exclu], Mite [exclu], Sauteriau [exclu]
+- Absents du dump, retirés (échantillon) : Zoraptère, Gryllotalpidés, Orthétrum brun, Diplacodes de Lefebvre, Mantispe de Styrie, Mantispe païen, Fourmilion longicorne, Osmyle à tête jaune
+
+### 🌳 Un arbre (nom vernaculaire) (`arbres`)
+
+- Les plus consultés : Asiminier trilobé (4633), Cognassier (4546), Mangoustanier (3869), Chêne pédonculé (3815), Cédratier (3409)
+- Fantômes (≤ 10 vues) : Arbre à fromages (1), Arbre bombardier (2), Bancoulier (10), Bignay (arbre) (1), Bois de fer de Bornéo (1)
+- Absents du dump, retirés (échantillon) : Pangi (plante), Prunier de Guinée, Graine roche, Cèdre Sam, Magnolia de Delavay, Camphrier du Népal, Alep (arbre), Néflier de Guyane
+
+### 🛰️ Une sonde spatiale (`sondes-spatiales`)
+
+- Les plus consultés : Voyager 1 (7118), Martian Moons Exploration (4195), Voyager 2 (2244), Rosetta (sonde spatiale) (1325), New Horizons (1021)
+- Fantômes (≤ 10 vues) : Argo (sonde spatiale) (9), Cosmos 419 (9), Cosmos 96 (8), Jupiter Magnetospheric Orbiter (7), Luna 11 (9)
+
+### 📏 Une unité de mesure (`unites-de-mesure`)
+
+- Les plus consultés : Pi (14570), Âge du bronze (6860), Vitesse de la lumière (5473), 1 (nombre) (5064), Degré Fahrenheit (4596)
+- Fantômes (≤ 10 vues) : Abcoulomb (6), Abhenry (5), Ampère mètre carré (3), Attolitre (3), Biot (unité) (4)
+- Absents du dump, retirés (échantillon) : Zebibit, Gibibit, Kiloseconde, Gigabit par seconde, Nanocoulomb, Microfarad, Kiloohm, Mégaohm
+
+### 📐 Un théorème mathématique (`theoremes`)
+
+- Les plus consultés : Théorème de Thalès (13227), Théorème de Pythagore (8563), Conjecture de Poincaré (4067), Dernier théorème de Fermat (3140), Théorèmes d'incomplétude de Gödel (3123)
+- Fantômes (≤ 10 vues) : Axiome du choix global (9), Borne de Chapman-Robbins (5), Borne de Hamming (4), Borne du singleton (1), Cercle de Lester (9)
+- Absents du dump, retirés (échantillon) : Théorème de Gallai
+
+### ✒️ Une figure de style (`figures-de-style`)
+
+- Les plus consultés : Synesthésie (8890), Métonymie (6393), Oxymore (5830), Antonomase (5741), Figure de style (3720)
+- Fantômes (≤ 10 vues) : Dialyse (rhétorique) (10), Noème (rhétorique) (8), Orthopia (6)
+- Retirés (échantillon) : Liste des figures de style [technique]
+
+### 🏺 Une locution latine (`locutions-latines`)
+
+- Les plus consultés : Lorem ipsum (14147), Memento mori (5395), Cogito ergo sum (4565), Carpe diem (3880), Ex-voto (3849)
+- Fantômes (≤ 10 vues) : Actori incumbit probatio (8), Ave Caesar morituri te salutant (5), Bona fide (5), Centenarium (10), Extra moenia (10)
+- Retirés (échantillon) : Liste de locutions latines [technique], Liste des noms de familles de plantes avec étymologies [technique]
+- Absents du dump, retirés (échantillon) : Nemo jus ignorare censetur
+
+### 🧠 Un biais cognitif (`biais-cognitifs`)
+
+- Les plus consultés : Effet Dunning-Kruger (10485), Biais cognitif (6971), Dissonance cognitive (3779), Effet Barnum (2842), Biais des survivants (2205)
+- Fantômes (≤ 10 vues) : Biais de ratio (8)
+
+### 🔄 Un paradoxe (`paradoxes`)
+
+- Les plus consultés : Chat de Schrödinger (8899), Sophisme (6530), Paradoxe de Fermi (5227), Paradoxes de Zénon (3386), Aporie (2452)
+- Fantômes (≤ 10 vues) : Ami de Wigner (4), Cube irrationnel (4), Effet de Yule-Simpson (10), La Machine lente du temps (9), Malédiction des matières premières (2)
+- Retirés (échantillon) : Liste de paradoxes [technique]
+
+### 🧮 Un algorithme (`algorithmes`)
+
+- Les plus consultés : Rasoir d'Ockham (6758), Bitcoin (5394), MP3 (3781), Méthode de Monte-Carlo (3137), Algorithme de Dijkstra (2869)
+- Fantômes (≤ 10 vues) : Accumulateur (cryptographie) (7), Akelarre (cryptographie) (7), Algorithme d'Apostolico-Giancarlo (5), Algorithme de Baeza-Yates-Gonnet (10), Algorithme de Berlekamp-Zassenhaus (9)
+- Absents du dump, retirés (échantillon) : AdaGrad
+
+### 💽 Un système d'exploitation (`systemes-d-exploitation`)
+
+- Les plus consultés : Android (6531), MacOS (5629), Microsoft Windows (5387), IOS 27 (5177), Windows 11 (3460)
+- Fantômes (≤ 10 vues) : *BSD (3), Adamantix (9), Agnula (4), Android Things (9), Ångström distribution (8)
+
+### 🐧 Une distribution Linux (`distributions-linux`)
+
+- Les plus consultés : Ubuntu (système d'exploitation) (3000), GendBuntu (2999), Linux Mint (2909), GrapheneOS (2771), Debian (2174)
+- Fantômes (≤ 10 vues) : Adamantix (9), Agnula (4), Ångström distribution (8), Anonym.OS (5), Augustux (4)
+
+### 🌐 Un navigateur web (`navigateurs-web`)
+
+- Les plus consultés : Google Chrome (14436), Ecosia (7259), Qwant (5947), Mozilla Firefox (5548), Brave (navigateur web) (4149)
+- Fantômes (≤ 10 vues) : NetPositive (9), XeroBank Browser (6)
+- Retirés (échantillon) : Wikipédia:Huggle [technique]
+
+### 🔤 Une police d'écriture (`polices-d-ecriture`)
+
+- Les plus consultés : Comic Sans (807), Arial (766), Cursive cyrillique (601), Sütterlin (558), Kurrent (540)
+- Fantômes (≤ 10 vues) : Chaparral (police de caractères) (6), Cousine (police de caractères) (10), Dead History (10), Democratica (9), Dogma (police de caractères) (9)
+- Absents du dump, retirés (échantillon) : Jokerman, Marlett
+
+### 🎨 Une couleur (`couleurs`)
+
+- Les plus consultés : Pourpre (2826), Blanc (2147), International Klein Blue (1675), Turquoise (couleur) (1528), Bordeaux (couleur) (1518)
+- Fantômes (≤ 10 vues) : Asperge (couleur) (1), Byzantium (couleur) (4), Rouge-violet (9), Tangerine (couleur) (6), Vanille (couleur) (4)
+
+### 🦁 Un modèle Peugeot (`modeles-peugeot`)
+
+- Les plus consultés : Peugeot 205 (5675), Peugeot 206 (5497), Peugeot 404 (5132), Peugeot 504 (4494), Peugeot 208 I (4286)
+- Fantômes (≤ 10 vues) : Peugeot Partner III (5)
+
+### 🚗 Un modèle Renault (`modeles-renault`)
+
+- Les plus consultés : Renault Twingo I (7142), Renault Clio III (5949), Renault Clio V (5002), Renault Clio II (4883), Renault Clio IV (4709)
+
+### 🚘 Un modèle Citroën (`modeles-citroen`)
+
+- Les plus consultés : Citroën 2 CV (18723), Citroën DS (5308), Citroën Traction Avant (4760), Citroën CX (3860), Citroën SM (3361)
+
+### 🛫 Un avion de ligne (`avions-de-ligne`)
+
+- Les plus consultés : Concorde (avion) (25630), Airbus A380 (13331), Airbus A350 (11115), Accident du Concorde (7595), Airbus A320 (7514)
+- Fantômes (≤ 10 vues) : AIDC XC-2 (6), Avro 618 Ten (9), Bernard 60 (5), Breese-Dallas Model 1 (10), Breguet 22 (10)
+- Retirés (échantillon) : Liste des Concorde [technique]
+
+### 🛩️ Un avion de chasse (`avions-de-chasse`)
+
+- Les plus consultés : Dassault Mirage 2000 (40912), Dassault Rafale (21708), Mikoyan-Gourevitch MiG-29 (3894), Dassault Mirage III (3806), Dassault Mirage F1 (3573)
+- Fantômes (≤ 10 vues) : AD Scout (10), Adamoli-Cattani (4), AEG Dr.I (9), Aero A.102 (10), Aero A.18 (8)
+- Retirés (échantillon) : Liste d'avions de chasse [technique]
+- Absents du dump, retirés (échantillon) : Bell FM-1 Airacuda, Ponnier P.1
+
+### 🚢 Un paquebot ou navire à passagers (`paquebots`)
+
+- Les plus consultés : Titanic (22715), France (paquebot) (6881), RMS Lusitania (5112), Queen Mary 2 (4645), Orient Express Corinthian (paquebot) (4189)
+- Fantômes (≤ 10 vues) : Afrique (paquebot 1881) (5), Akademik Sergey Vavilov (4), Athenic (9), Ausonia (paquebot, 1956) (7), Cunard Countess (7)
+
+### 🦅 Un président des États-Unis (`presidents-etats-unis`)
+
+- Les plus consultés : Donald Trump (84044), Barack Obama (36990), Franklin Delano Roosevelt (26516), John Fitzgerald Kennedy (24382), Richard Nixon (23813)
+
+### 👑 Un roi ou une reine d'Angleterre ou du Royaume-Uni (`monarques-anglais-et-britanniques`)
+
+- Les plus consultés : Henri VIII (53159), Élisabeth II (45342), Charles III (roi du Royaume-Uni) (32857), Élisabeth Ire (reine d'Angleterre) (30458), George VI (28803)
+
+### 🧪 Un prix Nobel de chimie (`prix-nobel-chimie`)
+
+- Les plus consultés : Marie Curie (60314), Henri Kagan (53865), Irène Joliot-Curie (8617), Kensō Soai (7144), Frédéric Joliot-Curie (4848)
+- Fantômes (≤ 10 vues) : William Howard Stein (10)
+
+### 🩺 Un prix Nobel de physiologie ou médecine (`prix-nobel-medecine`)
+
+- Les plus consultés : Karl Deisseroth (14010), Peter Hegemann (5311), Luc Montagnier (5108), Georg Nagel (5000), Alexander Fleming (3272)
+
+### 🕊️ Un prix Nobel de la paix (`prix-nobel-paix`)
+
+- Les plus consultés : Navanethem Pillay (51562), Barack Obama (36990), Nelson Mandela (26969), Union européenne (23751), Martin Luther King (21799)
+- Retirés (échantillon) : Al Gore [bloque]
+
+### 📕 Un écrivain lauréat du prix Goncourt (`laureats-prix-goncourt`)
+
+- Les plus consultés : Romain Gary (30900), Jean-Christophe Rufin (30074), Patrick Modiano (28638), Jonathan Littell (23510), Simone de Beauvoir (21934)
+
+### 🏅 Un lauréat du Ballon d'or (`ballon-d-or`)
+
+- Les plus consultés : Lionel Messi (686714), Harry Kane (240807), Cristiano Ronaldo (204771), Zinédine Zidane (125815), Jean-Pierre Papin (88256)
+
+### 🏁 Un champion du monde de Formule 1 (`champions-du-monde-f1`)
+
+- Les plus consultés : Michael Schumacher (102851), Lewis Hamilton (36252), Kimi Antonelli (34786), Max Verstappen (30628), Ayrton Senna (21599)
+
+### ♟️ Un champion ou une championne du monde d'échecs (`champions-du-monde-echecs`)
+
+- Les plus consultés : Garry Kasparov (15691), Bobby Fischer (13598), Magnus Carlsen (9214), Anatoli Karpov (2793), Boris Spassky (1772)
+- Fantômes (≤ 10 vues) : Elisabeth Bykova (7), Lioudmila Roudenko (9), Olga Roubtsova (9)
+
+### 🎭 Une pièce de Molière (`pieces-de-moliere`)
+
+- Les plus consultés : Le Bourgeois gentilhomme (5404), Le Misanthrope (5135), Le Malade imaginaire (4665), Le Tartuffe ou l'Imposteur (3965), Les Fourberies de Scapin (3759)
+- Retirés (échantillon) : Les Œuvres de Monsieur de Molière [exclu]
+
+### 💀 Une pièce de Shakespeare (`pieces-de-shakespeare`)
+
+- Les plus consultés : Hamlet (23687), Roméo et Juliette (12051), Macbeth (Shakespeare) (7242), Othello ou le Maure de Venise (3726), Le Roi Lear (2854)
+
+### 🚀 Un album de Tintin (`albums-de-tintin`)
+
+- Les plus consultés : Les Cigares du pharaon (3846), Tintin au Congo (2484), Le Lotus bleu (1833), Tintin et l'Alph-Art (1735), Tintin au pays des Soviets (1701)
+
+### 🛡️ Un album d'Astérix (`albums-d-asterix`)
+
+- Les plus consultés : Astérix en Lusitanie (1547), Astérix le Gaulois (album) (1055), Astérix et Cléopâtre (840), Astérix chez les Belges (819), L'Iris blanc (738)
+- Fantômes (≤ 10 vues) : Astérix au cirque (1)
+
+### 🪲 Un album des Beatles (`albums-studio-des-beatles`)
+
+- Les plus consultés : Rubber Soul (5268), Abbey Road (album) (4230), Sgt. Pepper's Lonely Hearts Club Band (album) (2574), The Beatles (album) (2487), Revolver (album) (2015)
+
+### 🏆 Un film Oscar du meilleur film (`oscars-du-meilleur-film`)
+
+- Les plus consultés : Le Pont de la rivière Kwaï (film) (84560), Braveheart (26714), Le Parrain (film) (26411), Le Silence des agneaux (film) (21049), Le Parrain, 2e partie (16041)
+
+### 🌴 Un film Palme d'or à Cannes (`palmes-d-or`)
+
+- Les plus consultés : Le Salaire de la peur (50981), Anatomie d'une chute (16514), Anora (film) (11618), La Vie d'Adèle : Chapitres 1 et 2 (10211), Fjord (film) (10022)
+
+### 🎬 Un film César du meilleur film (`cesars-du-meilleur-film`)
+
+- Les plus consultés : Anatomie d'une chute (16514), Le Fabuleux Destin d'Amélie Poulain (12951), La Haine (9515), Les Ripoux (8909), Les Misérables (film, 2019) (8473)
+
+### 🇺🇸 Un État des États-Unis (`etats-des-etats-unis`)
+
+- Les plus consultés : Californie (12024), Hawaï (10770), Alaska (9493), Texas (8147), État de New York (7419)
+
+### 🇪🇺 Un pays membre de l'Union européenne (`pays-union-europeenne`)
+
+- Les plus consultés : France (190399), Espagne (43040), Belgique (39786), Allemagne (35553), Italie (29459)
+
+### 🌍 Un pays d'Afrique (`pays-d-afrique`)
+
+- Les plus consultés : Cameroun (138616), Soudan du Sud (101851), République démocratique du Congo (42973), Maroc (39838), Algérie (38655)
+
+### 🌏 Un pays d'Asie (`pays-d-asie`)
+
+- Les plus consultés : Russie (143736), Turquie (140288), Corée du Nord (132848), Pakistan (116903), Israël (45339)
+
+### 🌎 Un pays d'Amérique du Sud (`pays-d-amerique-du-sud`)
+
+- Les plus consultés : Brésil (54350), Argentine (17015), Colombie (12159), Chili (11563), Pérou (10708)
+
+### 🇨🇭 Un canton suisse (`cantons-suisses`)
+
+- Les plus consultés : Canton de Vaud (6705), Canton du Valais (5174), Canton des Grisons (3312), Canton du Tessin (3156), Canton de Genève (3146)
+
+### 🇩🇪 Un Land allemand (`lander-allemands`)
+
+- Les plus consultés : Berlin (10114), Hambourg (7454), Bavière (6776), Rhénanie-du-Nord-Westphalie (4782), Bade-Wurtemberg (4600)
+
+### 🇪🇸 Une communauté autonome d'Espagne (`communautes-autonomes-espagne`)
+
+- Les plus consultés : Îles Canaries (12549), Catalogne (11519), Andalousie (7581), Galice (5350), Asturies (4986)
+
+### 🇨🇦 Une province ou un territoire du Canada (`provinces-et-territoires-canada`)
+
+- Les plus consultés : Québec (39865), Alberta (13061), Terre-Neuve-et-Labrador (8282), Nouveau-Brunswick (7149), Colombie-Britannique (6180)
+
+### 🔡 Une lettre de l'alphabet grec (`lettres-grecques`)
+
+- Les plus consultés : Delta (3244), Alpha (3240), Phi (2968), Sigma (2683), Epsilon (2197)
+- Fantômes (≤ 10 vues) : Sigma lunaire réfléchi pointé (8)
+
 ## Calendrier (14 premiers jours)
 
-- 2026-11-09 (j24) : prix-nobel-physique, romans-jules-verne, fromages-francais, oiseaux, plats-francais
 - 2026-11-10 (j25) : rois-de-france, instruments-de-musique, stations-de-ski-france, gares-de-france, cours-d-eau-france
-- 2026-11-11 (j26) : signes-du-zodiaque, films-americains-annees-1980, mythologie-grecque, cols-de-france, patisseries-et-desserts
-- 2026-11-12 (j27) : elements-chimiques, peintres-francais-xixe, jeux-de-societe, jeux-video-1998, oeuvres-victor-hugo
-- 2026-11-13 (j28) : empereurs-romains, langages-de-programmation, albums-rap-francais, vins-aoc-france, pates-alimentaires
-- 2026-11-14 (j29) : constellations, monuments-historiques-lyon, marques-automobiles, dinosaures, films-francais-annees-1990 · locale
-- 2026-11-15 (j30) : capitales, sommets-2000-france, series-francaises, lunes-systeme-solaire, stations-metro-paris · moins-consulte
-- 2026-11-16 (j31) : planetes-et-planetes-naines, races-de-chiens, cepages, fromages-francais, gares-de-france
-- 2026-11-17 (j32) : papes, romans-jules-verne, oiseaux, plats-francais, jeux-de-societe
-- 2026-11-18 (j33) : prix-nobel-litterature, cours-d-eau-france, instruments-de-musique, stations-de-ski-france, cepages
-- 2026-11-19 (j34) : vainqueurs-tour-de-france, patisseries-et-desserts, cols-de-france, mythologie-grecque, films-americains-annees-1980
-- 2026-11-20 (j35) : pays-membres-onu, peintres-francais-xixe, oeuvres-victor-hugo, jeux-video-1998, gares-de-france
-- 2026-11-21 (j36) : departements-francais, stations-metro-lyon, vins-aoc-france, langages-de-programmation, pates-alimentaires · locale
-- 2026-11-22 (j37) : presidents-republique-francaise, albums-rap-francais, films-francais-annees-1990, marques-automobiles, dinosaures · moins-consulte
-
-## Avertissements calendrier
-
-- 2026-11-16 : contrainte de non-répétition relâchée à 0 j
-- 2026-11-16 : contrainte de non-répétition relâchée à 0 j
-- 2026-11-17 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-17 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-17 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-17 : contrainte de non-répétition relâchée à 0 j
-- 2026-11-18 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-18 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-18 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-18 : contrainte de non-répétition relâchée à 0 j
-- 2026-11-19 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-19 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-19 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-19 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-20 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-20 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-20 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-20 : contrainte de non-répétition relâchée à 0 j
-- 2026-11-21 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-21 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-21 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-22 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-22 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-22 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-22 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-23 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-23 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-23 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-23 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-24 : contrainte de non-répétition relâchée à 14 j
-- 2026-11-24 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-24 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-24 : contrainte de non-répétition relâchée à 0 j
-- 2026-11-24 : contrainte de non-répétition relâchée à 0 j
-- 2026-11-25 : contrainte de non-répétition relâchée à 14 j
-- 2026-11-25 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-25 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-25 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-25 : contrainte de non-répétition relâchée à 0 j
-- 2026-11-26 : contrainte de non-répétition relâchée à 14 j
-- 2026-11-26 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-26 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-26 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-26 : contrainte de non-répétition relâchée à 0 j
-- 2026-11-27 : contrainte de non-répétition relâchée à 14 j
-- 2026-11-27 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-27 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-27 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-27 : contrainte de non-répétition relâchée à 7 j
-- 2026-11-28 : contrainte de non-répétition relâchée à 14 j
-- … et 1679 autres
+- 2026-11-11 (j26) : lettres-grecques, films-d-animation, vainqueurs-tour-d-italie, chateaux-de-france, cepages
+- 2026-11-12 (j27) : presidents-etats-unis, aeroports-de-france, compositeurs-romantiques, emissions-tv-francaises, divinites-egyptiennes
+- 2026-11-13 (j28) : prix-nobel-litterature, tableaux-du-louvre, series-de-bande-dessinee, races-bovines, patisseries-et-desserts
+- 2026-11-14 (j29) : prix-nobel-paix, monuments-historiques-lyon, radios-francaises, jeux-zelda, chaines-tv-francaises · locale
+- 2026-11-15 (j30) : albums-d-asterix, batailles-seconde-guerre-mondiale, films-jean-gabin, modeles-renault, chansons-edith-piaf · moins-consulte
+- 2026-11-16 (j31) : prix-nobel-medecine, navigateurs-web, mammiferes, fromages-francais, legumes
+- 2026-11-17 (j32) : vainqueurs-tour-de-france, romans-agatha-christie, distributions-linux, films-americains-annees-1980, humoristes-francais
+- 2026-11-18 (j33) : etats-des-etats-unis, marechaux-de-france, rappeurs-francais, modeles-peugeot, lunes-systeme-solaire
+- 2026-11-19 (j34) : pays-d-afrique, races-de-chats, races-de-chiens, pilotes-de-formule-1, tableaux-d-orsay
+- 2026-11-20 (j35) : albums-de-tintin, confiseries, festivals-en-france, rues-de-paris, abbayes-de-france
+- 2026-11-21 (j36) : pays-d-amerique-du-sud, communes-auvergne-rhone-alpes, monnaies, systemes-d-exploitation, mythologie-grecque · locale
+- 2026-11-22 (j37) : pieces-de-shakespeare, reines-de-france, sauces, films-louis-de-funes, langues · moins-consulte
+- 2026-11-23 (j38) : pays-d-asie, fruits, stations-thermales-france, stations-metro-paris, groupes-de-musique-francais
