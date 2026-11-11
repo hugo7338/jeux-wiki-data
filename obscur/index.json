@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-10T08:36:06.163Z",
+  "generatedAt": "2026-11-11T11:53:18.761Z",
   "snapshot": "2026-10-31",
   "window": {
     "kind": "month",
@@ -29,10 +29,10 @@
       "emoji": "🍲",
       "type": "ouverte",
       "theme": null,
-      "size": 124,
+      "size": 385,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q746549 .\\n{ ?item wdt:P495 wd:Q142 } UNION { ?item wdt:P17 wd:Q142 }\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Mets français : instances ou sous-classes de « mets », d'origine française ou rattachés à la\\n# cuisine française (P361). L'ancienne requête (instances seules) n'avait ni le cassoulet ni le\\n# pot-au-feu, qui sont des sous-classes dans Wikidata.\\n{ ?item wdt:P31/wdt:P279* wd:Q746549 } UNION { ?item wdt:P279+ wd:Q746549 }\\n{ ?item wdt:P495 wd:Q142 } UNION { ?item wdt:P17 wd:Q142 } UNION { ?item wdt:P361 wd:Q6661 }\"},[],[],[\"Choucroute\"]]",
       "recovered": false
     },
     {
@@ -41,10 +41,10 @@
       "emoji": "🍰",
       "type": "ouverte",
       "theme": null,
-      "size": 151,
+      "size": 882,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"{ ?item wdt:P31/wdt:P279* wd:Q477248 } UNION { ?item wdt:P31/wdt:P279* wd:Q182940 }\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"mixte\",\"where\":\"# Sous-classes et instances de pâtisserie et de dessert, plus la catégorie Wikipédia (mille-feuille).\\n{ ?item wdt:P279+ wd:Q477248 } UNION { ?item wdt:P279+ wd:Q182940 }\\nUNION { ?item wdt:P31/wdt:P279* wd:Q477248 } UNION { ?item wdt:P31/wdt:P279* wd:Q182940 }\",\"categories\":[\"Pâtisserie française\"],\"depth\":1},[],[],[\"Île flottante\"]]",
       "recovered": false
     },
     {
@@ -77,10 +77,10 @@
       "emoji": "🍷",
       "type": "ouverte",
       "theme": null,
-      "size": 473,
+      "size": 474,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Vin AOC en France\"],\"depth\":4},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Vin AOC en France\"],\"depth\":4},[],[],[\"Beaujolais (AOC)\"]]",
       "recovered": false
     },
     {
@@ -113,10 +113,10 @@
       "emoji": "⛷️",
       "type": "ouverte",
       "theme": null,
-      "size": 218,
+      "size": 219,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q130003 ; wdt:P17 wd:Q142 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q130003 ; wdt:P17 wd:Q142 .\"},[],[],[\"Les Arcs (Savoie)\"]]",
       "recovered": false
     },
     {
@@ -293,10 +293,10 @@
       "emoji": "🏘️",
       "type": "ouverte",
       "theme": "locale",
-      "size": 1265,
+      "size": 1266,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q13917 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q484170 ; wdt:P131+ wd:Q13917 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[],[\"Paris\"]]",
       "recovered": false
     },
     {
@@ -401,10 +401,10 @@
       "emoji": "🎲",
       "type": "ouverte",
       "theme": null,
-      "size": 578,
+      "size": 579,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q131436 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q131436 .\"},[],[],[\"Dixit (jeu)\"]]",
       "recovered": false
     },
     {
@@ -413,10 +413,10 @@
       "emoji": "🎻",
       "type": "ouverte",
       "theme": null,
-      "size": 409,
+      "size": 1424,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q34379 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Sous-classes (piano, violon…) et non instances : les instances sont des instruments nommés\\n# (« Davidoff (violon Stradivarius) »), et aucune réponse évidente n'en faisait partie.\\n?item wdt:P279+ wd:Q34379 .\"},[],[]]",
       "recovered": false
     },
     {
@@ -425,7 +425,7 @@
       "emoji": "💻",
       "type": "ouverte",
       "theme": null,
-      "size": 528,
+      "size": 527,
       "eligible": true,
       "validated": null,
       "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q9143 .\"},[],[]]",
@@ -437,10 +437,10 @@
       "emoji": "🚗",
       "type": "ouverte",
       "theme": null,
-      "size": 1207,
+      "size": 1211,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q786820 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q786820 .\"},[],[],[\"Peugeot\",\"Tesla (entreprise)\",\"Bugatti\"]]",
       "recovered": false
     },
     {
@@ -485,10 +485,10 @@
       "emoji": "🐦",
       "type": "ouverte",
       "theme": null,
-      "size": 1094,
+      "size": 3272,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Oiseau (nom vernaculaire)\"],\"depth\":0},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Oiseau (nom vernaculaire)\"],\"depth\":1},[],[],[\"Mésange charbonnière\"]]",
       "recovered": false
     },
     {
@@ -713,10 +713,10 @@
       "emoji": "🥣",
       "type": "ouverte",
       "theme": null,
-      "size": 38,
+      "size": 245,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q178359 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"{ ?item wdt:P279+ wd:Q178359 } UNION { ?item wdt:P31/wdt:P279* wd:Q178359 }\"},[],[]]",
       "recovered": false
     },
     {
@@ -725,10 +725,10 @@
       "emoji": "🍎",
       "type": "ouverte",
       "theme": null,
-      "size": 320,
+      "size": 675,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Fruit alimentaire\",\"Fruit rouge\",\"Fruit à noyau\",\"Fruit à pépins\",\"Fruit sec\",\"Fruit tropical\"],\"depth\":0},[],[]]",
+      "sourceHash": "[{\"kind\":\"mixte\",\"where\":\"# Sous-classes de fruit comestible (pomme, banane, mangue), plus les catégories Wikipédia.\\n?item wdt:P279+ wd:Q3314483 .\",\"categories\":[\"Fruit alimentaire\",\"Fruit rouge\",\"Fruit à noyau\",\"Fruit à pépins\",\"Fruit sec\",\"Fruit tropical\"],\"depth\":0},[],[],[\"Ananas\"]]",
       "recovered": false
     },
     {
@@ -737,10 +737,10 @@
       "emoji": "🥕",
       "type": "ouverte",
       "theme": null,
-      "size": 373,
+      "size": 374,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Plante potagère\"],\"depth\":1},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Plante potagère\"],\"depth\":1},[],[],[\"Épinard\"]]",
       "recovered": false
     },
     {
@@ -749,10 +749,10 @@
       "emoji": "🍄",
       "type": "ouverte",
       "theme": null,
-      "size": 175,
+      "size": 176,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Champignon comestible\"],\"depth\":0},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Champignon comestible\"],\"depth\":0},[],[],[\"Trompette de la mort\"]]",
       "recovered": false
     },
     {
@@ -773,10 +773,10 @@
       "emoji": "🍬",
       "type": "ouverte",
       "theme": null,
-      "size": 286,
+      "size": 287,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Confiserie\",\"Confiserie par pays\"],\"depth\":1},[],[\"Entreprise de confiserie\",\"Marque de confiserie\"]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Confiserie\",\"Confiserie par pays\"],\"depth\":1},[],[\"Entreprise de confiserie\",\"Marque de confiserie\"],[\"Calisson\"]]",
       "recovered": false
     },
     {
@@ -833,10 +833,10 @@
       "emoji": "🐔",
       "type": "ouverte",
       "theme": null,
-      "size": 184,
+      "size": 186,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Race de poule\"],\"depth\":2},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Race de poule\"],\"depth\":2},[],[],[\"Poule du Sussex\",\"Orpington (poule)\"]]",
       "recovered": false
     },
     {
@@ -845,10 +845,10 @@
       "emoji": "🏝️",
       "type": "ouverte",
       "theme": null,
-      "size": 1256,
+      "size": 1257,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q23442 ; wdt:P17 wd:Q142 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q23442 ; wdt:P17 wd:Q142 .\"},[],[],[\"Corse\"]]",
       "recovered": false
     },
     {
@@ -893,10 +893,10 @@
       "emoji": "🕍",
       "type": "ouverte",
       "theme": null,
-      "size": 1112,
+      "size": 1113,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q160742 ; wdt:P17 wd:Q142 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q160742 ; wdt:P17 wd:Q142 .\"},[],[],[\"Abbaye du Mont-Saint-Michel\"]]",
       "recovered": false
     },
     {
@@ -941,10 +941,10 @@
       "emoji": "🌋",
       "type": "ouverte",
       "theme": null,
-      "size": 1303,
+      "size": 1304,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q8072 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q8072 .\"},[],[],[\"Stromboli\"]]",
       "recovered": false
     },
     {
@@ -1001,10 +1001,10 @@
       "emoji": "🏡",
       "type": "ouverte",
       "theme": null,
-      "size": 142,
+      "size": 222,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Localité adhérant à l'association Les Plus Beaux Villages de France\"],\"depth\":0},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Localité adhérant à l'association Les Plus Beaux Villages de France\"],\"depth\":2},[],[]]",
       "recovered": false
     },
     {
@@ -1073,7 +1073,7 @@
       "emoji": "🏳️",
       "type": "ouverte",
       "theme": null,
-      "size": 2469,
+      "size": 2468,
       "eligible": true,
       "validated": null,
       "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q3024240 .\"},[],[]]",
@@ -1085,10 +1085,10 @@
       "emoji": "💱",
       "type": "ouverte",
       "theme": null,
-      "size": 423,
+      "size": 424,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q8142 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q8142 .\"},[],[],[\"Franc français\"]]",
       "recovered": false
     },
     {
@@ -1097,10 +1097,10 @@
       "emoji": "🗣️",
       "type": "ouverte",
       "theme": null,
-      "size": 3450,
+      "size": 4051,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q34770 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Langues avec un code ISO 639-3 : le breton, le basque ou l'espéranto ne sont pas des instances\\n# directes de « langue » dans Wikidata, mais de ses sous-classes.\\n?item wdt:P31/wdt:P279* wd:Q34770 ; wdt:P220 ?iso .\"},[],[]]",
       "recovered": false
     },
     {
@@ -1133,10 +1133,10 @@
       "emoji": "🚏",
       "type": "ouverte",
       "theme": "locale",
-      "size": 403,
+      "size": 404,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q79007 ; wdt:P131+ wd:Q456 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q79007 ; wdt:P131+ wd:Q456 .\"},[],[],[\"Cours Lafayette\"]]",
       "recovered": false
     },
     {
@@ -1157,10 +1157,10 @@
       "emoji": "🎖️",
       "type": "ouverte",
       "theme": null,
-      "size": 180,
+      "size": 181,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Maréchal de France\"],\"depth\":1},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Maréchal de France\"],\"depth\":1},[],[],[\"Sébastien Le Prestre de Vauban\"]]",
       "recovered": false
     },
     {
@@ -1169,10 +1169,10 @@
       "emoji": "🏛️",
       "type": "fermee",
       "theme": null,
-      "size": 34,
+      "size": 36,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P39 wd:Q1587677 ; wdt:P31 wd:Q5 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P39 wd:Q1587677 ; wdt:P31 wd:Q5 .\"},[],[],[\"Michel Rocard\"]]",
       "recovered": false
     },
     {
@@ -1181,10 +1181,10 @@
       "emoji": "📜",
       "type": "ouverte",
       "theme": null,
-      "size": 712,
+      "size": 811,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Député de la Convention nationale\"],\"depth\":0},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Député de la Convention nationale\"],\"depth\":1},[],[]]",
       "recovered": false
     },
     {
@@ -1193,10 +1193,10 @@
       "emoji": "⚔️",
       "type": "ouverte",
       "theme": null,
-      "size": 465,
+      "size": 466,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Bataille des guerres napoléoniennes\"],\"depth\":2},[],[\"Ordre de bataille des guerres napoléoniennes\"]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Bataille des guerres napoléoniennes\"],\"depth\":2},[],[\"Ordre de bataille des guerres napoléoniennes\"],[\"Bataille de Waterloo\"]]",
       "recovered": false
     },
     {
@@ -1224,6 +1224,18 @@
       "recovered": false
     },
     {
+      "id": "explorateurs",
+      "label": "Un explorateur ou une exploratrice",
+      "emoji": "🧭",
+      "type": "ouverte",
+      "theme": null,
+      "size": 3836,
+      "eligible": true,
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P106 wd:Q11900058 ; wdt:P31 wd:Q5 .\"},[],[]]",
+      "recovered": false
+    },
+    {
       "id": "philosophes-grece-antique",
       "label": "Un philosophe de la Grèce antique",
       "emoji": "🏺",
@@ -1233,6 +1245,18 @@
       "eligible": true,
       "validated": null,
       "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Philosophe de la Grèce antique\"],\"depth\":1},[],[]]",
+      "recovered": false
+    },
+    {
+      "id": "astronautes",
+      "label": "Un astronaute ou cosmonaute",
+      "emoji": "🧑‍🚀",
+      "type": "ouverte",
+      "theme": null,
+      "size": 744,
+      "eligible": true,
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P106 wd:Q11631 ; wdt:P31 wd:Q5 .\"},[],[]]",
       "recovered": false
     },
     {
@@ -1277,7 +1301,7 @@
       "emoji": "🎥",
       "type": "ouverte",
       "theme": null,
-      "size": 1503,
+      "size": 1502,
       "eligible": true,
       "validated": null,
       "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q11424 ; wdt:P495 wd:Q30 ; wdt:P577 ?sortie .\\nFILTER(?sortie >= \\\"1970-01-01T00:00:00Z\\\"^^xsd:dateTime && ?sortie < \\\"1980-01-01T00:00:00Z\\\"^^xsd:dateTime)\"},[],[]]",
@@ -1301,7 +1325,7 @@
       "emoji": "🧞",
       "type": "ouverte",
       "theme": null,
-      "size": 4297,
+      "size": 4298,
       "eligible": true,
       "validated": null,
       "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q202866 .\"},[],[]]",
@@ -1469,10 +1493,10 @@
       "emoji": "🎙️",
       "type": "ouverte",
       "theme": null,
-      "size": 729,
+      "size": 731,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q15416 ; wdt:P495 wd:Q142 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q15416 ; wdt:P495 wd:Q142 .\"},[],[],[\"Thalassa (émission de télévision)\",\"Cash Investigation\"]]",
       "recovered": false
     },
     {
@@ -1493,10 +1517,10 @@
       "emoji": "📡",
       "type": "ouverte",
       "theme": null,
-      "size": 222,
+      "size": 224,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q2001305 ; wdt:P17 wd:Q142 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q2001305 ; wdt:P17 wd:Q142 .\"},[],[],[\"TF1\",\"M6\"]]",
       "recovered": false
     },
     {
@@ -1541,7 +1565,7 @@
       "emoji": "🎻",
       "type": "ouverte",
       "theme": null,
-      "size": 2387,
+      "size": 2386,
       "eligible": true,
       "validated": null,
       "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Compositeur de la période romantique\"],\"depth\":2},[],[]]",
@@ -1637,10 +1661,10 @@
       "emoji": "💬",
       "type": "ouverte",
       "theme": null,
-      "size": 7291,
+      "size": 7292,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q14406742 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q14406742 .\"},[],[],[\"Les Schtroumpfs\"]]",
       "recovered": false
     },
     {
@@ -1649,10 +1673,22 @@
       "emoji": "🇯🇵",
       "type": "ouverte",
       "theme": null,
-      "size": 2209,
+      "size": 2210,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q8274 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q8274 .\"},[],[],[\"Dragon Ball\"]]",
+      "recovered": false
+    },
+    {
+      "id": "animes",
+      "label": "Un anime (série ou film d'animation japonais)",
+      "emoji": "🍙",
+      "type": "ouverte",
+      "theme": null,
+      "size": 1297,
+      "eligible": true,
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Séries d'animation japonaises (Q63952888) et anime au sens large (films compris) : Q1107 seul\\n# ramenait surtout des films, sans les séries que tout le monde cite.\\n{ ?item wdt:P31/wdt:P279* wd:Q63952888 } UNION { ?item wdt:P31/wdt:P279* wd:Q1107 }\"},[],[],[\"Naruto\",\"One Piece\",\"Sailor Moon\",\"Saint Seiya (série télévisée d'animation)\"]]",
       "recovered": false
     },
     {
@@ -1697,7 +1733,7 @@
       "emoji": "🎤",
       "type": "ouverte",
       "theme": null,
-      "size": 367,
+      "size": 368,
       "eligible": true,
       "validated": null,
       "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P106 wd:Q2252262 ; wdt:P27 wd:Q142 ; wdt:P31 wd:Q5 .\"},[],[]]",
@@ -1709,10 +1745,10 @@
       "emoji": "😂",
       "type": "ouverte",
       "theme": null,
-      "size": 381,
+      "size": 398,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P106 wd:Q245068 ; wdt:P27 wd:Q142 ; wdt:P31 wd:Q5 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Humoriste ou humoriste de scène (Kev Adams n'a que le second).\\nVALUES ?metier { wd:Q245068 wd:Q18545066 }\\n?item wdt:P106 ?metier ; wdt:P27 wd:Q142 ; wdt:P31 wd:Q5 .\"},[],[]]",
       "recovered": false
     },
     {
@@ -1773,6 +1809,18 @@
       "eligible": true,
       "validated": null,
       "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q3305213 ; wdt:P195 wd:Q23402 .\"},[],[]]",
+      "recovered": false
+    },
+    {
+      "id": "tableaux-de-monet",
+      "label": "Un tableau de Claude Monet",
+      "emoji": "🪷",
+      "type": "ouverte",
+      "theme": null,
+      "size": 133,
+      "eligible": true,
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q3305213 ; wdt:P170 wd:Q296 .\"},[],[],[\"La Gare Saint-Lazare\",\"Série des Cathédrales de Rouen\"]]",
       "recovered": false
     },
     {
@@ -1841,10 +1889,10 @@
       "emoji": "🐶",
       "type": "ouverte",
       "theme": null,
-      "size": 33,
+      "size": 34,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Personnage de Tintin\"],\"depth\":0},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Personnage de Tintin\"],\"depth\":0},[],[],[\"Roberto Rastapopoulos\"]]",
       "recovered": false
     },
     {
@@ -1865,10 +1913,10 @@
       "emoji": "⚡",
       "type": "ouverte",
       "theme": null,
-      "size": 143,
+      "size": 231,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Divinité nordique\",\"Géant de la mythologie nordique\",\"Valkyrie\",\"Nornes\"],\"depth\":1},[],[\"Objet céleste nommé d'après un personnage de la mythologie nordique\"]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Divinité nordique\",\"Géant de la mythologie nordique\",\"Valkyrie\",\"Nornes\",\"Créature fantastique de la mythologie nordique\",\"Loup de la mythologie nordique\"],\"depth\":2},[],[\"Objet céleste nommé d'après un personnage de la mythologie nordique\"]]",
       "recovered": false
     },
     {
@@ -1949,10 +1997,10 @@
       "emoji": "🃏",
       "type": "ouverte",
       "theme": null,
-      "size": 231,
+      "size": 232,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q142714 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q142714 .\"},[],[],[\"Poker\"]]",
       "recovered": false
     },
     {
@@ -1961,10 +2009,10 @@
       "emoji": "♟️",
       "type": "ouverte",
       "theme": null,
-      "size": 102,
+      "size": 216,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Ouverture d'échecs\"],\"depth\":1},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Ouverture d'échecs\"],\"depth\":3},[],[]]",
       "recovered": false
     },
     {
@@ -1997,10 +2045,10 @@
       "emoji": "🥇",
       "type": "ouverte",
       "theme": null,
-      "size": 425,
+      "size": 508,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Champion olympique français\"],\"depth\":1},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Champion olympique français\",\"Championne olympique française\"],\"depth\":1},[],[]]",
       "recovered": false
     },
     {
@@ -2021,10 +2069,10 @@
       "emoji": "🏟️",
       "type": "ouverte",
       "theme": null,
-      "size": 377,
+      "size": 380,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q483110 ; wdt:P17 wd:Q142 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q483110 ; wdt:P17 wd:Q142 .\"},[],[],[\"Parc des Princes\",\"Stade Geoffroy-Guichard\",\"Stade Pierre-Mauroy\"]]",
       "recovered": false
     },
     {
@@ -2033,7 +2081,7 @@
       "emoji": "🏎️",
       "type": "ouverte",
       "theme": null,
-      "size": 873,
+      "size": 876,
       "eligible": true,
       "validated": null,
       "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P106 wd:Q10841764 ; wdt:P31 wd:Q5 .\"},[],[]]",
@@ -2069,10 +2117,10 @@
       "emoji": "🦌",
       "type": "ouverte",
       "theme": null,
-      "size": 2807,
+      "size": 2809,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Mammifère (nom vernaculaire)\"],\"depth\":1},[],[\"Nom de mammifère ambigu\"]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Mammifère (nom vernaculaire)\"],\"depth\":1},[],[\"Nom de mammifère ambigu\"],[\"Hérisson\",\"Chevreuil européen\"]]",
       "recovered": false
     },
     {
@@ -2081,10 +2129,10 @@
       "emoji": "🐟",
       "type": "ouverte",
       "theme": null,
-      "size": 1559,
+      "size": 1560,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Poisson (nom vernaculaire)\"],\"depth\":1},[],[\"Nom de poisson ambigu\"]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Poisson (nom vernaculaire)\"],\"depth\":1},[],[\"Nom de poisson ambigu\"],[\"Thon rouge\",\"Cabillaud\"]]",
       "recovered": false
     },
     {
@@ -2093,10 +2141,10 @@
       "emoji": "🐞",
       "type": "ouverte",
       "theme": null,
-      "size": 1779,
+      "size": 1783,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Insecte (nom vernaculaire)\"],\"depth\":2},[],[\"Nom d'insecte ambigu\"]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Insecte (nom vernaculaire)\"],\"depth\":2},[],[\"Nom d'insecte ambigu\"],[\"Libellule\",\"Moustique\",\"Bourdon (insecte)\",\"Lucane cerf-volant\"]]",
       "recovered": false
     },
     {
@@ -2105,10 +2153,10 @@
       "emoji": "🌳",
       "type": "ouverte",
       "theme": null,
-      "size": 134,
+      "size": 141,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Arbre (nom vernaculaire)\"],\"depth\":1},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Arbre (nom vernaculaire)\"],\"depth\":1},[],[],[\"Chêne\",\"Hêtre commun\",\"Bouleau\",\"Érable\",\"Platane\",\"Peuplier\",\"Baobab\"]]",
       "recovered": false
     },
     {
@@ -2117,10 +2165,10 @@
       "emoji": "🛰️",
       "type": "ouverte",
       "theme": null,
-      "size": 209,
+      "size": 211,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q26529 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q26529 .\"},[],[],[\"Cassini-Huygens\",\"Philae (atterrisseur)\"]]",
       "recovered": false
     },
     {
@@ -2165,10 +2213,10 @@
       "emoji": "🏺",
       "type": "ouverte",
       "theme": null,
-      "size": 392,
+      "size": 393,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Locution ou expression latine\"],\"depth\":0},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Locution ou expression latine\"],\"depth\":0},[],[],[\"Mens sana in corpore sano\"]]",
       "recovered": false
     },
     {
@@ -2177,10 +2225,10 @@
       "emoji": "🧠",
       "type": "ouverte",
       "theme": null,
-      "size": 131,
+      "size": 132,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Biais cognitif\"],\"depth\":0},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Biais cognitif\"],\"depth\":0},[],[],[\"Biais de négativité\"]]",
       "recovered": false
     },
     {
@@ -2201,10 +2249,10 @@
       "emoji": "🧮",
       "type": "ouverte",
       "theme": null,
-      "size": 809,
+      "size": 810,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q8366 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q8366 .\"},[],[],[\"Transformation de Fourier rapide\"]]",
       "recovered": false
     },
     {
@@ -2213,10 +2261,10 @@
       "emoji": "💽",
       "type": "ouverte",
       "theme": null,
-      "size": 662,
+      "size": 663,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q9135 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q9135 .\"},[],[],[\"Unix\"]]",
       "recovered": false
     },
     {
@@ -2249,10 +2297,10 @@
       "emoji": "🔤",
       "type": "ouverte",
       "theme": null,
-      "size": 106,
+      "size": 299,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q17451 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"mixte\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q17451 .\",\"categories\":[\"Police de caractères\"],\"depth\":2},[],[]]",
       "recovered": false
     },
     {
@@ -2261,10 +2309,10 @@
       "emoji": "🎨",
       "type": "ouverte",
       "theme": null,
-      "size": 149,
+      "size": 245,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q1075 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"# Instances de sous-classes de couleur : « Rouge » est une couleur primaire, « Orange » une\\n# couleur secondaire, absentes des instances directes.\\n?item wdt:P31/wdt:P279* wd:Q1075 .\"},[],[]]",
       "recovered": false
     },
     {
@@ -2321,10 +2369,10 @@
       "emoji": "🛩️",
       "type": "ouverte",
       "theme": null,
-      "size": 600,
+      "size": 753,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Avion de chasse\"],\"depth\":0},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Avion de chasse\"],\"depth\":2},[],[],[\"Eurofighter Typhoon\"]]",
       "recovered": false
     },
     {
@@ -2357,10 +2405,10 @@
       "emoji": "👑",
       "type": "fermee",
       "theme": null,
-      "size": 52,
+      "size": 53,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"VALUES ?position { wd:Q18810062 wd:Q9134365 }\\n?item wdt:P39 ?position ; wdt:P31 wd:Q5 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"VALUES ?position { wd:Q18810062 wd:Q9134365 }\\n?item wdt:P39 ?position ; wdt:P31 wd:Q5 .\"},[],[],[\"Victoria (reine)\"]]",
       "recovered": false
     },
     {
@@ -2465,10 +2513,10 @@
       "emoji": "💀",
       "type": "fermee",
       "theme": null,
-      "size": 43,
+      "size": 45,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Pièce de théâtre de William Shakespeare\"],\"depth\":1},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"Pièce de théâtre de William Shakespeare\"],\"depth\":1},[],[],[\"La Tempête (Shakespeare)\",\"Le Songe d'une nuit d'été\"]]",
       "recovered": false
     },
     {
@@ -2537,10 +2585,22 @@
       "emoji": "🎬",
       "type": "fermee",
       "theme": null,
-      "size": 52,
+      "size": 53,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"César du meilleur film\"],\"depth\":0},[],[]]",
+      "sourceHash": "[{\"kind\":\"category\",\"categories\":[\"César du meilleur film\"],\"depth\":0},[],[],[\"Un prophète (film)\"]]",
+      "recovered": false
+    },
+    {
+      "id": "regions-de-france",
+      "label": "Une région française",
+      "emoji": "🗺️",
+      "type": "fermee",
+      "theme": null,
+      "size": 18,
+      "eligible": true,
+      "validated": null,
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31 wd:Q36784 .\\nFILTER NOT EXISTS { ?item wdt:P576 ?fin }\"},[],[]]",
       "recovered": false
     },
     {
@@ -2633,10 +2693,10 @@
       "emoji": "🇪🇸",
       "type": "fermee",
       "theme": null,
-      "size": 16,
+      "size": 17,
       "eligible": true,
       "validated": null,
-      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q10742 .\"},[],[]]",
+      "sourceHash": "[{\"kind\":\"sparql\",\"where\":\"?item wdt:P31/wdt:P279* wd:Q10742 .\"},[],[],[\"Îles Baléares\"]]",
       "recovered": false
     },
     {
