@@ -1,256 +1,269 @@
 # Obscur — rapport du pipeline
 
-Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump pageview_complete).
+Généré le 2026-11-16T10:41:39.975Z. Fenêtre de vues : mois de 2026-10 (dump pageview_complete).
 
 ## Synthèse
 
 - Catégories traitées : 226 / 226
 - Éligibles au calendrier : 226
-- Membres au total : 190870
+- Membres au total : 190747
 - Jours de calendrier produits : 365
-- Réponses évidentes acceptées : 1805 / 1805
+- Réponses évidentes acceptées : 1804 / 1805 (refus dans 1 catégories, voir plus bas)
 
 ## Catégories
 
 | id | type | taille | min | retirés | absents | vues min / méd. / max | Fantôme | Confid. | Connu | Grand public | éligible | durée |
 |---|---|---:|---:|---:|---:|---|---:|---:|---:|---:|:---:|---:|
-| fromages-francais | ouverte | 365 | 100 | 5 | 0 | 3 / 124 / 17834 | 39 | 194 | 130 | 2 | ✅ | 51 s |
-| plats-francais | ouverte | 385 | 100 | 0 | 1 | 7 / 629 / 9894 | 3 | 112 | 270 | 0 | ✅ | 3 s |
-| patisseries-et-desserts | ouverte | 882 | 100 | 2 | 2 | 3 / 161 / 11660 | 52 | 498 | 331 | 1 | ✅ | 11 s |
+| fromages-francais | ouverte | 365 | 100 | 5 | 0 | 3 / 124 / 17834 | 39 | 194 | 130 | 2 | ✅ | 38 s |
+| plats-francais | ouverte | 386 | 100 | 0 | 1 | 7 / 632 / 9894 | 3 | 112 | 271 | 0 | ✅ | 4 s |
+| patisseries-et-desserts | ouverte | 884 | 100 | 2 | 2 | 3 / 160 / 11660 | 52 | 500 | 331 | 1 | ✅ | 12 s |
 | pates-alimentaires | ouverte | 177 | 40 | 3 | 0 | 4 / 170 / 5889 | 8 | 102 | 67 | 0 | ✅ | 2 s |
 | cepages | ouverte | 540 | 150 | 3 | 0 | 3 / 35 / 2969 | 163 | 297 | 80 | 0 | ✅ | 6 s |
-| vins-aoc-france | ouverte | 474 | 150 | 1 | 0 | 5 / 155 / 3093 | 25 | 291 | 158 | 0 | ✅ | 45 s |
-| gares-de-france | ouverte | 4641 | 500 | 0 | 11 | 1 / 24 / 3706 | 1464 | 3051 | 126 | 0 | ✅ | 50 s |
-| stations-metro-paris | ouverte | 377 | 250 | 3 | 0 | 43 / 307 / 2018 | 0 | 162 | 215 | 0 | ✅ | 52 s |
+| vins-aoc-france | ouverte | 459 | 150 | 1 | 15 | 1 / 160 / 3093 | 27 | 275 | 157 | 0 | ✅ | 35 s |
+| gares-de-france | ouverte | 4642 | 500 | 0 | 11 | 1 / 24 / 3706 | 1464 | 3052 | 126 | 0 | ✅ | 69 s |
+| stations-metro-paris | ouverte | 377 | 250 | 3 | 0 | 43 / 307 / 2018 | 0 | 162 | 215 | 0 | ✅ | 12 s |
 | stations-de-ski-france | ouverte | 219 | 100 | 0 | 0 | 2 / 140 / 6960 | 12 | 123 | 84 | 0 | ✅ | 3 s |
-| cols-de-france | ouverte | 669 | 200 | 0 | 0 | 3 / 32 / 1966 | 182 | 437 | 50 | 0 | ✅ | 45 s |
-| sommets-2000-france | ouverte | 628 | 200 | 0 | 0 | 2 / 33 / 14242 | 173 | 399 | 55 | 1 | ✅ | 42 s |
-| cours-d-eau-france | ouverte | 3719 | 500 | 0 | 4 | 1 / 20 / 10196 | 1539 | 1998 | 182 | 0 | ✅ | 62 s |
-| monuments-historiques-lyon | ouverte (locale) | 91 | 60 | 0 | 0 | 14 / 153 / 4265 | 1 | 62 | 28 | 0 | ✅ | 1 s |
-| stations-metro-lyon | ouverte (locale) | 49 | 30 | 2 | 0 | 66 / 110 / 1856 | 0 | 45 | 4 | 0 | ✅ | 3 s |
-| communes-auvergne-rhone-alpes | ouverte (locale) | 4025 | 1000 | 0 | 0 | 29 / 147 / 34490 | 0 | 3019 | 997 | 9 | ✅ | 63 s |
+| cols-de-france | ouverte | 669 | 200 | 0 | 0 | 3 / 32 / 1966 | 182 | 437 | 50 | 0 | ✅ | 33 s |
+| sommets-2000-france | ouverte | 628 | 200 | 0 | 0 | 2 / 33 / 14242 | 173 | 399 | 55 | 1 | ✅ | 33 s |
+| cours-d-eau-france | ouverte | 3719 | 500 | 0 | 4 | 1 / 20 / 10196 | 1539 | 1998 | 182 | 0 | ✅ | 61 s |
+| monuments-historiques-lyon | ouverte (locale) | 91 | 60 | 0 | 0 | 14 / 153 / 4265 | 1 | 62 | 28 | 0 | ✅ | 2 s |
+| stations-metro-lyon | ouverte (locale) | 49 | 30 | 2 | 0 | 66 / 110 / 1856 | 0 | 45 | 4 | 0 | ✅ | 2 s |
+| communes-auvergne-rhone-alpes | ouverte (locale) | 4025 | 1000 | 0 | 0 | 29 / 147 / 34490 | 0 | 3019 | 997 | 9 | ✅ | 62 s |
 | communes-bretagne | ouverte (locale) | 1202 | 500 | 0 | 0 | 38 / 240 / 19643 | 0 | 668 | 530 | 4 | ✅ | 9 s |
-| communes-normandie | ouverte (locale) | 2644 | 1000 | 0 | 0 | 16 / 84 / 22153 | 1 | 2301 | 338 | 4 | ✅ | 54 s |
-| communes-occitanie | ouverte (locale) | 4446 | 1000 | 0 | 0 | 16 / 105 / 30005 | 4 | 3620 | 815 | 7 | ✅ | 17 s |
-| communes-nouvelle-aquitaine | ouverte (locale) | 4296 | 1000 | 0 | 4 | 2 / 105 / 99997 | 3 | 3524 | 760 | 9 | ✅ | 65 s |
-| communes-paca | ouverte (locale) | 946 | 500 | 0 | 0 | 38 / 339 / 30509 | 0 | 414 | 526 | 6 | ✅ | 57 s |
-| communes-hauts-de-france | ouverte (locale) | 3782 | 1000 | 0 | 0 | 12 / 83 / 19714 | 2 | 3278 | 498 | 4 | ✅ | 57 s |
-| communes-grand-est | ouverte (locale) | 5157 | 1000 | 0 | 0 | 14 / 71 / 23240 | 5 | 4641 | 505 | 6 | ✅ | 72 s |
-| communes-pays-de-la-loire | ouverte (locale) | 1228 | 500 | 0 | 0 | 24 / 150 / 27836 | 0 | 895 | 330 | 3 | ✅ | 51 s |
-| communes-ile-de-france | ouverte (locale) | 1266 | 500 | 0 | 0 | 31 / 275 / 83455 | 0 | 632 | 630 | 4 | ✅ | 50 s |
-| communes-centre-val-de-loire | ouverte (locale) | 1754 | 500 | 0 | 0 | 21 / 108 / 25972 | 0 | 1449 | 301 | 4 | ✅ | 11 s |
-| communes-bourgogne-franche-comte | ouverte (locale) | 3685 | 1000 | 0 | 0 | 10 / 75 / 16859 | 5 | 3353 | 323 | 4 | ✅ | 60 s |
-| peintres-francais-xixe | ouverte | 5773 | 1000 | 0 | 7 | 1 / 27 / 41078 | 1594 | 3873 | 294 | 12 | ✅ | 114 s |
-| films-francais-annees-1990 | ouverte | 1703 | 500 | 1 | 2 | 1 / 89 / 60243 | 161 | 1106 | 434 | 2 | ✅ | 53 s |
-| films-americains-annees-1980 | ouverte | 2250 | 500 | 1 | 1 | 1 / 100 / 22613 | 200 | 1431 | 612 | 7 | ✅ | 55 s |
-| series-francaises | ouverte | 2065 | 300 | 0 | 3 | 1 / 274 / 211019 | 28 | 1006 | 997 | 34 | ✅ | 55 s |
+| communes-normandie | ouverte (locale) | 2644 | 1000 | 0 | 0 | 16 / 84 / 22153 | 1 | 2301 | 338 | 4 | ✅ | 56 s |
+| communes-occitanie | ouverte (locale) | 4446 | 1000 | 0 | 0 | 16 / 105 / 30005 | 4 | 3620 | 815 | 7 | ✅ | 67 s |
+| communes-nouvelle-aquitaine | ouverte (locale) | 4296 | 1000 | 0 | 4 | 2 / 105 / 99997 | 3 | 3524 | 760 | 9 | ✅ | 66 s |
+| communes-paca | ouverte (locale) | 946 | 500 | 0 | 0 | 38 / 339 / 30509 | 0 | 414 | 526 | 6 | ✅ | 7 s |
+| communes-hauts-de-france | ouverte (locale) | 3782 | 1000 | 0 | 0 | 12 / 83 / 19714 | 2 | 3278 | 498 | 4 | ✅ | 63 s |
+| communes-grand-est | ouverte (locale) | 5157 | 1000 | 0 | 0 | 14 / 71 / 23240 | 5 | 4641 | 505 | 6 | ✅ | 69 s |
+| communes-pays-de-la-loire | ouverte (locale) | 1228 | 500 | 0 | 0 | 24 / 150 / 27836 | 0 | 895 | 330 | 3 | ✅ | 8 s |
+| communes-ile-de-france | ouverte (locale) | 1266 | 500 | 0 | 0 | 31 / 275 / 83455 | 0 | 632 | 630 | 4 | ✅ | 48 s |
+| communes-centre-val-de-loire | ouverte (locale) | 1754 | 500 | 0 | 0 | 21 / 108 / 25972 | 0 | 1449 | 301 | 4 | ✅ | 49 s |
+| communes-bourgogne-franche-comte | ouverte (locale) | 3685 | 1000 | 0 | 0 | 10 / 75 / 16859 | 5 | 3353 | 323 | 4 | ✅ | 63 s |
+| peintres-francais-xixe | ouverte | 5773 | 1000 | 0 | 10 | 1 / 27 / 41078 | 1595 | 3872 | 294 | 12 | ✅ | 113 s |
+| films-francais-annees-1990 | ouverte | 1703 | 500 | 1 | 2 | 1 / 89 / 60243 | 161 | 1106 | 434 | 2 | ✅ | 51 s |
+| films-americains-annees-1980 | ouverte | 2249 | 500 | 1 | 1 | 1 / 100 / 22613 | 199 | 1431 | 612 | 7 | ✅ | 56 s |
+| series-francaises | ouverte | 2075 | 300 | 0 | 4 | 1 / 273 / 211019 | 28 | 1013 | 1000 | 34 | ✅ | 56 s |
 | jeux-video-1998 | ouverte | 518 | 200 | 0 | 3 | 1 / 19 / 9623 | 230 | 264 | 24 | 0 | ✅ | 4 s |
-| albums-rap-francais | ouverte | 586 | 200 | 0 | 1 | 1 / 104 / 3393 | 44 | 407 | 135 | 0 | ✅ | 4 s |
-| jeux-de-societe | ouverte | 579 | 300 | 0 | 1 | 1 / 38 / 8635 | 146 | 355 | 78 | 0 | ✅ | 3 s |
-| instruments-de-musique | ouverte | 1424 | 300 | 0 | 0 | 1 / 72 / 4325 | 172 | 952 | 300 | 0 | ✅ | 7 s |
-| langages-de-programmation | ouverte | 527 | 300 | 1 | 2 | 1 / 34 / 21415 | 159 | 303 | 63 | 2 | ✅ | 5 s |
-| marques-automobiles | ouverte | 1211 | 300 | 0 | 3 | 2 / 68 / 34956 | 219 | 701 | 285 | 6 | ✅ | 10 s |
-| oeuvres-victor-hugo | ouverte | 67 | 40 | 0 | 0 | 13 / 325 / 101304 | 1 | 29 | 35 | 2 | ✅ | 1 s |
-| romans-jules-verne | ouverte | 114 | 40 | 0 | 0 | 6 / 129 / 5445 | 10 | 78 | 26 | 0 | ✅ | 2 s |
-| mythologie-grecque | ouverte | 1082 | 300 | 3 | 1 | 1 / 75 / 24740 | 202 | 559 | 313 | 8 | ✅ | 52 s |
-| oiseaux | ouverte | 3272 | 300 | 0 | 13 | 1 / 21 / 71019 | 1377 | 1540 | 351 | 4 | ✅ | 61 s |
-| races-de-chiens | ouverte | 457 | 200 | 0 | 0 | 1 / 479 / 11364 | 5 | 138 | 313 | 1 | ✅ | 43 s |
+| albums-rap-francais | ouverte | 586 | 200 | 0 | 1 | 1 / 104 / 3393 | 44 | 407 | 135 | 0 | ✅ | 3 s |
+| jeux-de-societe | ouverte | 578 | 300 | 0 | 1 | 1 / 38 / 8635 | 146 | 354 | 78 | 0 | ✅ | 3 s |
+| instruments-de-musique | ouverte | 1424 | 300 | 0 | 1 | 1 / 71 / 4325 | 172 | 952 | 300 | 0 | ✅ | 8 s |
+| langages-de-programmation | ouverte | 527 | 300 | 1 | 2 | 1 / 34 / 21415 | 159 | 303 | 63 | 2 | ✅ | 2 s |
+| marques-automobiles | ouverte | 1212 | 300 | 0 | 3 | 2 / 68 / 34956 | 219 | 702 | 285 | 6 | ✅ | 6 s |
+| oeuvres-victor-hugo | ouverte | 67 | 40 | 0 | 0 | 13 / 325 / 101304 | 1 | 29 | 35 | 2 | ✅ | 129 s |
+| romans-jules-verne | ouverte | 114 | 40 | 0 | 0 | 6 / 129 / 5445 | 10 | 78 | 26 | 0 | ✅ | 129 s |
+| mythologie-grecque | ouverte | 1081 | 300 | 3 | 4 | 1 / 75 / 24740 | 202 | 558 | 313 | 8 | ✅ | 12 s |
+| oiseaux | ouverte | 3272 | 300 | 0 | 13 | 1 / 21 / 71019 | 1377 | 1540 | 351 | 4 | ✅ | 38 s |
+| races-de-chiens | ouverte | 457 | 200 | 0 | 0 | 1 / 479 / 11364 | 5 | 138 | 313 | 1 | ✅ | 3 s |
 | dinosaures | ouverte | 1196 | 300 | 0 | 1 | 1 / 22 / 6728 | 406 | 740 | 50 | 0 | ✅ | 8 s |
 | lunes-systeme-solaire | ouverte | 288 | 60 | 0 | 0 | 1 / 18 / 11221 | 130 | 142 | 15 | 1 | ✅ | 3 s |
 | rois-de-france | fermee | 30 | 25 | 1 | 0 | 2916 / 15838 / 123230 | 0 | 0 | 9 | 21 | ✅ | 1 s |
 | rois-des-francs | fermee | 59 | 50 | 23 | 0 | 89 / 1651 / 34348 | 0 | 3 | 52 | 4 | ✅ | 1 s |
 | presidents-republique-francaise | fermee | 25 | 20 | 6 | 0 | 3814 / 12033 / 150375 | 0 | 0 | 11 | 14 | ✅ | 1 s |
-| empereurs-romains | fermee | 77 | 50 | 25 | 0 | 36 / 1184 / 22252 | 0 | 10 | 61 | 6 | ✅ | 4 s |
+| empereurs-romains | fermee | 77 | 50 | 25 | 0 | 36 / 1184 / 22252 | 0 | 10 | 61 | 6 | ✅ | 3 s |
 | papes | fermee | 266 | 150 | 0 | 0 | 93 / 328 / 84203 | 0 | 120 | 138 | 8 | ✅ | 3 s |
-| elements-chimiques | fermee | 118 | 100 | 0 | 0 | 230 / 1343 / 26256 | 0 | 5 | 112 | 1 | ✅ | 2 s |
-| planetes-et-planetes-naines | fermee | 13 | 10 | 0 | 0 | 527 / 6768 / 17747 | 0 | 0 | 12 | 1 | ✅ | 1 s |
-| constellations | fermee | 86 | 80 | 0 | 0 | 117 / 342 / 6212 | 0 | 35 | 51 | 0 | ✅ | 1 s |
-| pays-membres-onu | fermee | 193 | 150 | 0 | 0 | 3624 / 13602 / 190399 | 0 | 0 | 76 | 117 | ✅ | 3 s |
-| capitales | fermee | 198 | 150 | 0 | 0 | 204 / 2643 / 83455 | 0 | 1 | 186 | 11 | ✅ | 4 s |
-| departements-francais | fermee | 101 | 90 | 2 | 0 | 1811 / 7976 / 83455 | 0 | 0 | 83 | 18 | ✅ | 5 s |
-| prix-nobel-litterature | fermee | 122 | 100 | 0 | 0 | 58 / 1302 / 66358 | 0 | 16 | 97 | 9 | ✅ | 5 s |
+| elements-chimiques | fermee | 118 | 100 | 0 | 0 | 230 / 1343 / 26256 | 0 | 5 | 112 | 1 | ✅ | 1 s |
+| planetes-et-planetes-naines | fermee | 13 | 10 | 0 | 0 | 527 / 6768 / 17747 | 0 | 0 | 12 | 1 | ✅ | 19 s |
+| constellations | fermee | 86 | 80 | 0 | 0 | 117 / 342 / 6212 | 0 | 35 | 51 | 0 | ✅ | 17 s |
+| pays-membres-onu | fermee | 193 | 150 | 0 | 0 | 3624 / 13602 / 190399 | 0 | 0 | 76 | 117 | ✅ | 2 s |
+| capitales | fermee | 198 | 150 | 0 | 0 | 204 / 2643 / 83455 | 0 | 1 | 186 | 11 | ✅ | 3 s |
+| departements-francais | fermee | 101 | 90 | 2 | 0 | 1811 / 7976 / 83455 | 0 | 0 | 83 | 18 | ✅ | 3 s |
+| prix-nobel-litterature | fermee | 122 | 100 | 0 | 0 | 58 / 1302 / 66358 | 0 | 16 | 97 | 9 | ✅ | 2 s |
 | prix-nobel-physique | fermee | 231 | 150 | 0 | 0 | 11 / 100 / 60314 | 3 | 167 | 57 | 4 | ✅ | 3 s |
 | vainqueurs-tour-de-france | fermee | 64 | 50 | 0 | 0 | 133 / 669 / 17292 | 0 | 10 | 53 | 1 | ✅ | 0 s |
-| signes-du-zodiaque | fermee | 12 | 12 | 1 | 0 | 2874 / 5603 / 8900 | 0 | 0 | 12 | 0 | ✅ | 1 s |
-| sauces | ouverte | 245 | 30 | 0 | 0 | 4 / 206 / 8764 | 11 | 124 | 110 | 0 | ✅ | 36 s |
-| fruits | ouverte | 675 | 120 | 3 | 4 | 1 / 107 / 18256 | 102 | 333 | 239 | 1 | ✅ | 41 s |
-| legumes | ouverte | 374 | 100 | 5 | 8 | 1 / 170 / 13327 | 64 | 149 | 160 | 1 | ✅ | 39 s |
-| champignons-comestibles | ouverte | 176 | 100 | 1 | 0 | 1 / 274 / 20499 | 11 | 77 | 85 | 3 | ✅ | 1 s |
+| signes-du-zodiaque | fermee | 12 | 12 | 1 | 0 | 2874 / 5603 / 8900 | 0 | 0 | 12 | 0 | ✅ | 2 s |
+| sauces | ouverte | 245 | 30 | 0 | 0 | 4 / 206 / 8764 | 11 | 124 | 110 | 0 | ✅ | 3 s |
+| fruits | ouverte | 675 | 120 | 3 | 4 | 1 / 107 / 18256 | 102 | 333 | 239 | 1 | ✅ | 7 s |
+| legumes | ouverte | 374 | 100 | 5 | 8 | 1 / 170 / 13327 | 64 | 149 | 160 | 1 | ✅ | 6 s |
+| champignons-comestibles | ouverte | 176 | 100 | 1 | 0 | 1 / 274 / 20499 | 11 | 77 | 85 | 3 | ✅ | 2 s |
 | varietes-de-pommes | ouverte | 247 | 150 | 2 | 0 | 2 / 28 / 1930 | 89 | 130 | 28 | 0 | ✅ | 2 s |
-| confiseries | ouverte | 287 | 120 | 127 | 1 | 4 / 117 / 5611 | 25 | 163 | 99 | 0 | ✅ | 10 s |
-| cocktails | ouverte | 125 | 100 | 0 | 0 | 3 / 147 / 8731 | 6 | 67 | 52 | 0 | ✅ | 5 s |
-| races-bovines | ouverte | 388 | 250 | 3 | 0 | 5 / 35 / 4300 | 103 | 236 | 49 | 0 | ✅ | 25 s |
-| races-de-chevaux | ouverte | 1412 | 200 | 5 | 6 | 1 / 22 / 3434 | 522 | 799 | 91 | 0 | ✅ | 71 s |
-| races-de-chats | ouverte | 93 | 50 | 0 | 0 | 6 / 501 / 14764 | 1 | 35 | 55 | 2 | ✅ | 3 s |
-| races-de-poules | ouverte | 186 | 100 | 6 | 0 | 5 / 60 / 1622 | 19 | 136 | 31 | 0 | ✅ | 48 s |
-| iles-francaises | ouverte | 1257 | 300 | 0 | 2 | 1 / 22 / 30964 | 524 | 595 | 135 | 3 | ✅ | 37 s |
+| confiseries | ouverte | 287 | 120 | 127 | 1 | 4 / 117 / 5611 | 25 | 163 | 99 | 0 | ✅ | 11 s |
+| cocktails | ouverte | 125 | 100 | 0 | 0 | 3 / 147 / 8731 | 6 | 67 | 52 | 0 | ✅ | 2 s |
+| races-bovines | ouverte | 388 | 250 | 3 | 0 | 5 / 35 / 4300 | 103 | 236 | 49 | 0 | ✅ | 53 s |
+| races-de-chevaux | ouverte | 1411 | 200 | 5 | 8 | 1 / 22 / 3434 | 522 | 798 | 91 | 0 | ✅ | 106 s |
+| races-de-chats | ouverte | 93 | 50 | 0 | 0 | 6 / 501 / 14764 | 1 | 35 | 55 | 2 | ✅ | 37 s |
+| races-de-poules | ouverte | 186 | 100 | 6 | 0 | 5 / 60 / 1622 | 19 | 136 | 31 | 0 | ✅ | 7 s |
+| iles-francaises | ouverte | 1257 | 300 | 0 | 2 | 1 / 22 / 30964 | 524 | 595 | 135 | 3 | ✅ | 9 s |
 | lacs-de-france | ouverte | 974 | 200 | 0 | 0 | 1 / 31 / 7113 | 344 | 527 | 103 | 0 | ✅ | 8 s |
-| phares-de-france | ouverte | 268 | 100 | 0 | 0 | 5 / 77 / 5507 | 10 | 229 | 29 | 0 | ✅ | 3 s |
-| cathedrales-de-france | ouverte | 200 | 100 | 0 | 0 | 8 / 333 / 28821 | 1 | 79 | 119 | 1 | ✅ | 3 s |
-| abbayes-de-france | ouverte | 1113 | 200 | 0 | 0 | 1 / 54 / 5790 | 108 | 879 | 126 | 0 | ✅ | 8 s |
-| chateaux-de-la-loire | ouverte | 87 | 60 | 0 | 0 | 14 / 406 / 11538 | 1 | 37 | 48 | 1 | ✅ | 1 s |
-| chateaux-de-france | ouverte | 7425 | 1000 | 0 | 1 | 1 / 42 / 13653 | 1034 | 5877 | 512 | 2 | ✅ | 65 s |
-| grottes-de-france | ouverte | 438 | 150 | 0 | 2 | 3 / 43 / 24879 | 71 | 323 | 42 | 2 | ✅ | 43 s |
-| volcans | ouverte | 1304 | 500 | 0 | 1 | 1 / 13 / 13624 | 762 | 454 | 86 | 2 | ✅ | 47 s |
-| deserts | ouverte | 130 | 80 | 0 | 0 | 1 / 54 / 6271 | 20 | 76 | 34 | 0 | ✅ | 3 s |
-| iles-grecques | ouverte | 274 | 150 | 0 | 3 | 1 / 19 / 13234 | 131 | 90 | 52 | 1 | ✅ | 12 s |
-| aeroports-de-france | ouverte | 184 | 100 | 0 | 0 | 6 / 135 / 8360 | 23 | 105 | 56 | 0 | ✅ | 15 s |
-| ponts-de-france | ouverte | 1554 | 300 | 0 | 1 | 1 / 31 / 11791 | 438 | 1018 | 97 | 1 | ✅ | 49 s |
-| plus-beaux-villages-de-france | ouverte | 222 | 120 | 2 | 0 | 7 / 763 / 19841 | 5 | 28 | 187 | 2 | ✅ | 44 s |
-| stations-thermales-france | ouverte | 174 | 60 | 1 | 0 | 1 / 303 / 12784 | 15 | 70 | 87 | 2 | ✅ | 47 s |
-| autoroutes-de-france | ouverte | 177 | 60 | 0 | 1 | 2 / 136 / 13882 | 10 | 102 | 64 | 1 | ✅ | 2 s |
-| musees-de-france | ouverte | 2091 | 300 | 0 | 2 | 1 / 53 / 13653 | 322 | 1514 | 253 | 2 | ✅ | 8 s |
-| rues-de-paris | ouverte | 5094 | 1000 | 0 | 0 | 1 / 41 / 11093 | 935 | 3773 | 385 | 1 | ✅ | 63 s |
-| monuments-historiques-paris | ouverte | 918 | 300 | 0 | 0 | 2 / 232 / 68505 | 26 | 487 | 396 | 9 | ✅ | 15 s |
-| etats-disparus | ouverte | 2468 | 300 | 2 | 6 | 1 / 111 / 23817 | 349 | 1327 | 775 | 17 | ✅ | 58 s |
-| monnaies | ouverte | 424 | 200 | 0 | 0 | 1 / 87 / 16565 | 57 | 270 | 96 | 1 | ✅ | 39 s |
-| langues | ouverte | 4051 | 1000 | 0 | 8 | 1 / 14 / 26328 | 2292 | 1476 | 281 | 2 | ✅ | 18 s |
-| communes-corse | ouverte (locale) | 360 | 200 | 0 | 0 | 25 / 118 / 6683 | 0 | 286 | 74 | 0 | ✅ | 7 s |
-| communes-outre-mer | ouverte (locale) | 129 | 80 | 0 | 0 | 111 / 390 / 4854 | 0 | 40 | 89 | 0 | ✅ | 9 s |
-| rues-de-lyon | ouverte (locale) | 404 | 150 | 0 | 0 | 2 / 31 / 531 | 102 | 296 | 6 | 0 | ✅ | 46 s |
-| pharaons | ouverte | 397 | 100 | 0 | 0 | 4 / 66 / 46055 | 66 | 242 | 87 | 2 | ✅ | 43 s |
-| marechaux-de-france | ouverte | 181 | 150 | 0 | 0 | 9 / 197 / 75032 | 7 | 99 | 69 | 6 | ✅ | 43 s |
+| phares-de-france | ouverte | 268 | 100 | 0 | 0 | 5 / 77 / 5507 | 10 | 229 | 29 | 0 | ✅ | 4 s |
+| cathedrales-de-france | ouverte | 200 | 100 | 0 | 0 | 8 / 333 / 28821 | 1 | 79 | 119 | 1 | ✅ | 5 s |
+| abbayes-de-france | ouverte | 1111 | 200 | 0 | 1 | 1 / 54 / 5790 | 108 | 877 | 126 | 0 | ✅ | 3 s |
+| chateaux-de-la-loire | ouverte | 87 | 60 | 0 | 0 | 14 / 406 / 11538 | 1 | 37 | 48 | 1 | ✅ | 40 s |
+| chateaux-de-france | ouverte | 7425 | 1000 | 0 | 1 | 1 / 42 / 13653 | 1034 | 5877 | 512 | 2 | ✅ | 114 s |
+| grottes-de-france | ouverte | 438 | 150 | 0 | 2 | 3 / 43 / 24879 | 71 | 323 | 42 | 2 | ✅ | 101 s |
+| volcans | ouverte | 1304 | 500 | 0 | 1 | 1 / 13 / 13624 | 762 | 454 | 86 | 2 | ✅ | 4 s |
+| deserts | ouverte | 130 | 80 | 0 | 0 | 1 / 54 / 6271 | 20 | 76 | 34 | 0 | ✅ | 133 s |
+| iles-grecques | ouverte | 274 | 150 | 0 | 3 | 1 / 19 / 13234 | 131 | 90 | 52 | 1 | ✅ | 122 s |
+| aeroports-de-france | ouverte | 184 | 100 | 0 | 0 | 6 / 135 / 8360 | 23 | 105 | 56 | 0 | ✅ | 2 s |
+| ponts-de-france | ouverte | 1554 | 300 | 0 | 1 | 1 / 31 / 11791 | 438 | 1018 | 97 | 1 | ✅ | 11 s |
+| plus-beaux-villages-de-france | ouverte | 222 | 120 | 2 | 0 | 7 / 763 / 19841 | 5 | 28 | 187 | 2 | ✅ | 4 s |
+| stations-thermales-france | ouverte | 174 | 60 | 1 | 0 | 1 / 303 / 12784 | 15 | 70 | 87 | 2 | ✅ | 6 s |
+| autoroutes-de-france | ouverte | 177 | 60 | 0 | 1 | 2 / 136 / 13882 | 10 | 102 | 64 | 1 | ✅ | 121 s |
+| musees-de-france | ouverte | 2088 | 300 | 0 | 2 | 1 / 53 / 13653 | 321 | 1515 | 250 | 2 | ✅ | 130 s |
+| rues-de-paris | ouverte | 5094 | 1000 | 0 | 0 | 1 / 41 / 11093 | 935 | 3773 | 385 | 1 | ✅ | 65 s |
+| monuments-historiques-paris | ouverte | 918 | 300 | 0 | 0 | 2 / 231 / 68505 | 26 | 488 | 395 | 9 | ✅ | 12 s |
+| etats-disparus | ouverte | 2468 | 300 | 2 | 6 | 1 / 111 / 23817 | 349 | 1327 | 775 | 17 | ✅ | 47 s |
+| monnaies | ouverte | 424 | 200 | 0 | 0 | 1 / 87 / 16565 | 57 | 270 | 96 | 1 | ✅ | 4 s |
+| langues | ouverte | 4050 | 1000 | 0 | 10 | 1 / 14 / 26328 | 2291 | 1476 | 281 | 2 | ✅ | 56 s |
+| communes-corse | ouverte (locale) | 360 | 200 | 0 | 0 | 25 / 118 / 6683 | 0 | 286 | 74 | 0 | ✅ | 4 s |
+| communes-outre-mer | ouverte (locale) | 129 | 80 | 0 | 0 | 111 / 390 / 4854 | 0 | 40 | 89 | 0 | ✅ | 2 s |
+| rues-de-lyon | ouverte (locale) | 404 | 150 | 0 | 0 | 2 / 31 / 531 | 102 | 296 | 6 | 0 | ✅ | 4 s |
+| pharaons | ouverte | 397 | 100 | 0 | 0 | 4 / 66 / 46055 | 66 | 242 | 87 | 2 | ✅ | 4 s |
+| marechaux-de-france | ouverte | 181 | 150 | 0 | 0 | 9 / 197 / 75032 | 7 | 99 | 69 | 6 | ✅ | 5 s |
 | chefs-du-gouvernement-francais | fermee | 36 | 25 | 0 | 0 | 4051 / 15373 / 134708 | 0 | 0 | 14 | 22 | ✅ | 1 s |
-| deputes-de-la-convention | ouverte | 811 | 300 | 2 | 0 | 1 / 17 / 33883 | 403 | 351 | 53 | 4 | ✅ | 7 s |
-| batailles-napoleoniennes | ouverte | 466 | 150 | 41 | 0 | 3 / 78 / 14157 | 28 | 381 | 56 | 1 | ✅ | 10 s |
-| batailles-seconde-guerre-mondiale | ouverte | 957 | 300 | 1 | 0 | 1 / 63 / 83425 | 136 | 661 | 158 | 2 | ✅ | 8 s |
-| reines-de-france | ouverte | 75 | 40 | 1 | 0 | 47 / 935 / 34849 | 0 | 14 | 55 | 6 | ✅ | 5 s |
-| explorateurs | ouverte | 3836 | 500 | 0 | 1 | 1 / 21 / 59304 | 1611 | 1924 | 293 | 8 | ✅ | 59 s |
-| philosophes-grece-antique | ouverte | 291 | 150 | 0 | 0 | 1 / 30 / 17833 | 95 | 144 | 49 | 3 | ✅ | 3 s |
+| deputes-de-la-convention | ouverte | 810 | 300 | 2 | 0 | 1 / 17 / 33883 | 403 | 351 | 52 | 4 | ✅ | 46 s |
+| batailles-napoleoniennes | ouverte | 466 | 150 | 41 | 0 | 3 / 78 / 14157 | 28 | 381 | 56 | 1 | ✅ | 49 s |
+| batailles-seconde-guerre-mondiale | ouverte | 957 | 300 | 1 | 0 | 1 / 63 / 83425 | 136 | 661 | 158 | 2 | ✅ | 47 s |
+| reines-de-france | ouverte | 75 | 40 | 1 | 0 | 47 / 935 / 34849 | 0 | 14 | 55 | 6 | ✅ | 6 s |
+| explorateurs | ouverte | 3837 | 500 | 0 | 2 | 1 / 21 / 59304 | 1611 | 1925 | 293 | 8 | ✅ | 62 s |
+| philosophes-grece-antique | ouverte | 291 | 150 | 0 | 0 | 1 / 30 / 17833 | 95 | 144 | 49 | 3 | ✅ | 2 s |
 | astronautes | ouverte | 744 | 300 | 0 | 0 | 2 / 27 / 105715 | 235 | 433 | 72 | 4 | ✅ | 5 s |
-| films-francais-annees-1970 | ouverte | 1590 | 500 | 2 | 1 | 3 / 114 / 80118 | 95 | 1038 | 448 | 9 | ✅ | 51 s |
-| films-francais-annees-1980 | ouverte | 1613 | 500 | 1 | 1 | 1 / 124 / 80118 | 103 | 1027 | 475 | 8 | ✅ | 49 s |
-| films-francais-annees-2000 | ouverte | 2752 | 500 | 2 | 6 | 1 / 84 / 28573 | 398 | 1641 | 703 | 10 | ✅ | 22 s |
-| films-americains-annees-1970 | ouverte | 1502 | 500 | 5 | 0 | 1 / 70 / 30534 | 176 | 1021 | 300 | 5 | ✅ | 53 s |
-| films-americains-annees-1990 | ouverte | 2910 | 500 | 3 | 1 | 1 / 100 / 34370 | 293 | 1711 | 889 | 17 | ✅ | 61 s |
-| films-d-animation | ouverte | 4298 | 500 | 2 | 5 | 1 / 22 / 27918 | 1888 | 1768 | 636 | 6 | ✅ | 52 s |
-| films-louis-de-funes | ouverte | 151 | 80 | 0 | 0 | 14 / 180 / 60243 | 2 | 92 | 56 | 1 | ✅ | 2 s |
+| films-francais-annees-1970 | ouverte | 1589 | 500 | 2 | 1 | 3 / 114 / 80118 | 95 | 1037 | 448 | 9 | ✅ | 11 s |
+| films-francais-annees-1980 | ouverte | 1612 | 500 | 1 | 1 | 1 / 124 / 80118 | 103 | 1027 | 474 | 8 | ✅ | 51 s |
+| films-francais-annees-2000 | ouverte | 2751 | 500 | 2 | 7 | 1 / 83 / 28573 | 398 | 1640 | 703 | 10 | ✅ | 55 s |
+| films-americains-annees-1970 | ouverte | 1502 | 500 | 5 | 0 | 1 / 70 / 30534 | 176 | 1021 | 300 | 5 | ✅ | 10 s |
+| films-americains-annees-1990 | ouverte | 2907 | 500 | 3 | 3 | 1 / 100 / 34370 | 293 | 1709 | 888 | 17 | ✅ | 56 s |
+| films-d-animation | ouverte | 4301 | 500 | 2 | 5 | 1 / 22 / 27918 | 1889 | 1770 | 636 | 6 | ✅ | 60 s |
+| films-louis-de-funes | ouverte | 151 | 80 | 0 | 0 | 14 / 180 / 60243 | 2 | 92 | 56 | 1 | ✅ | 3 s |
 | films-bourvil | ouverte | 65 | 40 | 0 | 0 | 8 / 447 / 10965 | 3 | 22 | 39 | 1 | ✅ | 1 s |
-| films-jean-gabin | ouverte | 104 | 60 | 0 | 0 | 9 / 560 / 50125 | 3 | 32 | 66 | 3 | ✅ | 2 s |
+| films-jean-gabin | ouverte | 104 | 60 | 0 | 0 | 9 / 560 / 50125 | 3 | 32 | 66 | 3 | ✅ | 1 s |
 | films-belmondo | ouverte | 90 | 50 | 0 | 0 | 14 / 1080 / 41362 | 2 | 21 | 66 | 1 | ✅ | 1 s |
-| films-alain-delon | ouverte | 94 | 50 | 0 | 0 | 10 / 637 / 38215 | 2 | 13 | 77 | 2 | ✅ | 1 s |
+| films-alain-delon | ouverte | 94 | 50 | 0 | 0 | 10 / 637 / 38215 | 2 | 13 | 77 | 2 | ✅ | 41 s |
 | films-catherine-deneuve | ouverte | 141 | 60 | 0 | 0 | 7 / 383 / 29523 | 3 | 53 | 84 | 1 | ✅ | 2 s |
 | films-hitchcock | ouverte | 58 | 40 | 0 | 0 | 22 / 447 / 54010 | 0 | 26 | 31 | 1 | ✅ | 1 s |
 | films-spielberg | ouverte | 37 | 25 | 0 | 0 | 62 / 2692 / 18029 | 0 | 1 | 35 | 1 | ✅ | 1 s |
 | films-truffaut | ouverte | 22 | 20 | 0 | 0 | 189 / 997 / 6949 | 0 | 1 | 21 | 0 | ✅ | 1 s |
 | films-godard | ouverte | 72 | 40 | 0 | 0 | 11 / 203 / 4634 | 1 | 46 | 25 | 0 | ✅ | 1 s |
-| films-woody-allen | ouverte | 51 | 40 | 0 | 0 | 88 / 303 / 2297 | 0 | 21 | 30 | 0 | ✅ | 2 s |
-| series-americaines | ouverte | 5321 | 500 | 0 | 11 | 1 / 142 / 172711 | 401 | 2926 | 1900 | 94 | ✅ | 111 s |
-| series-d-animation | ouverte | 2488 | 300 | 2 | 2 | 2 / 106 / 19872 | 154 | 1676 | 652 | 6 | ✅ | 56 s |
-| emissions-tv-francaises | ouverte | 731 | 300 | 0 | 0 | 1 / 177 / 72369 | 36 | 405 | 283 | 7 | ✅ | 44 s |
-| jeux-televises-francais | ouverte | 195 | 100 | 0 | 1 | 12 / 142 / 72369 | 2 | 122 | 67 | 4 | ✅ | 4 s |
+| films-woody-allen | ouverte | 51 | 40 | 0 | 0 | 88 / 303 / 2297 | 0 | 21 | 30 | 0 | ✅ | 1 s |
+| series-americaines | ouverte | 5331 | 500 | 0 | 13 | 1 / 142 / 172711 | 405 | 2933 | 1899 | 94 | ✅ | 71 s |
+| series-d-animation | ouverte | 2487 | 300 | 2 | 2 | 2 / 106 / 19872 | 154 | 1675 | 652 | 6 | ✅ | 56 s |
+| emissions-tv-francaises | ouverte | 726 | 300 | 0 | 0 | 1 / 178 / 72369 | 36 | 402 | 281 | 7 | ✅ | 6 s |
+| jeux-televises-francais | ouverte | 195 | 100 | 0 | 1 | 12 / 142 / 72369 | 2 | 122 | 67 | 4 | ✅ | 43 s |
 | chaines-tv-francaises | ouverte | 224 | 100 | 0 | 1 | 1 / 237 / 59006 | 14 | 113 | 90 | 7 | ✅ | 3 s |
-| radios-francaises | ouverte | 384 | 150 | 0 | 0 | 3 / 59 / 21906 | 58 | 274 | 50 | 2 | ✅ | 2 s |
-| journaux-et-magazines-francais | ouverte | 936 | 300 | 0 | 1 | 1 / 44 / 58299 | 204 | 535 | 192 | 5 | ✅ | 7 s |
-| compositeurs-baroques | ouverte | 1281 | 200 | 2 | 0 | 1 / 16 / 18360 | 655 | 573 | 51 | 2 | ✅ | 57 s |
-| compositeurs-romantiques | ouverte | 2386 | 200 | 5 | 3 | 1 / 16 / 32344 | 1213 | 1018 | 151 | 4 | ✅ | 112 s |
+| radios-francaises | ouverte | 384 | 150 | 0 | 0 | 3 / 59 / 21906 | 58 | 274 | 50 | 2 | ✅ | 3 s |
+| journaux-et-magazines-francais | ouverte | 754 | 300 | 0 | 1 | 2 / 61 / 58299 | 139 | 425 | 185 | 5 | ✅ | 6 s |
+| compositeurs-baroques | ouverte | 1281 | 200 | 2 | 0 | 1 / 16 / 18360 | 655 | 573 | 51 | 2 | ✅ | 58 s |
+| compositeurs-romantiques | ouverte | 2386 | 200 | 5 | 3 | 1 / 16 / 32344 | 1214 | 1017 | 151 | 4 | ✅ | 66 s |
 | fables-de-la-fontaine | ouverte | 264 | 100 | 1 | 0 | 1 / 78 / 7431 | 8 | 216 | 40 | 0 | ✅ | 2 s |
-| nouvelles-de-maupassant | ouverte | 330 | 100 | 0 | 0 | 3 / 54 / 8820 | 35 | 250 | 45 | 0 | ✅ | 4 s |
-| romans-de-simenon | ouverte | 217 | 100 | 0 | 0 | 9 / 65 / 1789 | 15 | 191 | 11 | 0 | ✅ | 4 s |
-| romans-agatha-christie | ouverte | 276 | 40 | 0 | 0 | 5 / 40 / 5930 | 54 | 176 | 46 | 0 | ✅ | 6 s |
-| romans-stephen-king | ouverte | 230 | 40 | 0 | 0 | 8 / 99 / 34094 | 10 | 148 | 71 | 1 | ✅ | 6 s |
+| nouvelles-de-maupassant | ouverte | 330 | 100 | 0 | 0 | 3 / 54 / 8820 | 35 | 250 | 45 | 0 | ✅ | 43 s |
+| romans-de-simenon | ouverte | 217 | 100 | 0 | 0 | 9 / 65 / 1789 | 15 | 191 | 11 | 0 | ✅ | 3 s |
+| romans-agatha-christie | ouverte | 276 | 40 | 0 | 0 | 5 / 40 / 5930 | 54 | 176 | 46 | 0 | ✅ | 5 s |
+| romans-stephen-king | ouverte | 230 | 40 | 0 | 0 | 8 / 99 / 34094 | 10 | 148 | 71 | 1 | ✅ | 1 s |
 | contes-de-grimm | ouverte | 58 | 40 | 0 | 0 | 14 / 121 / 7157 | 1 | 41 | 16 | 0 | ✅ | 1 s |
 | albums-lucky-luke | ouverte | 85 | 50 | 0 | 0 | 44 / 118 / 339 | 0 | 83 | 2 | 0 | ✅ | 1 s |
-| series-de-bande-dessinee | ouverte | 7292 | 500 | 2 | 89 | 1 / 31 / 24951 | 2284 | 4187 | 811 | 10 | ✅ | 115 s |
-| mangas | ouverte | 2210 | 500 | 1 | 10 | 1 / 59 / 24951 | 384 | 1391 | 426 | 9 | ✅ | 53 s |
-| animes | ouverte | 1297 | 300 | 2 | 1 | 2 / 89 / 24951 | 125 | 886 | 282 | 4 | ✅ | 9 s |
+| series-de-bande-dessinee | ouverte | 7291 | 500 | 2 | 89 | 1 / 31 / 24951 | 2284 | 4186 | 811 | 10 | ✅ | 183 s |
+| mangas | ouverte | 2208 | 500 | 1 | 10 | 1 / 59 / 24951 | 383 | 1390 | 426 | 9 | ✅ | 136 s |
+| animes | ouverte | 1296 | 300 | 2 | 1 | 2 / 90 / 24951 | 125 | 885 | 282 | 4 | ✅ | 15 s |
 | chansons-edith-piaf | ouverte | 22 | 20 | 1 | 0 | 13 / 262 / 2506 | 1 | 11 | 10 | 0 | ✅ | 1 s |
-| albums-johnny-hallyday | ouverte | 124 | 60 | 0 | 0 | 10 / 89 / 1271 | 3 | 108 | 13 | 0 | ✅ | 1 s |
-| groupes-de-musique-francais | ouverte | 1300 | 300 | 0 | 1 | 1 / 120 / 37166 | 127 | 733 | 430 | 10 | ✅ | 49 s |
-| rappeurs-francais | ouverte | 368 | 300 | 0 | 0 | 16 / 1031 / 75812 | 1 | 72 | 264 | 31 | ✅ | 43 s |
-| humoristes-francais | ouverte | 398 | 300 | 0 | 1 | 2 / 2917 / 86746 | 14 | 62 | 242 | 80 | ✅ | 6 s |
+| albums-johnny-hallyday | ouverte | 124 | 60 | 0 | 0 | 10 / 89 / 1271 | 3 | 108 | 13 | 0 | ✅ | 2 s |
+| groupes-de-musique-francais | ouverte | 1300 | 300 | 0 | 1 | 1 / 120 / 37166 | 127 | 733 | 430 | 10 | ✅ | 31 s |
+| rappeurs-francais | ouverte | 368 | 300 | 0 | 0 | 16 / 1031 / 75812 | 1 | 72 | 264 | 31 | ✅ | 6 s |
+| humoristes-francais | ouverte | 398 | 300 | 0 | 1 | 2 / 2917 / 86746 | 14 | 62 | 242 | 80 | ✅ | 22 s |
 | genres-musicaux | ouverte | 2258 | 300 | 0 | 0 | 1 / 60 / 7043 | 411 | 1426 | 421 | 0 | ✅ | 14 s |
-| danses | ouverte | 637 | 200 | 0 | 0 | 2 / 53 / 3810 | 123 | 417 | 97 | 0 | ✅ | 10 s |
-| festivals-en-france | ouverte | 849 | 300 | 0 | 0 | 1 / 28 / 4197 | 277 | 516 | 56 | 0 | ✅ | 9 s |
-| tableaux-du-louvre | ouverte | 790 | 200 | 0 | 1 | 1 / 45 / 27605 | 95 | 606 | 86 | 3 | ✅ | 9 s |
-| tableaux-d-orsay | ouverte | 474 | 100 | 0 | 6 | 1 / 54 / 9266 | 35 | 374 | 65 | 0 | ✅ | 44 s |
-| tableaux-de-monet | ouverte | 133 | 100 | 0 | 0 | 11 / 74 / 7498 | 4 | 106 | 23 | 0 | ✅ | 39 s |
-| tableaux-de-van-gogh | ouverte | 124 | 100 | 0 | 0 | 7 / 65 / 15642 | 5 | 100 | 18 | 1 | ✅ | 35 s |
-| mouvements-artistiques | ouverte | 479 | 100 | 1 | 0 | 3 / 113 / 14068 | 56 | 278 | 143 | 2 | ✅ | 10 s |
-| personnages-marvel | ouverte | 882 | 300 | 3 | 4 | 1 / 143 / 16951 | 75 | 489 | 315 | 3 | ✅ | 11 s |
-| personnages-disney | ouverte | 299 | 150 | 3 | 4 | 1 / 132 / 11233 | 50 | 145 | 103 | 1 | ✅ | 4 s |
+| danses | ouverte | 637 | 200 | 0 | 0 | 2 / 53 / 3810 | 123 | 417 | 97 | 0 | ✅ | 6 s |
+| festivals-en-france | ouverte | 849 | 300 | 0 | 0 | 1 / 28 / 4197 | 277 | 516 | 56 | 0 | ✅ | 6 s |
+| tableaux-du-louvre | ouverte | 789 | 200 | 0 | 5 | 1 / 45 / 27605 | 95 | 606 | 85 | 3 | ✅ | 3 s |
+| tableaux-d-orsay | ouverte | 474 | 100 | 0 | 7 | 1 / 54 / 9266 | 35 | 374 | 65 | 0 | ✅ | 132 s |
+| tableaux-de-monet | ouverte | 133 | 100 | 0 | 0 | 11 / 74 / 7498 | 4 | 106 | 23 | 0 | ✅ | 132 s |
+| tableaux-de-van-gogh | ouverte | 124 | 100 | 0 | 0 | 7 / 65 / 15642 | 5 | 100 | 18 | 1 | ✅ | 4 s |
+| mouvements-artistiques | ouverte | 479 | 100 | 1 | 0 | 3 / 113 / 14068 | 56 | 278 | 143 | 2 | ✅ | 5 s |
+| personnages-marvel | ouverte | 882 | 300 | 3 | 5 | 1 / 143 / 16951 | 75 | 489 | 315 | 3 | ✅ | 13 s |
+| personnages-disney | ouverte | 299 | 150 | 3 | 4 | 1 / 132 / 11233 | 50 | 145 | 103 | 1 | ✅ | 6 s |
 | personnages-star-wars | ouverte | 72 | 50 | 0 | 0 | 85 / 538 / 6779 | 0 | 10 | 62 | 0 | ✅ | 1 s |
 | personnages-de-tintin | ouverte | 34 | 25 | 1 | 1 | 1 / 218 / 2353 | 6 | 12 | 16 | 0 | ✅ | 1 s |
-| divinites-egyptiennes | ouverte | 252 | 150 | 5 | 0 | 3 / 59 / 9866 | 34 | 167 | 51 | 0 | ✅ | 2 s |
-| mythologie-nordique | ouverte | 231 | 80 | 46 | 2 | 1 / 114 / 6349 | 25 | 151 | 55 | 0 | ✅ | 8 s |
+| divinites-egyptiennes | ouverte | 252 | 150 | 5 | 0 | 3 / 59 / 9866 | 34 | 167 | 51 | 0 | ✅ | 3 s |
+| mythologie-nordique | ouverte | 299 | 80 | 46 | 4 | 1 / 97 / 6669 | 30 | 200 | 69 | 0 | ✅ | 26 s |
 | jeux-video-1992 | ouverte | 473 | 200 | 0 | 7 | 1 / 14 / 1119 | 268 | 188 | 17 | 0 | ✅ | 3 s |
 | jeux-video-2001 | ouverte | 555 | 200 | 0 | 4 | 1 / 18 / 4385 | 253 | 267 | 35 | 0 | ✅ | 4 s |
-| jeux-video-2007 | ouverte | 604 | 200 | 0 | 13 | 1 / 25 / 13475 | 235 | 328 | 40 | 1 | ✅ | 5 s |
-| jeux-video-mario | ouverte | 159 | 80 | 8 | 0 | 4 / 109 / 4216 | 6 | 106 | 47 | 0 | ✅ | 44 s |
+| jeux-video-2007 | ouverte | 604 | 200 | 0 | 13 | 1 / 25 / 13475 | 235 | 328 | 40 | 1 | ✅ | 4 s |
+| jeux-video-mario | ouverte | 159 | 80 | 8 | 0 | 4 / 109 / 4216 | 6 | 106 | 47 | 0 | ✅ | 18 s |
 | jeux-zelda | ouverte | 38 | 25 | 0 | 0 | 3 / 882 / 9623 | 3 | 9 | 26 | 0 | ✅ | 1 s |
-| consoles-de-jeux | ouverte | 276 | 80 | 3 | 0 | 3 / 107 / 12115 | 21 | 161 | 93 | 1 | ✅ | 51 s |
-| jeux-de-cartes | ouverte | 232 | 100 | 0 | 0 | 2 / 139 / 28257 | 24 | 131 | 76 | 1 | ✅ | 43 s |
+| consoles-de-jeux | ouverte | 276 | 80 | 3 | 0 | 3 / 107 / 12115 | 21 | 161 | 93 | 1 | ✅ | 25 s |
+| jeux-de-cartes | ouverte | 232 | 100 | 0 | 0 | 2 / 139 / 28257 | 24 | 131 | 76 | 1 | ✅ | 5 s |
 | ouvertures-aux-echecs | ouverte | 216 | 80 | 9 | 0 | 5 / 61 / 2236 | 29 | 155 | 32 | 0 | ✅ | 4 s |
-| sports | ouverte | 425 | 300 | 0 | 1 | 2 / 228 / 14178 | 25 | 205 | 192 | 3 | ✅ | 8 s |
-| internationaux-francais-football | ouverte | 1115 | 500 | 0 | 0 | 4 / 114 / 230471 | 114 | 569 | 364 | 68 | ✅ | 6 s |
+| sports | ouverte | 425 | 300 | 0 | 1 | 2 / 228 / 14178 | 25 | 205 | 192 | 3 | ✅ | 5 s |
+| internationaux-francais-football | ouverte | 1119 | 500 | 0 | 0 | 4 / 115 / 230471 | 114 | 569 | 366 | 70 | ✅ | 7 s |
 | champions-olympiques-francais | ouverte | 508 | 300 | 0 | 0 | 6 / 94 / 18884 | 69 | 268 | 165 | 6 | ✅ | 3 s |
-| clubs-de-football-francais | ouverte | 769 | 300 | 0 | 1 | 1 / 124 / 57416 | 75 | 468 | 217 | 9 | ✅ | 8 s |
-| stades-de-france | ouverte | 380 | 200 | 0 | 0 | 3 / 91 / 21073 | 42 | 240 | 95 | 3 | ✅ | 52 s |
-| pilotes-de-formule-1 | ouverte | 876 | 300 | 0 | 0 | 3 / 43 / 102851 | 217 | 469 | 179 | 11 | ✅ | 54 s |
-| vainqueurs-tour-d-italie | ouverte | 72 | 50 | 0 | 0 | 24 / 298 / 17292 | 0 | 35 | 36 | 1 | ✅ | 0 s |
-| vainqueurs-d-etape-tour-de-france | ouverte | 866 | 300 | 0 | 0 | 4 / 77 / 25194 | 80 | 578 | 206 | 2 | ✅ | 2 s |
-| mammiferes | ouverte | 2809 | 500 | 90 | 527 | 1 / 9 / 65676 | 1689 | 775 | 335 | 10 | ✅ | 53 s |
-| poissons | ouverte | 1560 | 300 | 123 | 313 | 1 / 5 / 8057 | 1104 | 346 | 110 | 0 | ✅ | 62 s |
-| insectes | ouverte | 1783 | 150 | 73 | 315 | 1 / 7 / 11818 | 1190 | 487 | 103 | 3 | ✅ | 60 s |
-| arbres | ouverte | 141 | 120 | 0 | 14 | 1 / 57 / 6202 | 53 | 41 | 47 | 0 | ✅ | 3 s |
-| sondes-spatiales | ouverte | 211 | 80 | 0 | 0 | 5 / 34 / 7118 | 52 | 140 | 19 | 0 | ✅ | 3 s |
-| unites-de-mesure | ouverte | 816 | 200 | 0 | 30 | 1 / 53 / 14570 | 246 | 361 | 208 | 1 | ✅ | 46 s |
-| theoremes | ouverte | 1256 | 300 | 0 | 1 | 1 / 44 / 13227 | 265 | 800 | 190 | 1 | ✅ | 7 s |
+| clubs-de-football-francais | ouverte | 768 | 300 | 0 | 2 | 1 / 124 / 57416 | 75 | 468 | 216 | 9 | ✅ | 4 s |
+| stades-de-france | ouverte | 380 | 200 | 0 | 0 | 3 / 91 / 21073 | 42 | 240 | 95 | 3 | ✅ | 4 s |
+| pilotes-de-formule-1 | ouverte | 877 | 300 | 0 | 0 | 3 / 43 / 102851 | 217 | 469 | 180 | 11 | ✅ | 46 s |
+| vainqueurs-tour-d-italie | ouverte | 72 | 50 | 0 | 0 | 24 / 298 / 17292 | 0 | 35 | 36 | 1 | ✅ | 1 s |
+| vainqueurs-d-etape-tour-de-france | ouverte | 866 | 300 | 0 | 0 | 4 / 77 / 25194 | 80 | 578 | 206 | 2 | ✅ | 45 s |
+| mammiferes | ouverte | 2809 | 500 | 90 | 527 | 1 / 9 / 65676 | 1689 | 775 | 335 | 10 | ✅ | 106 s |
+| poissons | ouverte | 1560 | 300 | 123 | 313 | 1 / 5 / 8057 | 1104 | 346 | 110 | 0 | ✅ | 63 s |
+| insectes | ouverte | 1783 | 150 | 73 | 315 | 1 / 7 / 11818 | 1190 | 487 | 103 | 3 | ✅ | 61 s |
+| arbres | ouverte | 141 | 120 | 0 | 14 | 1 / 57 / 6202 | 53 | 41 | 47 | 0 | ✅ | 2 s |
+| sondes-spatiales | ouverte | 212 | 80 | 0 | 0 | 5 / 34 / 7118 | 53 | 140 | 19 | 0 | ✅ | 3 s |
+| unites-de-mesure | ouverte | 817 | 200 | 0 | 30 | 1 / 53 / 14570 | 246 | 362 | 208 | 1 | ✅ | 8 s |
+| theoremes | ouverte | 1256 | 300 | 0 | 1 | 1 / 44 / 13227 | 265 | 800 | 190 | 1 | ✅ | 11 s |
 | figures-de-style | ouverte | 175 | 100 | 1 | 0 | 6 / 267 / 8890 | 7 | 82 | 86 | 0 | ✅ | 1 s |
-| locutions-latines | ouverte | 393 | 150 | 2 | 1 | 1 / 155 / 14147 | 30 | 223 | 139 | 1 | ✅ | 2 s |
+| locutions-latines | ouverte | 393 | 150 | 2 | 2 | 1 / 155 / 14147 | 30 | 223 | 139 | 1 | ✅ | 1 s |
 | biais-cognitifs | ouverte | 132 | 50 | 0 | 0 | 8 / 134 / 10485 | 4 | 91 | 37 | 0 | ✅ | 1 s |
 | paradoxes | ouverte | 176 | 50 | 1 | 0 | 2 / 123 / 8899 | 20 | 98 | 58 | 0 | ✅ | 3 s |
-| algorithmes | ouverte | 810 | 200 | 0 | 1 | 1 / 53 / 6758 | 173 | 507 | 130 | 0 | ✅ | 7 s |
-| systemes-d-exploitation | ouverte | 663 | 100 | 0 | 0 | 1 / 54 / 6531 | 142 | 405 | 116 | 0 | ✅ | 8 s |
-| distributions-linux | ouverte | 232 | 100 | 0 | 0 | 4 / 42 / 3000 | 56 | 134 | 42 | 0 | ✅ | 8 s |
-| navigateurs-web | ouverte | 92 | 50 | 1 | 0 | 6 / 59 / 14436 | 6 | 65 | 20 | 1 | ✅ | 5 s |
-| polices-d-ecriture | ouverte | 299 | 100 | 0 | 2 | 3 / 31 / 1314 | 89 | 190 | 20 | 0 | ✅ | 51 s |
-| couleurs | ouverte | 245 | 100 | 0 | 2 | 1 / 174 / 3668 | 12 | 142 | 91 | 0 | ✅ | 8 s |
-| modeles-peugeot | ouverte | 191 | 60 | 0 | 0 | 5 / 74 / 5675 | 3 | 122 | 66 | 0 | ✅ | 41 s |
-| modeles-renault | ouverte | 170 | 60 | 0 | 0 | 16 / 799 / 7142 | 2 | 55 | 113 | 0 | ✅ | 33 s |
-| modeles-citroen | ouverte | 86 | 50 | 0 | 0 | 13 / 892 / 18723 | 1 | 22 | 62 | 1 | ✅ | 2 s |
+| algorithmes | ouverte | 811 | 200 | 0 | 1 | 1 / 53 / 6758 | 173 | 507 | 131 | 0 | ✅ | 6 s |
+| systemes-d-exploitation | ouverte | 663 | 100 | 0 | 0 | 1 / 54 / 6531 | 142 | 405 | 116 | 0 | ✅ | 6 s |
+| distributions-linux | ouverte | 232 | 100 | 0 | 0 | 4 / 42 / 3000 | 56 | 134 | 42 | 0 | ✅ | 3 s |
+| navigateurs-web | ouverte | 92 | 50 | 1 | 0 | 6 / 59 / 14436 | 6 | 65 | 20 | 1 | ✅ | 3 s |
+| polices-d-ecriture | ouverte | 300 | 100 | 0 | 2 | 1 / 31 / 1314 | 90 | 190 | 20 | 0 | ✅ | 54 s |
+| couleurs | ouverte | 244 | 100 | 0 | 2 | 1 / 173 / 3668 | 12 | 142 | 90 | 0 | ✅ | 3 s |
+| modeles-peugeot | ouverte | 191 | 60 | 0 | 0 | 5 / 74 / 5675 | 3 | 122 | 66 | 0 | ✅ | 4 s |
+| modeles-renault | ouverte | 170 | 60 | 0 | 0 | 16 / 799 / 7142 | 2 | 55 | 113 | 0 | ✅ | 38 s |
+| modeles-citroen | ouverte | 86 | 50 | 0 | 0 | 13 / 892 / 18723 | 1 | 22 | 62 | 1 | ✅ | 38 s |
 | avions-de-ligne | ouverte | 408 | 200 | 1 | 0 | 3 / 113 / 25630 | 44 | 230 | 131 | 3 | ✅ | 7 s |
 | avions-de-chasse | ouverte | 753 | 300 | 7 | 2 | 2 / 52 / 40912 | 158 | 460 | 133 | 2 | ✅ | 7 s |
-| paquebots | ouverte | 690 | 100 | 0 | 0 | 2 / 42 / 22715 | 137 | 463 | 89 | 1 | ✅ | 4 s |
+| paquebots | ouverte | 690 | 100 | 0 | 0 | 2 / 42 / 22715 | 137 | 463 | 89 | 1 | ✅ | 2 s |
 | presidents-etats-unis | fermee | 45 | 40 | 0 | 0 | 967 / 3797 / 84044 | 0 | 0 | 31 | 14 | ✅ | 2 s |
-| monarques-anglais-et-britanniques | fermee | 53 | 50 | 0 | 0 | 730 / 6401 / 53159 | 0 | 0 | 37 | 16 | ✅ | 3 s |
-| prix-nobel-chimie | fermee | 200 | 100 | 0 | 0 | 10 / 54 / 60314 | 6 | 162 | 30 | 2 | ✅ | 2 s |
-| prix-nobel-medecine | fermee | 236 | 100 | 0 | 0 | 13 / 64 / 14010 | 3 | 194 | 38 | 1 | ✅ | 2 s |
-| prix-nobel-paix | fermee | 143 | 60 | 1 | 0 | 25 / 513 / 51562 | 0 | 53 | 78 | 12 | ✅ | 3 s |
-| laureats-prix-goncourt | fermee | 123 | 80 | 0 | 0 | 63 / 847 / 30900 | 0 | 35 | 75 | 13 | ✅ | 3 s |
-| ballon-d-or | fermee | 48 | 40 | 0 | 0 | 1389 / 9938 / 686714 | 0 | 0 | 28 | 20 | ✅ | 3 s |
+| monarques-anglais-et-britanniques | fermee | 53 | 50 | 0 | 0 | 730 / 6401 / 53159 | 0 | 0 | 37 | 16 | ✅ | 132 s |
+| prix-nobel-chimie | fermee | 200 | 100 | 0 | 0 | 10 / 54 / 60314 | 6 | 162 | 30 | 2 | ✅ | 133 s |
+| prix-nobel-medecine | fermee | 235 | 100 | 0 | 0 | 13 / 63 / 14010 | 3 | 193 | 38 | 1 | ✅ | 4 s |
+| prix-nobel-paix | fermee | 142 | 60 | 1 | 0 | 25 / 508 / 51562 | 0 | 53 | 77 | 12 | ✅ | 5 s |
+| laureats-prix-goncourt | fermee | 123 | 80 | 0 | 0 | 63 / 847 / 30900 | 0 | 35 | 75 | 13 | ✅ | 4 s |
+| ballon-d-or | fermee | 48 | 40 | 0 | 0 | 1389 / 9938 / 686714 | 0 | 0 | 28 | 20 | ✅ | 4 s |
 | champions-du-monde-f1 | fermee | 36 | 30 | 0 | 0 | 437 / 2782 / 102851 | 0 | 0 | 29 | 7 | ✅ | 0 s |
 | champions-du-monde-echecs | fermee | 39 | 30 | 0 | 0 | 7 / 243 / 15691 | 3 | 19 | 15 | 2 | ✅ | 0 s |
 | pieces-de-moliere | fermee | 36 | 25 | 1 | 0 | 17 / 278 / 5404 | 0 | 17 | 19 | 0 | ✅ | 2 s |
 | pieces-de-shakespeare | fermee | 45 | 30 | 0 | 0 | 20 / 303 / 23687 | 0 | 21 | 22 | 2 | ✅ | 1 s |
 | albums-de-tintin | fermee | 26 | 20 | 0 | 0 | 180 / 1214 / 3846 | 0 | 1 | 25 | 0 | ✅ | 0 s |
-| albums-d-asterix | fermee | 42 | 30 | 0 | 0 | 1 / 468 / 1547 | 1 | 0 | 41 | 0 | ✅ | 0 s |
+| albums-d-asterix | fermee | 42 | 30 | 0 | 0 | 1 / 468 / 1547 | 1 | 0 | 41 | 0 | ✅ | 1 s |
 | albums-studio-des-beatles | fermee | 30 | 20 | 0 | 0 | 37 / 219 / 5268 | 0 | 17 | 13 | 0 | ✅ | 0 s |
-| oscars-du-meilleur-film | fermee | 98 | 80 | 0 | 0 | 97 / 2534 / 84560 | 0 | 10 | 79 | 9 | ✅ | 2 s |
-| palmes-d-or | fermee | 83 | 60 | 0 | 0 | 29 / 1346 / 50981 | 0 | 7 | 73 | 3 | ✅ | 3 s |
-| cesars-du-meilleur-film | fermee | 53 | 40 | 0 | 0 | 297 / 2292 / 16514 | 0 | 0 | 50 | 3 | ✅ | 1 s |
-| regions-de-france | fermee | 18 | 15 | 0 | 0 | 6151 / 14466 / 27763 | 0 | 0 | 6 | 12 | ✅ | 2 s |
-| etats-des-etats-unis | fermee | 50 | 45 | 0 | 0 | 2229 / 4634 / 12024 | 0 | 0 | 49 | 1 | ✅ | 3 s |
-| pays-union-europeenne | fermee | 27 | 25 | 0 | 0 | 1574 / 17114 / 190399 | 0 | 0 | 3 | 24 | ✅ | 3 s |
-| pays-d-afrique | fermee | 54 | 50 | 0 | 0 | 4075 / 13038 / 138616 | 0 | 0 | 22 | 32 | ✅ | 4 s |
-| pays-d-asie | fermee | 48 | 40 | 0 | 0 | 5024 / 14348 / 143736 | 0 | 0 | 17 | 31 | ✅ | 4 s |
-| pays-d-amerique-du-sud | fermee | 12 | 12 | 0 | 0 | 6791 / 9100 / 54350 | 0 | 0 | 8 | 4 | ✅ | 4 s |
-| cantons-suisses | fermee | 26 | 24 | 0 | 0 | 682 / 1234 / 6705 | 0 | 0 | 26 | 0 | ✅ | 3 s |
+| oscars-du-meilleur-film | fermee | 98 | 80 | 0 | 0 | 97 / 2534 / 84560 | 0 | 10 | 79 | 9 | ✅ | 1 s |
+| palmes-d-or | fermee | 83 | 60 | 0 | 0 | 29 / 1346 / 50981 | 0 | 7 | 73 | 3 | ✅ | 2 s |
+| cesars-du-meilleur-film | fermee | 53 | 40 | 0 | 0 | 297 / 2292 / 16514 | 0 | 0 | 50 | 3 | ✅ | 0 s |
+| regions-de-france | fermee | 18 | 15 | 0 | 0 | 6151 / 14466 / 27763 | 0 | 0 | 6 | 12 | ✅ | 1 s |
+| etats-des-etats-unis | fermee | 50 | 45 | 0 | 0 | 2229 / 4634 / 12024 | 0 | 0 | 49 | 1 | ✅ | 1 s |
+| pays-union-europeenne | fermee | 27 | 25 | 0 | 0 | 1574 / 17114 / 190399 | 0 | 0 | 3 | 24 | ✅ | 2 s |
+| pays-d-afrique | fermee | 54 | 50 | 0 | 0 | 4075 / 13038 / 138616 | 0 | 0 | 22 | 32 | ✅ | 3 s |
+| pays-d-asie | fermee | 48 | 40 | 0 | 0 | 5024 / 14348 / 143736 | 0 | 0 | 17 | 31 | ✅ | 2 s |
+| pays-d-amerique-du-sud | fermee | 12 | 12 | 0 | 0 | 6791 / 9100 / 54350 | 0 | 0 | 8 | 4 | ✅ | 2 s |
+| cantons-suisses | fermee | 26 | 24 | 0 | 0 | 682 / 1234 / 6705 | 0 | 0 | 26 | 0 | ✅ | 1 s |
 | lander-allemands | fermee | 16 | 15 | 0 | 0 | 540 / 2783 / 10114 | 0 | 0 | 16 | 0 | ✅ | 2 s |
-| communautes-autonomes-espagne | fermee | 17 | 15 | 0 | 0 | 1316 / 2650 / 12549 | 0 | 0 | 15 | 2 | ✅ | 2 s |
-| provinces-et-territoires-canada | fermee | 13 | 12 | 0 | 0 | 2908 / 5701 / 39865 | 0 | 0 | 11 | 2 | ✅ | 2 s |
+| communautes-autonomes-espagne | fermee | 17 | 15 | 0 | 0 | 1316 / 2650 / 12549 | 0 | 0 | 15 | 2 | ✅ | 3 s |
+| provinces-et-territoires-canada | fermee | 13 | 12 | 0 | 0 | 2908 / 5701 / 39865 | 0 | 0 | 11 | 2 | ✅ | 3 s |
 | lettres-grecques | fermee | 41 | 24 | 0 | 0 | 8 / 722 / 3244 | 4 | 11 | 26 | 0 | ✅ | 0 s |
+
+## Réponses évidentes refusées
+
+Réponses du champ `expect` que l'app refuserait. « Présent sous » : le membre existe mais le joueur ne peut pas deviner son titre (alias à ajouter) ; « absent » : la source a un trou (`include` ou requête à revoir).
+
+- **emissions-tv-francaises** : « envoyé spécial » (présent sous : Mon envoyé spécial)
 
 ## Avertissements par catégorie
 
+- **langages-de-programmation** : réussie au second essai (premier essai : HTTP 504 https://query.wikidata.org/sparql)
 - **rois-de-france** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **presidents-republique-francaise** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **planetes-et-planetes-naines** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **pays-membres-onu** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **departements-francais** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **signes-du-zodiaque** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **abbayes-de-france** : réussie au second essai (premier essai : HTTP 504 https://query.wikidata.org/sparql)
+- **volcans** : réussie au second essai (premier essai : HTTP 504 https://query.wikidata.org/sparql)
+- **aeroports-de-france** : réussie au second essai (premier essai : HTTP 429 https://query.wikidata.org/sparql)
 - **chefs-du-gouvernement-francais** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
+- **romans-stephen-king** : réussie au second essai (premier essai : HTTP 429 https://query.wikidata.org/sparql)
 - **animes** : include inutile, déjà membre : Saint Seiya (série télévisée d'animation)
+- **tableaux-du-louvre** : réussie au second essai (premier essai : HTTP 504 https://query.wikidata.org/sparql)
+- **paquebots** : réussie au second essai (premier essai : HTTP 504 https://query.wikidata.org/sparql)
 - **presidents-etats-unis** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **monarques-anglais-et-britanniques** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
 - **ballon-d-or** : aucun membre confidentiel ou fantôme : catégorie peu intéressante à jouer
@@ -303,8 +316,9 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 ### 🍷 Un vin AOC français (`vins-aoc-france`)
 
 - Les plus consultés : Pouilly-fumé (3093), Romanée-conti (2996), Côte-rôtie (AOC) (2983), Coteaux-du-layon (1975), Crozes-hermitage (AOC) (1924)
-- Fantômes (≤ 10 vues) : Blienschwiller (AOC) (9), Côtes-de-barr (8), Froehn (10), Rodern (AOC) (9), Saering (10)
+- Fantômes (≤ 10 vues) : Blienschwiller (AOC) (9), Côtes-de-barr (8), Froehn (10), Massif-d'uchaux (1), Plan-de-dieu (3)
 - Retirés (échantillon) : Liste des communes de l'appellation d'origine contrôlée anjou [technique]
+- Absents du dump, retirés (échantillon) : Roaix (côtes-du-rhône-villages), Sablet (côtes-du-rhône-villages), Séguret (côtes-du-rhône-villages), Valréas (côtes-du-rhône-villages), Visan (côtes-du-rhône-villages), Puyméras (côtes-du-rhône-villages), Sainte-cécile (côtes-du-rhône-villages), Rochegude (côtes-du-rhône-villages)
 
 ### 🚉 Une gare ferroviaire française (`gares-de-france`)
 
@@ -402,7 +416,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 - Les plus consultés : Sarah Bernhardt (41078), Claude Monet (26875), Gustave Fayet (26063), Paul Cézanne (20622), Le Corbusier (14972)
 - Fantômes (≤ 10 vues) : Abel Boulineau (7), Abel Damourette (4), Achilles Bigot (10), Adelina-Margarita Hertl (3), Adolphe Duclos (9)
-- Absents du dump, retirés (échantillon) : Jean-Bernard Eschemann, Élise Moisson-Desroches, Joséphine Galimard, Yvanhoé Rambosson, Léon-Auguste Michelez, Léon Grandin, Adrienne Duport
+- Absents du dump, retirés (échantillon) : Jean-Bernard Eschemann, Émile Désiré Liénard, Élise Moisson-Desroches, Joséphine Galimard, Félicie Palade-Bonnal, Yvanhoé Rambosson, Léon-Auguste Michelez, Léon Grandin
 
 ### 🎬 Un film français des années 1990 (`films-francais-annees-1990`)
 
@@ -422,7 +436,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 - Les plus consultés : Cat's Eyes (série télévisée) (211019), Lupin (série télévisée, 2021) (124780), La Terre et le Sang (mini-série) (119508), Intraçables (89108), Star Academy (France) (74335)
 - Fantômes (≤ 10 vues) : Authentik (web-série) (9), Cécile et Kevin (8), Ciné Policier (8), Les Aventures d'Oscar (6), Les Mariages d'Agathe (7)
-- Absents du dump, retirés (échantillon) : Un jour on fera l'amour, Un été, Roxane : La Vie sexuelle de ma pote
+- Absents du dump, retirés (échantillon) : Un jour on fera l'amour, Un été, Lucie (mini-série), Roxane : La Vie sexuelle de ma pote
 
 ### 🕹️ Un jeu vidéo sorti en 1998 (`jeux-video-1998`)
 
@@ -446,6 +460,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 - Les plus consultés : Kora (4325), Piano (4210), Oud (4082), Guitare (3958), Saxophone (3445)
 - Fantômes (≤ 10 vues) : Aburukuwa (6), Alesis Ion (7), Apollonicon (3), Archéophone (6), Auxetophone (4)
+- Absents du dump, retirés (échantillon) : Kroder kroghen
 
 ### 💻 Un langage de programmation (`langages-de-programmation`)
 
@@ -474,7 +489,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 - Les plus consultés : Minotaure (24740), Ulysse (17691), Athéna (15816), Achille (14184), Méduse (mythologie) (14107)
 - Fantômes (≤ 10 vues) : Adraste fils de Mérops (10), Alcandra (8), Amaryncée (8), Amazonius (10), Amphistrate (3)
 - Retirés (échantillon) : Liste des divinités de la mythologie grecque [technique], Liste des personnages déifiés dans la mythologie grecque [technique], Liste de créatures fantastiques de la mythologie grecque [technique]
-- Absents du dump, retirés (échantillon) : Ménippé fille de Pénée
+- Absents du dump, retirés (échantillon) : Polypoitès (fils de Pirithoos), Labrys (hache double), Labrys (Hache à double tranchant), Ménippé fille de Pénée
 
 ### 🐦 Un oiseau (nom vernaculaire) (`oiseaux`)
 
@@ -618,7 +633,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 - Les plus consultés : Cheval de Przewalski (3434), Frison (cheval) (2692), Mustang (cheval) (2522), Pottok (2347), Akhal-Teké (2337)
 - Fantômes (≤ 10 vues) : Abtenauer (8), Ack Ack (9), Alaca (cheval) (8), Alexander Goldrun (5), American walking pony (4)
 - Retirés (échantillon) : Liste de races chevalines [technique], Liste de chevaux de course [technique], Liste des races chevalines de France [technique], Liste des races chevalines d'Italie [technique], Liste des races de chevaux japonaises éteintes [technique]
-- Absents du dump, retirés (échantillon) : Sun Goddess, Mihono Bourbon, Cheval du Haut-Ienisseï, Aratel, Arattel, Race de Bulle
+- Absents du dump, retirés (échantillon) : Manipuri (cheval), Sun Goddess, Mihono Bourbon, Autumn Glow, Cheval du Haut-Ienisseï, Aratel, Arattel, Race de Bulle
 
 ### 🐈 Une race de chat (`races-de-chats`)
 
@@ -656,6 +671,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 - Les plus consultés : Abbaye Sainte-Marie de Fontfroide (5790), Abbaye de Cluny (4681), Abbaye de Saint-Germain-des-Prés (3051), Abbaye Notre-Dame de Fontevraud (2964), Abbaye du Mont-Saint-Michel (2876)
 - Fantômes (≤ 10 vues) : Abbaye de Bons (5), Abbaye de Chantoin (9), Abbaye de Chartreuve (10), Abbaye de Chézoy (6), Abbaye de Crottet (7)
+- Absents du dump, retirés (échantillon) : Abbaye de Peyrouse
 
 ### 🏰 Un château de la Loire (`chateaux-de-la-loire`)
 
@@ -740,7 +756,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 - Les plus consultés : Empire ottoman (23817), Union des républiques socialistes soviétiques (23565), Empire byzantin (21852), Régime de Vichy (21745), Saint-Empire romain germanique (19303)
 - Fantômes (≤ 10 vues) : Amb (9), Athgarh (4), Baghal (8), Baghat (3), Bamra (4)
 - Retirés (échantillon) : Liste des seigneurs de Béarn [technique], Liste des comtes et vicomtes de Corbeil [technique]
-- Absents du dump, retirés (échantillon) : Ikikoku, Principauté de Castrioti, Royaume de Porto-novo, État de Chhota Udaipur, Miraj Junior, Gouvernement national ukrainien
+- Absents du dump, retirés (échantillon) : Ikikoku, Principauté de Kastrioti, Royaume de Porto-novo, État de Chhota Udaipur, Miraj Junior, Gouvernement national ukrainien
 
 ### 💱 Une monnaie (actuelle ou ancienne) (`monnaies`)
 
@@ -751,7 +767,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 - Les plus consultés : Français (26328), Anglais (12987), Arabe (9669), Latin (9400), Grec ancien (6787)
 - Fantômes (≤ 10 vues) : 'Auhelawa (5), A'ou (4), Abadi (langue) (9), Adiya (9), Aimele (5)
-- Absents du dump, retirés (échantillon) : Kallahan keley-i, Lawunuia, Likum, Sangil, Tangga, Baram (langue), Nung (langue), Lavukaleve
+- Absents du dump, retirés (échantillon) : Kallahan keley-i, Lawunuia, Likum, Lambadi, Sangil, Tangga, Wandji (langue), Baram (langue)
 
 ### 🏘️ Une commune de Corse (`communes-corse`)
 
@@ -807,7 +823,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 - Les plus consultés : Christophe Colomb (59304), Tensing Norgay (41260), Karl Bushby (25744), Edmund Hillary (21639), Amerigo Vespucci (15337)
 - Fantômes (≤ 10 vues) : A. Maufroid (4), Abacuk Pricket (8), Abraham Bristow (7), Abraham van Pere (10), Adam Stanley Renders (8)
-- Absents du dump, retirés (échantillon) : George W. Rice
+- Absents du dump, retirés (échantillon) : Duncan McGillivray, George W. Rice
 
 ### 🏺 Un philosophe de la Grèce antique (`philosophes-grece-antique`)
 
@@ -838,7 +854,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 - Les plus consultés : Sur mes lèvres (28573), 36 quai des Orfèvres (film) (20525), Cette femme-là (19077), 1492 : Christophe Colomb (16932), Une affaire privée (film, 2002) (15360)
 - Fantômes (≤ 10 vues) : … Et tremble d'être heureux (9), 40 Milligrammes d'amour par jour (6), 40 x 15 (9), 57000 kilomètres entre nous (8), À corps défendant (2)
 - Retirés (échantillon) : Une liaison pornographique [bloque], Mutantes (Féminisme Porno Punk) [bloque]
-- Absents du dump, retirés (échantillon) : Angkor, la forêt de pierre, Darwin et la science de l'évolution (documentaire), Les cités perdues des Mayas (documentaire), All About "The Birds", Xiao Jia rentre à la maison, 11'09"01 - September 11
+- Absents du dump, retirés (échantillon) : Angkor, la forêt de pierre, Darwin et la science de l'évolution (documentaire), Les cités perdues des Mayas (documentaire), All About "The Birds", Demain dès l'aube… (film), Xiao Jia rentre à la maison, 11'09"01 - September 11
 
 ### 🎥 Un film américain des années 1970 (`films-americains-annees-1970`)
 
@@ -851,7 +867,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 - Les plus consultés : Usual Suspects (34370), The Game (film) (32588), Braveheart (26714), Misery (film) (24962), Le Silence des agneaux (film) (21049)
 - Fantômes (≤ 10 vues) : 100 contre 1 (10), A Fish in the Bathtub (10), A Great Day in Harlem (film) (9), À la recherche de mon fils (9), A Pirate Anthology Treasure (4)
 - Retirés (échantillon) : Suicide Club (film, 1997) [bloque], Suicide Kings [bloque], The World's Biggest Gang Bang III – The Houston 620 [bloque]
-- Absents du dump, retirés (échantillon) : Ironclads (film)
+- Absents du dump, retirés (échantillon) : Relic (film, 1997), Greedy - Les héritiers affamés, Ironclads (film)
 
 ### 🧞 Un film d'animation (`films-d-animation`)
 
@@ -912,7 +928,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 - Les plus consultés : À l'est d'Éden (mini-série) (172711), Crystal Lake (série télévisée) (69919), The Rookie : Le Flic de Los Angeles (64456), Ghosts : Fantômes à la maison (59401), MobLand (50584)
 - Fantômes (≤ 10 vues) : 100 contre 1 (10), ABC Weekend Specials (10), All About Lizzie (9), All-New Dennis the Menace (6), Alone Together (série télévisée) (8)
-- Absents du dump, retirés (échantillon) : Nathan for You, La Vie secrète des épouses mormones, Chocolat amer (série télévisée), Orgueil et Préjugés (mini-série, 2026), The Chair Company, Nocturne (série télévisée), Le Peuple contre Gorilla Grodd, L'Amour en héritage (série télévisée)
+- Absents du dump, retirés (échantillon) : Nathan for You, Dream Academy, La Vie secrète des épouses mormones, Chocolat amer (série télévisée), Orgueil et Préjugés (mini-série, 2026), The Chair Company, Nocturne (série télévisée), Le Peuple contre Gorilla Grodd
 
 ### 🐭 Une série télévisée d'animation (`series-d-animation`)
 
@@ -945,7 +961,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 ### 📰 Un journal ou un magazine français (`journaux-et-magazines-francais`)
 
 - Les plus consultés : Mediapart (58299), Le Monde (25066), Le Figaro (21834), Frontières (média) (13007), Libération (journal) (12995)
-- Fantômes (≤ 10 vues) : Abeille du Bugey et du pays de Gex (10), Acquisition et interaction en langue étrangère (10), Alsic (6), Amérique latine histoire et mémoire (4), Andastan (6)
+- Fantômes (≤ 10 vues) : Abeille du Bugey et du pays de Gex (10), Andastan (6), Année des professions financières (3), Anouk (périodique) (8), Araxe (périodique illustré) (7)
 - Absents du dump, retirés (échantillon) : Feuillet Saint-Jean-Cassien
 
 ### 🎼 Un compositeur de la période baroque (`compositeurs-baroques`)
@@ -1061,13 +1077,13 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 - Les plus consultés : La Joconde (27605), La Liberté guidant le peuple (24094), Le Radeau de la Méduse (15613), Le Sacre de Napoléon (8491), Les Noces de Cana (Véronèse) (4550)
 - Fantômes (≤ 10 vues) : Adoration de l'Enfant, avec les instruments de la Passion (10), Athalie interrogeant Joas (1747) (10), Étalon arabe (8), Femme épouillant un enfant (8), Jeune Saint avec une épée (9)
-- Absents du dump, retirés (échantillon) : Judith (Commodi)
+- Absents du dump, retirés (échantillon) : Judith (Commodi), Portrait de Caroline Hayard, Herminie chez les bergers, Le Ravissement de saint Paul, Intérieur d'une cuisine
 
 ### 🕰️ Un tableau du musée d'Orsay (`tableaux-d-orsay`)
 
 - Les plus consultés : L'Origine du monde (9266), Le Déjeuner sur l'herbe (6862), Un enterrement à Ornans (4160), Bal du moulin de la Galette (Renoir) (3103), Des glaneuses (3090)
 - Fantômes (≤ 10 vues) : Ambroise Vollard (musée d'Orsay) (5), La Sœur aînée (Tissot) (10), Moisson au bord de la mer (10), Mon oncle et mes deux cousines (10), Portrait de monsieur Alexandre Natanson (8)
-- Absents du dump, retirés (échantillon) : Portrait de Mme G.L., Roger Boutet de Monvel au molosse, Deux Danseuses (Paris), Job (Bonnat), L'Enfance de Sixte-Quint, La Pâleur du véritable amour
+- Absents du dump, retirés (échantillon) : Portrait de Mme G.L., Roger Boutet de Monvel au molosse, Deux Danseuses (Paris), Job (Bonnat), L'Enfance de Sixte-Quint, La Pâleur du véritable amour, Sarpédon (Lévy)
 
 ### 🪷 Un tableau de Claude Monet (`tableaux-de-monet`)
 
@@ -1089,7 +1105,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 - Les plus consultés : Jean Grey (16951), Docteur Fatalis (13909), Spider-Man (13836), Paladin (Marvel Comics) (8502), Sorcière rouge (7711)
 - Fantômes (≤ 10 vues) : Anneau de la liberté (7), Antithèses (5), Astra (Shi'ar) (4), Barnacle (comics) (7), Batragon (1)
 - Retirés (échantillon) : Liste des membres des équipes de X-Men [technique], Liste des membres des équipes de Vengeurs [technique], Liste des démons de l'univers Marvel [technique]
-- Absents du dump, retirés (échantillon) : Spider-Woman (Ultimate Marvel), Melloncamp, Starbolt, Sidewinder (comics)
+- Absents du dump, retirés (échantillon) : Maystorm, Spider-Woman (Ultimate Marvel), Melloncamp, Starbolt, Sidewinder (comics)
 
 ### 🏰 Un personnage Disney (`personnages-disney`)
 
@@ -1117,10 +1133,10 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 ### ⚡ Un personnage de la mythologie nordique (`mythologie-nordique`)
 
-- Les plus consultés : Odin (6349), Loki (4581), Valkyrie (4224), Freyja (3641), Thor (3596)
-- Fantômes (≤ 10 vues) : Falhófnir (2), Freyfaxi (4), Garðrofa (2), Gísl (5), Gjálp et Greip (6)
+- Les plus consultés : Loki (série télévisée) (6669), Odin (6349), Loki (4581), Valkyrie (4224), Freyja (3641)
+- Fantômes (≤ 10 vues) : Beli (géant) (3), Falhófnir (2), Freyfaxi (4), Garðrofa (2), Gísl (5)
 - Retirés (échantillon) : Liste des jötnar [technique], Liste des noms d'Odin [technique], Liste des noms de Thor [technique], Liste des références culturelles concernant les Valkyries [technique], (240) Vanadis [exclu], (299) Thora [exclu], (328) Gudrun [exclu], (351) Yrsa [exclu]
-- Absents du dump, retirés (échantillon) : Skeiðbrimir, Sinir
+- Absents du dump, retirés (échantillon) : Sörla þáttr, Hypothèse de l'origine commune de Frigg et Freyja, Skeiðbrimir, Sinir
 
 ### 👾 Un jeu vidéo sorti en 1992 (`jeux-video-1992`)
 
@@ -1188,7 +1204,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 - Les plus consultés : Paris Saint-Germain Football Club (57416), Équipe de France de football (39814), Football Club des Girondins de Bordeaux (25094), Olympique de Marseille (23611), Red Star Football Club (16203)
 - Fantômes (≤ 10 vues) : AS Prix-lès-Mézières (6), ASPTT Mâcon (1), Association omnisports Javouhey de Mana (7), Association sportive Baume-les-Dames (féminines) (10), Association sportive Foot Les Verchers-Saint-Georges-sur-Layon (6)
-- Absents du dump, retirés (échantillon) : Union sportive de Charnay
+- Absents du dump, retirés (échantillon) : Union sportive de Charnay, Sports réunis Saint-Dié Kellermann
 
 ### 🏟️ Un stade en France (`stades-de-france`)
 
@@ -1264,7 +1280,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 - Les plus consultés : Lorem ipsum (14147), Memento mori (5395), Cogito ergo sum (4565), Carpe diem (3880), Ex-voto (3849)
 - Fantômes (≤ 10 vues) : Actori incumbit probatio (8), Ave Caesar morituri te salutant (5), Bona fide (5), Centenarium (10), Extra moenia (10)
 - Retirés (échantillon) : Liste de locutions latines [technique], Liste des noms de familles de plantes avec étymologies [technique]
-- Absents du dump, retirés (échantillon) : Nemo jus ignorare censetur
+- Absents du dump, retirés (échantillon) : Nemo jus ignorare censetur, Horror aequi
 
 ### 🧠 Un biais cognitif (`biais-cognitifs`)
 
@@ -1318,7 +1334,7 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 ### 🚗 Un modèle Renault (`modeles-renault`)
 
-- Les plus consultés : Renault Twingo I (7142), Renault Clio III (5949), Renault Clio V (5002), Renault Clio II (4883), Renault Clio IV (4709)
+- Les plus consultés : Renault Twingo I (7142), Renault 4 (6270), Renault Clio III (5949), Renault Clio V (5002), Renault Clio II (4883)
 
 ### 🚘 Un modèle Citroën (`modeles-citroen`)
 
@@ -1462,17 +1478,17 @@ Généré le 2026-11-11T11:53:18.761Z. Fenêtre de vues : mois de 2026-10 (dump 
 
 ## Calendrier (14 premiers jours)
 
-- 2026-11-11 (j26) : lettres-grecques, films-d-animation, vainqueurs-tour-d-italie, chateaux-de-france, cepages
-- 2026-11-12 (j27) : presidents-etats-unis, iles-grecques, compositeurs-baroques, series-americaines, personnages-star-wars
-- 2026-11-13 (j28) : prix-nobel-litterature, danses, albums-lucky-luke, confiseries, patisseries-et-desserts
-- 2026-11-14 (j29) : prix-nobel-paix, monuments-historiques-lyon, chaines-tv-francaises, jeux-video-2007, jeux-televises-francais · locale
-- 2026-11-15 (j30) : albums-studio-des-beatles, batailles-seconde-guerre-mondiale, films-americains-annees-1990, modeles-renault, mangas · moins-consulte
 - 2026-11-16 (j31) : prix-nobel-medecine, navigateurs-web, vainqueurs-d-etape-tour-de-france, fromages-francais, sauces
-- 2026-11-17 (j32) : prix-nobel-physique, romans-de-simenon, systemes-d-exploitation, peintres-francais-xixe, rappeurs-francais
-- 2026-11-18 (j33) : etats-des-etats-unis, pharaons, groupes-de-musique-francais, couleurs, oiseaux
-- 2026-11-19 (j34) : pays-d-afrique, races-bovines, romans-jules-verne, clubs-de-football-francais, festivals-en-france
-- 2026-11-20 (j35) : albums-de-tintin, legumes, genres-musicaux, autoroutes-de-france, cathedrales-de-france
-- 2026-11-21 (j36) : pays-d-asie, communes-auvergne-rhone-alpes, etats-disparus, distributions-linux, marques-automobiles · locale
-- 2026-11-22 (j37) : pieces-de-shakespeare, batailles-napoleoniennes, races-de-chiens, films-americains-annees-1970, monnaies · moins-consulte
-- 2026-11-23 (j38) : pays-d-amerique-du-sud, dinosaures, ponts-de-france, gares-de-france, chansons-edith-piaf
-- 2026-11-24 (j39) : presidents-republique-francaise, films-francais-annees-2000, romans-stephen-king, plats-francais, mouvements-artistiques
+- 2026-11-17 (j32) : vainqueurs-tour-de-france, nouvelles-de-maupassant, systemes-d-exploitation, cours-d-eau-france, albums-johnny-hallyday
+- 2026-11-18 (j33) : etats-des-etats-unis, batailles-napoleoniennes, chansons-edith-piaf, couleurs, races-de-chiens
+- 2026-11-19 (j34) : pays-d-afrique, races-de-chevaux, mythologie-grecque, champions-olympiques-francais, genres-musicaux
+- 2026-11-20 (j35) : albums-de-tintin, varietes-de-pommes, humoristes-francais, rues-de-paris, abbayes-de-france
+- 2026-11-21 (j36) : pays-d-amerique-du-sud, stations-metro-lyon, langues, distributions-linux, oeuvres-victor-hugo · locale
+- 2026-11-22 (j37) : pieces-de-shakespeare, explorateurs, dinosaures, films-d-animation, pharaons · moins-consulte
+- 2026-11-23 (j38) : pays-d-asie, lunes-systeme-solaire, plus-beaux-villages-de-france, vins-aoc-france, mangas
+- 2026-11-24 (j39) : presidents-republique-francaise, films-americains-annees-1990, romans-stephen-king, plats-francais, tableaux-de-monet
+- 2026-11-25 (j40) : regions-de-france, tableaux-de-van-gogh, romans-agatha-christie, personnages-star-wars, personnages-marvel
+- 2026-11-26 (j41) : cesars-du-meilleur-film, films-louis-de-funes, films-americains-annees-1980, stations-metro-paris, films-catherine-deneuve
+- 2026-11-27 (j42) : palmes-d-or, mythologie-nordique, rappeurs-francais, musees-de-france, insectes
+- 2026-11-28 (j43) : departements-francais, communes-paca, autoroutes-de-france, mammiferes, modeles-citroen · locale
+- 2026-11-29 (j44) : papes, vainqueurs-tour-d-italie, langages-de-programmation, contes-de-grimm, ponts-de-france · moins-consulte
